@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "quantlab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "candle_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-candle_test-Debug-13beb49cbe46b9b3252a.json",
+					"name" : "candle_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "covariance_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-covariance_test-Debug-28497870ffcecadf1f6a.json",
+					"name" : "covariance_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quantlab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quantlab-Debug-3ae82b2e97b7fc01d927.json",
+					"name" : "quantlab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "research::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-research-Debug-00266ba1ae0201f0a55d.json",
+					"name" : "research",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "returns_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-returns_test-Debug-4c7c9916f6bfd659adba.json",
+					"name" : "returns_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_test-Debug-78a30ea0b35141edac44.json",
+					"name" : "statistics_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "time_series_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-time_series_test-Debug-d8c713e238fe55aa3f46.json",
+					"name" : "time_series_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sonu/Desktop/Quant/p1/build",
+		"source" : "C:/Users/sonu/Desktop/Quant/p1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

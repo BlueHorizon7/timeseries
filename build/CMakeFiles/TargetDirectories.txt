@@ -1,0 +1,10 @@
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/candle_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/time_series_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/returns_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/statistics_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/covariance_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/edit_cache.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rebuild_cache.dir
