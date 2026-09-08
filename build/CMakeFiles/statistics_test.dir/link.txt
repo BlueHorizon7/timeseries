@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\statistics_test.dir/objects.a
-C:\w64devkit\bin\ar.exe qc CMakeFiles\statistics_test.dir/objects.a @CMakeFiles\statistics_test.dir\objects1.rsp
-C:\w64devkit\bin\c++.exe -Wl,--whole-archive CMakeFiles\statistics_test.dir/objects.a -Wl,--no-whole-archive -o statistics_test.exe -Wl,--out-implib,libstatistics_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\statistics_test.dir\linkLibs.rsp

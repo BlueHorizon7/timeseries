@@ -1,0 +1,116 @@
+[
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\candle.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\candle.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/candle.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/candle.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\time_series.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\time_series.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/time_series.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/time_series.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\series.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\series.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/series.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/series.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\returns.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\returns.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/returns.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/returns.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\statistics.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\statistics.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/statistics.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/statistics.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\regression.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\regression.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/regression.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/regression.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\residuals.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\residuals.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/residuals.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/residuals.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\stationarity.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\stationarity.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/stationarity.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/stationarity.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\dickey_fuller.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\dickey_fuller.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/dickey_fuller.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\candle_test.dir\\tests\\candle_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\candle_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/candle_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/candle_test.dir/tests/candle_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\time_series_test.dir\\tests\\time_series_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\time_series_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/time_series_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/time_series_test.dir/tests/time_series_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\returns_test.dir\\tests\\returns_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\returns_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/returns_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/returns_test.dir/tests/returns_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\statistics_test.dir\\tests\\statistics_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\statistics_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/statistics_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/statistics_test.dir/tests/statistics_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\covariance_test.dir\\tests\\covariance_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\covariance_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/covariance_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/covariance_test.dir/tests/covariance_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\regression_test.dir\\tests\\regression_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\regression_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/regression_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/regression_test.dir/tests/regression_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\stationarity_test.dir\\tests\\stationarity_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\stationarity_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/stationarity_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/stationarity_test.dir/tests/stationarity_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\residuals_test.dir\\tests\\residuals_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\residuals_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/residuals_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/residuals_test.dir/tests/residuals_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\dickey_fuller_test.dir\\tests\\dickey_fuller_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\dickey_fuller_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/dickey_fuller_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/dickey_fuller_test.dir/tests/dickey_fuller_test.cpp.obj"
+}
+]

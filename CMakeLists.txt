@@ -18,6 +18,7 @@ add_library(quantlab
     src/regression.cpp
     src/residuals.cpp
     src/stationarity.cpp
+    src/dickey_fuller.cpp
 )
 
 target_include_directories(quantlab
@@ -137,4 +138,17 @@ target_link_libraries(residuals_test
 add_test(
     NAME residuals_test
     COMMAND residuals_test
+)
+
+add_executable(dickey_fuller_test
+    tests/dickey_fuller_test.cpp
+)
+
+target_link_libraries(dickey_fuller_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME dickey_fuller_test
+    COMMAND dickey_fuller_test
 )

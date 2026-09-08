@@ -1,9 +1,10 @@
-candle_test 1 0.0527847
-time_series_test 1 0.0813545
-returns_test 1 0.085877
-statistics_test 1 0.0803754
-covariance_test 1 0.0818259
-regression_test 1 0.0814232
-stationarity_test 1 0.0896393
-residuals_test 1 0.087729
+candle_test 2 0.0254258
+time_series_test 2 0.043306
+returns_test 2 0.0489354
+statistics_test 2 0.0443119
+covariance_test 2 0.0442965
+regression_test 2 0.0436528
+stationarity_test 2 0.0450231
+residuals_test 2 0.0442004
+dickey_fuller_test 1 0.0886101
 ---
