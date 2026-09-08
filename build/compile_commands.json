@@ -73,6 +73,12 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\cointegration.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\cointegration.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/cointegration.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/cointegration.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -148,5 +154,11 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\adf_inference_test.dir\\tests\\adf_inference_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\adf_inference_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/adf_inference_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/adf_inference_test.dir/tests/adf_inference_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\cointegration_test.dir\\tests\\cointegration_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\cointegration_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/cointegration_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/cointegration_test.dir/tests/cointegration_test.cpp.obj"
 }
 ]

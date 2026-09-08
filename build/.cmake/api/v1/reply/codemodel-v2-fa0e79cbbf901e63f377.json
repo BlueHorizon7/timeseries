@@ -29,7 +29,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				}
 			],
@@ -57,7 +58,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				}
 			],
@@ -66,98 +68,105 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "adf_inference_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adf_inference_test-Debug-b569e9ac1e2b60d38f8d.json",
+					"jsonFile" : "target-adf_inference_test-Debug-6cb5b68e619f2d943863.json",
 					"name" : "adf_inference_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "adf_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adf_test-Debug-e9cddfd08f8af0418010.json",
+					"jsonFile" : "target-adf_test-Debug-2540f563598081a233ad.json",
 					"name" : "adf_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "candle_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-candle_test-Debug-bb21885f68aba4aa9089.json",
+					"jsonFile" : "target-candle_test-Debug-f811d3f286b53e1ae7c1.json",
 					"name" : "candle_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "cointegration_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cointegration_test-Debug-fe0fe5eb4ff2c37debba.json",
+					"name" : "cointegration_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "covariance_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-covariance_test-Debug-51bc8f7e1b33d1d26eb5.json",
+					"jsonFile" : "target-covariance_test-Debug-172b2c8b60e44b6ac127.json",
 					"name" : "covariance_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "dickey_fuller_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dickey_fuller_test-Debug-a93351e209c7fc1537dc.json",
+					"jsonFile" : "target-dickey_fuller_test-Debug-a18f86af3d2481e90307.json",
 					"name" : "dickey_fuller_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "quantlab::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-quantlab-Debug-b111be1521337d48727b.json",
+					"jsonFile" : "target-quantlab-Debug-2736f8ae67326c41f90e.json",
 					"name" : "quantlab",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "regression_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-regression_test-Debug-c0ffd883083880a7502d.json",
+					"jsonFile" : "target-regression_test-Debug-15dccededda5e7138d47.json",
 					"name" : "regression_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "research::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-research-Debug-7e4a49b1d8c97a2b227e.json",
+					"jsonFile" : "target-research-Debug-9bfeaca192dfb114fe49.json",
 					"name" : "research",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "residuals_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-residuals_test-Debug-2b1ae2165d82acbd4986.json",
+					"jsonFile" : "target-residuals_test-Debug-d84064931bc5f912dbb3.json",
 					"name" : "residuals_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "returns_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-returns_test-Debug-02c817449ad5b950c1f9.json",
+					"jsonFile" : "target-returns_test-Debug-057bddab7e0d1105223b.json",
 					"name" : "returns_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "stationarity_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stationarity_test-Debug-2f126c5b07a881d95c46.json",
+					"jsonFile" : "target-stationarity_test-Debug-8165cf951f98dee035d7.json",
 					"name" : "stationarity_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "statistics_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-statistics_test-Debug-efaaedded37d2ada4669.json",
+					"jsonFile" : "target-statistics_test-Debug-7339c4baa1c7281a9a8f.json",
 					"name" : "statistics_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "time_series_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-time_series_test-Debug-6857e25044168a1fc145.json",
+					"jsonFile" : "target-time_series_test-Debug-9376baf42efbe08ee4c3.json",
 					"name" : "time_series_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "unit_root_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-unit_root_test-Debug-41efea4fdd94e5a7af14.json",
+					"jsonFile" : "target-unit_root_test-Debug-e08ec4684f6a4a554ae6.json",
 					"name" : "unit_root_test",
 					"projectIndex" : 0
 				}

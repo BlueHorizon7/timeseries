@@ -22,6 +22,7 @@ add_library(quantlab
     src/adf.cpp
     src/adf_inference.cpp
     src/unit_root.cpp
+    src/cointegration.cpp
 )
 
 target_include_directories(quantlab
@@ -193,4 +194,17 @@ target_link_libraries(adf_inference_test
 add_test(
     NAME adf_inference_test
     COMMAND adf_inference_test
+)
+
+add_executable(cointegration_test
+    tests/cointegration_test.cpp
+)
+
+target_link_libraries(cointegration_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME cointegration_test
+    COMMAND cointegration_test
 )

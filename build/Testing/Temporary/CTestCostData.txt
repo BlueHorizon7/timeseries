@@ -1,13 +1,14 @@
-candle_test 6 0.00776052
-time_series_test 6 0.0145171
-returns_test 6 0.0147197
-statistics_test 6 0.0142191
-covariance_test 6 0.0147304
-regression_test 6 0.0150535
-stationarity_test 6 0.0155634
-residuals_test 6 0.0149751
-dickey_fuller_test 5 0.0180331
-unit_root_test 4 0.0126761
-adf_test 2 0.0523469
-adf_inference_test 1 0.0816973
+candle_test 7 0.00699969
+time_series_test 7 0.0122656
+returns_test 7 0.0130785
+statistics_test 7 0.0131306
+covariance_test 7 0.012423
+regression_test 7 0.0129027
+stationarity_test 7 0.0135822
+residuals_test 7 0.0126347
+dickey_fuller_test 6 0.0144044
+unit_root_test 5 0.00989382
+adf_test 3 0.0344984
+adf_inference_test 2 0.0401376
+cointegration_test 1 0.109364
 ---
