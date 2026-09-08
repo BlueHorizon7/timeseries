@@ -15,6 +15,9 @@ add_library(quantlab
     src/series.cpp
     src/returns.cpp
     src/statistics.cpp
+    src/regression.cpp
+    src/residuals.cpp
+    src/stationarity.cpp
 )
 
 target_include_directories(quantlab
@@ -95,4 +98,43 @@ target_link_libraries(covariance_test
 add_test(
     NAME covariance_test
     COMMAND covariance_test
+)
+
+add_executable(regression_test
+    tests/regression_test.cpp
+)
+
+target_link_libraries(regression_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME regression_test
+    COMMAND regression_test
+)
+
+add_executable(stationarity_test
+    tests/stationarity_test.cpp
+)
+
+target_link_libraries(stationarity_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME stationarity_test
+    COMMAND stationarity_test
+)
+
+add_executable(residuals_test
+    tests/residuals_test.cpp
+)
+
+target_link_libraries(residuals_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME residuals_test
+    COMMAND residuals_test
 )

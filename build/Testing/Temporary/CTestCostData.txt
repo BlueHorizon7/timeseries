@@ -1,0 +1,9 @@
+candle_test 1 0.0527847
+time_series_test 1 0.0813545
+returns_test 1 0.085877
+statistics_test 1 0.0803754
+covariance_test 1 0.0818259
+regression_test 1 0.0814232
+stationarity_test 1 0.0896393
+residuals_test 1 0.087729
+---

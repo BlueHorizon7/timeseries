@@ -47,7 +47,9 @@ int main() {
     bool rejected = false;
 
     try {
-        quant::math::covariance(x, misaligned);
+        static_cast<void>(
+    quant::math::covariance(x, misaligned)
+);
     }
     catch (const std::invalid_argument&) {
         rejected = true;
@@ -59,13 +61,16 @@ int main() {
     Series constant;
 
     constant.add(Observation{1000, 5.0});
-    constant.add(Observation{2000, 5.0});
-    constant.add(Observation{3000, 5.0});
+constant.add(Observation{2000, 5.0});
+constant.add(Observation{3000, 5.0});
+constant.add(Observation{4000, 5.0});
 
     rejected = false;
 
     try {
-        quant::math::correlation(x, constant);
+        static_cast<void>(
+    quant::math::correlation(x, constant)
+);
     }
     catch (const std::domain_error&) {
         rejected = true;
