@@ -19,6 +19,7 @@ add_library(quantlab
     src/residuals.cpp
     src/stationarity.cpp
     src/dickey_fuller.cpp
+    src/unit_root.cpp
 )
 
 target_include_directories(quantlab
@@ -151,4 +152,17 @@ target_link_libraries(dickey_fuller_test
 add_test(
     NAME dickey_fuller_test
     COMMAND dickey_fuller_test
+)
+
+add_executable(unit_root_test
+    tests/unit_root_test.cpp
+)
+
+target_link_libraries(unit_root_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME unit_root_test
+    COMMAND unit_root_test
 )

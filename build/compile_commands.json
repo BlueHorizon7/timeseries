@@ -55,6 +55,12 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\unit_root.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\unit_root.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/unit_root.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/unit_root.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -112,5 +118,11 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\dickey_fuller_test.dir\\tests\\dickey_fuller_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\dickey_fuller_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/dickey_fuller_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/dickey_fuller_test.dir/tests/dickey_fuller_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\unit_root_test.dir\\tests\\unit_root_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\unit_root_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/unit_root_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/unit_root_test.dir/tests/unit_root_test.cpp.obj"
 }
 ]

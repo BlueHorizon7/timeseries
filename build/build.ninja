@@ -56,8 +56,6 @@ build CMakeFiles/quantlab.dir/src/candle.cpp.obj: CXX_COMPILER__quantlab_unscann
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/time_series.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/time_series.cpp || cmake_object_order_depends_target_quantlab
@@ -67,8 +65,6 @@ build CMakeFiles/quantlab.dir/src/time_series.cpp.obj: CXX_COMPILER__quantlab_un
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/series.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/series.cpp || cmake_object_order_depends_target_quantlab
@@ -78,8 +74,6 @@ build CMakeFiles/quantlab.dir/src/series.cpp.obj: CXX_COMPILER__quantlab_unscann
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/returns.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/returns.cpp || cmake_object_order_depends_target_quantlab
@@ -89,8 +83,6 @@ build CMakeFiles/quantlab.dir/src/returns.cpp.obj: CXX_COMPILER__quantlab_unscan
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/statistics.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/statistics.cpp || cmake_object_order_depends_target_quantlab
@@ -100,8 +92,6 @@ build CMakeFiles/quantlab.dir/src/statistics.cpp.obj: CXX_COMPILER__quantlab_uns
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/regression.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/regression.cpp || cmake_object_order_depends_target_quantlab
@@ -111,8 +101,6 @@ build CMakeFiles/quantlab.dir/src/regression.cpp.obj: CXX_COMPILER__quantlab_uns
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/residuals.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/residuals.cpp || cmake_object_order_depends_target_quantlab
@@ -122,8 +110,6 @@ build CMakeFiles/quantlab.dir/src/residuals.cpp.obj: CXX_COMPILER__quantlab_unsc
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/stationarity.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/stationarity.cpp || cmake_object_order_depends_target_quantlab
@@ -133,8 +119,6 @@ build CMakeFiles/quantlab.dir/src/stationarity.cpp.obj: CXX_COMPILER__quantlab_u
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 build CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/dickey_fuller.cpp || cmake_object_order_depends_target_quantlab
@@ -144,8 +128,15 @@ build CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj: CXX_COMPILER__quantlab_
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
-  TARGET_PDB = libquantlab.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/unit_root.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/unit_root.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\unit_root.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 
@@ -156,15 +147,14 @@ build CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj: CXX_COMPILER__quantlab_
 #############################################
 # Link the static library libquantlab.a
 
-build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj
+build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\quantlab.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\quantlab.dir\quantlab.pdb
   TARGET_FILE = libquantlab.a
-  TARGET_PDB = libquantlab.pdb
+  TARGET_PDB = quantlab.a.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
 # =============================================================================
@@ -183,8 +173,6 @@ build CMakeFiles/research.dir/applications/research/main.cpp.obj: CXX_COMPILER__
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\research.dir
   OBJECT_FILE_DIR = CMakeFiles\research.dir\applications\research
-  TARGET_COMPILE_PDB = CMakeFiles\research.dir\
-  TARGET_PDB = research.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\research.dir
 
 
@@ -202,10 +190,9 @@ build research.exe: CXX_EXECUTABLE_LINKER__research_Debug CMakeFiles/research.di
   OBJECT_DIR = CMakeFiles\research.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\research.dir\
   TARGET_FILE = research.exe
   TARGET_IMPLIB = libresearch.dll.a
-  TARGET_PDB = research.pdb
+  TARGET_PDB = research.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\research.dir
 
 # =============================================================================
@@ -224,8 +211,6 @@ build CMakeFiles/candle_test.dir/tests/candle_test.cpp.obj: CXX_COMPILER__candle
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\candle_test.dir
   OBJECT_FILE_DIR = CMakeFiles\candle_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\candle_test.dir\
-  TARGET_PDB = candle_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\candle_test.dir
 
 
@@ -243,10 +228,9 @@ build candle_test.exe: CXX_EXECUTABLE_LINKER__candle_test_Debug CMakeFiles/candl
   OBJECT_DIR = CMakeFiles\candle_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\candle_test.dir\
   TARGET_FILE = candle_test.exe
   TARGET_IMPLIB = libcandle_test.dll.a
-  TARGET_PDB = candle_test.pdb
+  TARGET_PDB = candle_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\candle_test.dir
 
 # =============================================================================
@@ -265,8 +249,6 @@ build CMakeFiles/time_series_test.dir/tests/time_series_test.cpp.obj: CXX_COMPIL
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\time_series_test.dir
   OBJECT_FILE_DIR = CMakeFiles\time_series_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\time_series_test.dir\
-  TARGET_PDB = time_series_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\time_series_test.dir
 
 
@@ -284,10 +266,9 @@ build time_series_test.exe: CXX_EXECUTABLE_LINKER__time_series_test_Debug CMakeF
   OBJECT_DIR = CMakeFiles\time_series_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\time_series_test.dir\
   TARGET_FILE = time_series_test.exe
   TARGET_IMPLIB = libtime_series_test.dll.a
-  TARGET_PDB = time_series_test.pdb
+  TARGET_PDB = time_series_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\time_series_test.dir
 
 # =============================================================================
@@ -306,8 +287,6 @@ build CMakeFiles/returns_test.dir/tests/returns_test.cpp.obj: CXX_COMPILER__retu
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\returns_test.dir
   OBJECT_FILE_DIR = CMakeFiles\returns_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\returns_test.dir\
-  TARGET_PDB = returns_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\returns_test.dir
 
 
@@ -325,10 +304,9 @@ build returns_test.exe: CXX_EXECUTABLE_LINKER__returns_test_Debug CMakeFiles/ret
   OBJECT_DIR = CMakeFiles\returns_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\returns_test.dir\
   TARGET_FILE = returns_test.exe
   TARGET_IMPLIB = libreturns_test.dll.a
-  TARGET_PDB = returns_test.pdb
+  TARGET_PDB = returns_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\returns_test.dir
 
 # =============================================================================
@@ -347,8 +325,6 @@ build CMakeFiles/statistics_test.dir/tests/statistics_test.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\statistics_test.dir
   OBJECT_FILE_DIR = CMakeFiles\statistics_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\statistics_test.dir\
-  TARGET_PDB = statistics_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\statistics_test.dir
 
 
@@ -366,10 +342,9 @@ build statistics_test.exe: CXX_EXECUTABLE_LINKER__statistics_test_Debug CMakeFil
   OBJECT_DIR = CMakeFiles\statistics_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\statistics_test.dir\
   TARGET_FILE = statistics_test.exe
   TARGET_IMPLIB = libstatistics_test.dll.a
-  TARGET_PDB = statistics_test.pdb
+  TARGET_PDB = statistics_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\statistics_test.dir
 
 # =============================================================================
@@ -388,8 +363,6 @@ build CMakeFiles/covariance_test.dir/tests/covariance_test.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\covariance_test.dir
   OBJECT_FILE_DIR = CMakeFiles\covariance_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\covariance_test.dir\
-  TARGET_PDB = covariance_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\covariance_test.dir
 
 
@@ -407,10 +380,9 @@ build covariance_test.exe: CXX_EXECUTABLE_LINKER__covariance_test_Debug CMakeFil
   OBJECT_DIR = CMakeFiles\covariance_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\covariance_test.dir\
   TARGET_FILE = covariance_test.exe
   TARGET_IMPLIB = libcovariance_test.dll.a
-  TARGET_PDB = covariance_test.pdb
+  TARGET_PDB = covariance_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\covariance_test.dir
 
 # =============================================================================
@@ -429,8 +401,6 @@ build CMakeFiles/regression_test.dir/tests/regression_test.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\regression_test.dir
   OBJECT_FILE_DIR = CMakeFiles\regression_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\regression_test.dir\
-  TARGET_PDB = regression_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\regression_test.dir
 
 
@@ -448,10 +418,9 @@ build regression_test.exe: CXX_EXECUTABLE_LINKER__regression_test_Debug CMakeFil
   OBJECT_DIR = CMakeFiles\regression_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\regression_test.dir\
   TARGET_FILE = regression_test.exe
   TARGET_IMPLIB = libregression_test.dll.a
-  TARGET_PDB = regression_test.pdb
+  TARGET_PDB = regression_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\regression_test.dir
 
 # =============================================================================
@@ -470,8 +439,6 @@ build CMakeFiles/stationarity_test.dir/tests/stationarity_test.cpp.obj: CXX_COMP
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\stationarity_test.dir
   OBJECT_FILE_DIR = CMakeFiles\stationarity_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\stationarity_test.dir\
-  TARGET_PDB = stationarity_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\stationarity_test.dir
 
 
@@ -489,10 +456,9 @@ build stationarity_test.exe: CXX_EXECUTABLE_LINKER__stationarity_test_Debug CMak
   OBJECT_DIR = CMakeFiles\stationarity_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\stationarity_test.dir\
   TARGET_FILE = stationarity_test.exe
   TARGET_IMPLIB = libstationarity_test.dll.a
-  TARGET_PDB = stationarity_test.pdb
+  TARGET_PDB = stationarity_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\stationarity_test.dir
 
 # =============================================================================
@@ -511,8 +477,6 @@ build CMakeFiles/residuals_test.dir/tests/residuals_test.cpp.obj: CXX_COMPILER__
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\residuals_test.dir
   OBJECT_FILE_DIR = CMakeFiles\residuals_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\residuals_test.dir\
-  TARGET_PDB = residuals_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\residuals_test.dir
 
 
@@ -530,10 +494,9 @@ build residuals_test.exe: CXX_EXECUTABLE_LINKER__residuals_test_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles\residuals_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\residuals_test.dir\
   TARGET_FILE = residuals_test.exe
   TARGET_IMPLIB = libresiduals_test.dll.a
-  TARGET_PDB = residuals_test.pdb
+  TARGET_PDB = residuals_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\residuals_test.dir
 
 # =============================================================================
@@ -552,8 +515,6 @@ build CMakeFiles/dickey_fuller_test.dir/tests/dickey_fuller_test.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\dickey_fuller_test.dir
   OBJECT_FILE_DIR = CMakeFiles\dickey_fuller_test.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\dickey_fuller_test.dir\
-  TARGET_PDB = dickey_fuller_test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\dickey_fuller_test.dir
 
 
@@ -571,11 +532,48 @@ build dickey_fuller_test.exe: CXX_EXECUTABLE_LINKER__dickey_fuller_test_Debug CM
   OBJECT_DIR = CMakeFiles\dickey_fuller_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\dickey_fuller_test.dir\
   TARGET_FILE = dickey_fuller_test.exe
   TARGET_IMPLIB = libdickey_fuller_test.dll.a
-  TARGET_PDB = dickey_fuller_test.pdb
+  TARGET_PDB = dickey_fuller_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\dickey_fuller_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unit_root_test
+
+
+#############################################
+# Order-only phony target for unit_root_test
+
+build cmake_object_order_depends_target_unit_root_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/unit_root_test.dir/tests/unit_root_test.cpp.obj: CXX_COMPILER__unit_root_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/unit_root_test.cpp || cmake_object_order_depends_target_unit_root_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\unit_root_test.dir\tests\unit_root_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\unit_root_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_root_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\unit_root_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unit_root_test
+
+
+#############################################
+# Link the executable unit_root_test.exe
+
+build unit_root_test.exe: CXX_EXECUTABLE_LINKER__unit_root_test_Debug CMakeFiles/unit_root_test.dir/tests/unit_root_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\unit_root_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = unit_root_test.exe
+  TARGET_IMPLIB = libunit_root_test.dll.a
+  TARGET_PDB = unit_root_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\unit_root_test.dir
 
 
 #############################################
@@ -638,6 +636,8 @@ build statistics_test: phony statistics_test.exe
 
 build time_series_test: phony time_series_test.exe
 
+build unit_root_test: phony unit_root_test.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -646,7 +646,7 @@ build time_series_test: phony time_series_test.exe
 #############################################
 # Folder: C:/Users/sonu/Desktop/Quant/p1/build
 
-build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe
+build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe
 
 # =============================================================================
 # Built-in targets
@@ -655,14 +655,14 @@ build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/sonu/Desktop/Quant/p1/build/cmake_install.cmake C$:/Users/sonu/Desktop/Quant/p1/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.3/CMakeCXXCompiler.cmake CMakeFiles/4.4.3/CMakeRCCompiler.cmake CMakeFiles/4.4.3/CMakeSystem.cmake
+build build.ninja C$:/Users/sonu/Desktop/Quant/p1/build/cmake_install.cmake C$:/Users/sonu/Desktop/Quant/p1/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.3/CMakeCXXCompiler.cmake CMakeFiles/4.4.3/CMakeRCCompiler.cmake CMakeFiles/4.4.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.3/CMakeCXXCompiler.cmake CMakeFiles/4.4.3/CMakeRCCompiler.cmake CMakeFiles/4.4.3/CMakeSystem.cmake: phony
+build C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.3/CMakeCXXCompiler.cmake CMakeFiles/4.4.3/CMakeRCCompiler.cmake CMakeFiles/4.4.3/CMakeSystem.cmake: phony
 
 
 #############################################

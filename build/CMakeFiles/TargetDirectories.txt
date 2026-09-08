@@ -9,6 +9,7 @@ C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/regression_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/stationarity_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/residuals_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/dickey_fuller_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/unit_root_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/edit_cache.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rebuild_cache.dir
