@@ -19,8 +19,9 @@ add_library(quantlab
     src/residuals.cpp
     src/stationarity.cpp
     src/dickey_fuller.cpp
-    src/unit_root.cpp
     src/adf.cpp
+    src/adf_inference.cpp
+    src/unit_root.cpp
 )
 
 target_include_directories(quantlab
@@ -179,4 +180,17 @@ target_link_libraries(adf_test
 add_test(
     NAME adf_test
     COMMAND adf_test
+)
+
+add_executable(adf_inference_test
+    tests/adf_inference_test.cpp
+)
+
+target_link_libraries(adf_inference_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME adf_inference_test
+    COMMAND adf_inference_test
 )

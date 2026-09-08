@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "returns_test.exe"
+			"path" : "stationarity_test.exe"
 		},
 		{
-			"path" : "returns_test.pdb"
+			"path" : "stationarity_test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 67,
+				"line" : 120,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 71,
+				"line" : 124,
 				"parent" : 0
 			}
 		]
@@ -89,7 +89,7 @@
 			"id" : "quantlab::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "returns_test::@6890427a1f51a3e7e1df",
+	"id" : "stationarity_test::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -117,8 +117,8 @@
 			"id" : "quantlab::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "returns_test",
-	"nameOnDisk" : "returns_test.exe",
+	"name" : "stationarity_test",
+	"nameOnDisk" : "stationarity_test.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -143,7 +143,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "tests/returns_test.cpp",
+			"path" : "tests/stationarity_test.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -28,7 +28,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -55,7 +56,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -63,92 +65,99 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "adf_inference_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-adf_inference_test-Debug-b569e9ac1e2b60d38f8d.json",
+					"name" : "adf_inference_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "adf_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adf_test-Debug-a48041f457f8f53e36b2.json",
+					"jsonFile" : "target-adf_test-Debug-e9cddfd08f8af0418010.json",
 					"name" : "adf_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "candle_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-candle_test-Debug-48d11727fd612aaae744.json",
+					"jsonFile" : "target-candle_test-Debug-bb21885f68aba4aa9089.json",
 					"name" : "candle_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "covariance_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-covariance_test-Debug-4355d8f3abcdd5aaed3b.json",
+					"jsonFile" : "target-covariance_test-Debug-51bc8f7e1b33d1d26eb5.json",
 					"name" : "covariance_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "dickey_fuller_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dickey_fuller_test-Debug-7d9ee91207d5ad0eec31.json",
+					"jsonFile" : "target-dickey_fuller_test-Debug-a93351e209c7fc1537dc.json",
 					"name" : "dickey_fuller_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "quantlab::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-quantlab-Debug-02b55b594f3ba065ffd6.json",
+					"jsonFile" : "target-quantlab-Debug-b111be1521337d48727b.json",
 					"name" : "quantlab",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "regression_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-regression_test-Debug-788b2b58df12ad606c6c.json",
+					"jsonFile" : "target-regression_test-Debug-c0ffd883083880a7502d.json",
 					"name" : "regression_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "research::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-research-Debug-676eeb598c3b20ffed72.json",
+					"jsonFile" : "target-research-Debug-7e4a49b1d8c97a2b227e.json",
 					"name" : "research",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "residuals_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-residuals_test-Debug-c184a491a8a685b9e2ee.json",
+					"jsonFile" : "target-residuals_test-Debug-2b1ae2165d82acbd4986.json",
 					"name" : "residuals_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "returns_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-returns_test-Debug-6592cf57b1e70ac3ce93.json",
+					"jsonFile" : "target-returns_test-Debug-02c817449ad5b950c1f9.json",
 					"name" : "returns_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "stationarity_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stationarity_test-Debug-bd03afb2a8858a383a03.json",
+					"jsonFile" : "target-stationarity_test-Debug-2f126c5b07a881d95c46.json",
 					"name" : "stationarity_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "statistics_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-statistics_test-Debug-cdc182f20975fe4e434a.json",
+					"jsonFile" : "target-statistics_test-Debug-efaaedded37d2ada4669.json",
 					"name" : "statistics_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "time_series_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-time_series_test-Debug-737604eb8ff2e5fbcb83.json",
+					"jsonFile" : "target-time_series_test-Debug-6857e25044168a1fc145.json",
 					"name" : "time_series_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "unit_root_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-unit_root_test-Debug-893954abc867c8a734d0.json",
+					"jsonFile" : "target-unit_root_test-Debug-41efea4fdd94e5a7af14.json",
 					"name" : "unit_root_test",
 					"projectIndex" : 0
 				}

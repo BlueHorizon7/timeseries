@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 27,
 				"parent" : 0
 			}
 		]
@@ -79,7 +79,8 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11
 			]
 		}
 	],
@@ -107,7 +108,8 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11
 			]
 		}
 	],
@@ -210,7 +212,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "src/unit_root.cpp",
+			"path" : "src/adf.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -220,7 +222,17 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "src/adf.cpp",
+			"path" : "src/adf_inference.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "src/unit_root.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

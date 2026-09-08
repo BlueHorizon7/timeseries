@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "research.exe"
+			"path" : "returns_test.exe"
 		},
 		{
-			"path" : "research.pdb"
+			"path" : "returns_test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 31,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 35,
+				"line" : 72,
 				"parent" : 0
 			}
 		]
@@ -89,7 +89,7 @@
 			"id" : "quantlab::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "research::@6890427a1f51a3e7e1df",
+	"id" : "returns_test::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -117,8 +117,8 @@
 			"id" : "quantlab::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "research",
-	"nameOnDisk" : "research.exe",
+	"name" : "returns_test",
+	"nameOnDisk" : "returns_test.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -143,7 +143,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "applications/research/main.cpp",
+			"path" : "tests/returns_test.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

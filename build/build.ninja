@@ -130,18 +130,27 @@ build CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj: CXX_COMPILER__quantlab_
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
-build CMakeFiles/quantlab.dir/src/unit_root.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/unit_root.cpp || cmake_object_order_depends_target_quantlab
+build CMakeFiles/quantlab.dir/src/adf.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/adf.cpp || cmake_object_order_depends_target_quantlab
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\quantlab.dir\src\unit_root.cpp.obj.d
+  DEP_FILE = CMakeFiles\quantlab.dir\src\adf.cpp.obj.d
   FLAGS = -g -std=c++20
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
-build CMakeFiles/quantlab.dir/src/adf.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/adf.cpp || cmake_object_order_depends_target_quantlab
+build CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/adf_inference.cpp || cmake_object_order_depends_target_quantlab
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\quantlab.dir\src\adf.cpp.obj.d
+  DEP_FILE = CMakeFiles\quantlab.dir\src\adf_inference.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/unit_root.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/unit_root.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\unit_root.cpp.obj.d
   FLAGS = -g -std=c++20
   INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
   OBJECT_DIR = CMakeFiles\quantlab.dir
@@ -156,7 +165,7 @@ build CMakeFiles/quantlab.dir/src/adf.cpp.obj: CXX_COMPILER__quantlab_unscanned_
 #############################################
 # Link the static library libquantlab.a
 
-build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj
+build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\quantlab.dir
@@ -622,6 +631,44 @@ build adf_test.exe: CXX_EXECUTABLE_LINKER__adf_test_Debug CMakeFiles/adf_test.di
   TARGET_PDB = adf_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\adf_test.dir
 
+# =============================================================================
+# Object build statements for EXECUTABLE target adf_inference_test
+
+
+#############################################
+# Order-only phony target for adf_inference_test
+
+build cmake_object_order_depends_target_adf_inference_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/adf_inference_test.dir/tests/adf_inference_test.cpp.obj: CXX_COMPILER__adf_inference_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/adf_inference_test.cpp || cmake_object_order_depends_target_adf_inference_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\adf_inference_test.dir\tests\adf_inference_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\adf_inference_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\adf_inference_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\adf_inference_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target adf_inference_test
+
+
+#############################################
+# Link the executable adf_inference_test.exe
+
+build adf_inference_test.exe: CXX_EXECUTABLE_LINKER__adf_inference_test_Debug CMakeFiles/adf_inference_test.dir/tests/adf_inference_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\adf_inference_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = adf_inference_test.exe
+  TARGET_IMPLIB = libadf_inference_test.dll.a
+  TARGET_PDB = adf_inference_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\adf_inference_test.dir
+
 
 #############################################
 # Utility command for test
@@ -661,6 +708,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build adf_inference_test: phony adf_inference_test.exe
+
 build adf_test: phony adf_test.exe
 
 build candle_test: phony candle_test.exe
@@ -695,7 +744,7 @@ build unit_root_test: phony unit_root_test.exe
 #############################################
 # Folder: C:/Users/sonu/Desktop/Quant/p1/build
 
-build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe
+build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe
 
 # =============================================================================
 # Built-in targets
