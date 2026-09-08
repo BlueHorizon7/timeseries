@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "candle_test.exe"
+			"path" : "adf_test.exe"
 		},
 		{
-			"path" : "candle_test.pdb"
+			"path" : "adf_test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 40,
+				"line" : 171,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 44,
+				"line" : 175,
 				"parent" : 0
 			}
 		]
@@ -89,7 +89,7 @@
 			"id" : "quantlab::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "candle_test::@6890427a1f51a3e7e1df",
+	"id" : "adf_test::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -117,8 +117,8 @@
 			"id" : "quantlab::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "candle_test",
-	"nameOnDisk" : "candle_test.exe",
+	"name" : "adf_test",
+	"nameOnDisk" : "adf_test.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -143,7 +143,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "tests/candle_test.cpp",
+			"path" : "tests/adf_test.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

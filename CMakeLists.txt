@@ -20,6 +20,7 @@ add_library(quantlab
     src/stationarity.cpp
     src/dickey_fuller.cpp
     src/unit_root.cpp
+    src/adf.cpp
 )
 
 target_include_directories(quantlab
@@ -165,4 +166,17 @@ target_link_libraries(unit_root_test
 add_test(
     NAME unit_root_test
     COMMAND unit_root_test
+)
+
+add_executable(adf_test
+    tests/adf_test.cpp
+)
+
+target_link_libraries(adf_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME adf_test
+    COMMAND adf_test
 )
