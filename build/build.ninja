@@ -211,6 +211,51 @@ build CMakeFiles/quantlab.dir/src/pair_position.cpp.obj: CXX_COMPILER__quantlab_
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
+build CMakeFiles/quantlab.dir/src/pnl.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/pnl.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\pnl.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/transaction_cost.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\transaction_cost.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/backtest.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/backtest.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\backtest.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/performance.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/performance.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\performance.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/csv_reader.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\csv_reader.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target quantlab
@@ -219,7 +264,7 @@ build CMakeFiles/quantlab.dir/src/pair_position.cpp.obj: CXX_COMPILER__quantlab_
 #############################################
 # Link the static library libquantlab.a
 
-build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj
+build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj CMakeFiles/quantlab.dir/src/pnl.cpp.obj CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj CMakeFiles/quantlab.dir/src/backtest.cpp.obj CMakeFiles/quantlab.dir/src/performance.cpp.obj CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\quantlab.dir
@@ -951,6 +996,196 @@ build pair_position_test.exe: CXX_EXECUTABLE_LINKER__pair_position_test_Debug CM
   TARGET_PDB = pair_position_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\pair_position_test.dir
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pnl_test
+
+
+#############################################
+# Order-only phony target for pnl_test
+
+build cmake_object_order_depends_target_pnl_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/pnl_test.dir/tests/pnl_test.cpp.obj: CXX_COMPILER__pnl_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/pnl_test.cpp || cmake_object_order_depends_target_pnl_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\pnl_test.dir\tests\pnl_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\pnl_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\pnl_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\pnl_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pnl_test
+
+
+#############################################
+# Link the executable pnl_test.exe
+
+build pnl_test.exe: CXX_EXECUTABLE_LINKER__pnl_test_Debug CMakeFiles/pnl_test.dir/tests/pnl_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pnl_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pnl_test.exe
+  TARGET_IMPLIB = libpnl_test.dll.a
+  TARGET_PDB = pnl_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\pnl_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target transaction_cost_test
+
+
+#############################################
+# Order-only phony target for transaction_cost_test
+
+build cmake_object_order_depends_target_transaction_cost_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/transaction_cost_test.dir/tests/transaction_cost_test.cpp.obj: CXX_COMPILER__transaction_cost_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/transaction_cost_test.cpp || cmake_object_order_depends_target_transaction_cost_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\transaction_cost_test.dir\tests\transaction_cost_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\transaction_cost_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\transaction_cost_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\transaction_cost_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target transaction_cost_test
+
+
+#############################################
+# Link the executable transaction_cost_test.exe
+
+build transaction_cost_test.exe: CXX_EXECUTABLE_LINKER__transaction_cost_test_Debug CMakeFiles/transaction_cost_test.dir/tests/transaction_cost_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\transaction_cost_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = transaction_cost_test.exe
+  TARGET_IMPLIB = libtransaction_cost_test.dll.a
+  TARGET_PDB = transaction_cost_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\transaction_cost_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target backtest_test
+
+
+#############################################
+# Order-only phony target for backtest_test
+
+build cmake_object_order_depends_target_backtest_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/backtest_test.dir/tests/backtest_test.cpp.obj: CXX_COMPILER__backtest_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/backtest_test.cpp || cmake_object_order_depends_target_backtest_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\backtest_test.dir\tests\backtest_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\backtest_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\backtest_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\backtest_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target backtest_test
+
+
+#############################################
+# Link the executable backtest_test.exe
+
+build backtest_test.exe: CXX_EXECUTABLE_LINKER__backtest_test_Debug CMakeFiles/backtest_test.dir/tests/backtest_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\backtest_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = backtest_test.exe
+  TARGET_IMPLIB = libbacktest_test.dll.a
+  TARGET_PDB = backtest_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\backtest_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target performance_test
+
+
+#############################################
+# Order-only phony target for performance_test
+
+build cmake_object_order_depends_target_performance_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/performance_test.dir/tests/performance_test.cpp.obj: CXX_COMPILER__performance_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/performance_test.cpp || cmake_object_order_depends_target_performance_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\performance_test.dir\tests\performance_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\performance_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\performance_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\performance_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target performance_test
+
+
+#############################################
+# Link the executable performance_test.exe
+
+build performance_test.exe: CXX_EXECUTABLE_LINKER__performance_test_Debug CMakeFiles/performance_test.dir/tests/performance_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\performance_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = performance_test.exe
+  TARGET_IMPLIB = libperformance_test.dll.a
+  TARGET_PDB = performance_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\performance_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target csv_reader_test
+
+
+#############################################
+# Order-only phony target for csv_reader_test
+
+build cmake_object_order_depends_target_csv_reader_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/csv_reader_test.dir/tests/csv_reader_test.cpp.obj: CXX_COMPILER__csv_reader_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/csv_reader_test.cpp || cmake_object_order_depends_target_csv_reader_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\csv_reader_test.dir\tests\csv_reader_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\csv_reader_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\csv_reader_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\csv_reader_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target csv_reader_test
+
+
+#############################################
+# Link the executable csv_reader_test.exe
+
+build csv_reader_test.exe: CXX_EXECUTABLE_LINKER__csv_reader_test_Debug CMakeFiles/csv_reader_test.dir/tests/csv_reader_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\csv_reader_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = csv_reader_test.exe
+  TARGET_IMPLIB = libcsv_reader_test.dll.a
+  TARGET_PDB = csv_reader_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\csv_reader_test.dir
+
 
 #############################################
 # Utility command for test
@@ -994,17 +1229,25 @@ build adf_inference_test: phony adf_inference_test.exe
 
 build adf_test: phony adf_test.exe
 
+build backtest_test: phony backtest_test.exe
+
 build candle_test: phony candle_test.exe
 
 build cointegration_test: phony cointegration_test.exe
 
 build covariance_test: phony covariance_test.exe
 
+build csv_reader_test: phony csv_reader_test.exe
+
 build dickey_fuller_test: phony dickey_fuller_test.exe
 
 build pair_position_test: phony pair_position_test.exe
 
 build pairs_signal_test: phony pairs_signal_test.exe
+
+build performance_test: phony performance_test.exe
+
+build pnl_test: phony pnl_test.exe
 
 build quantlab: phony libquantlab.a
 
@@ -1028,6 +1271,8 @@ build statistics_test: phony statistics_test.exe
 
 build time_series_test: phony time_series_test.exe
 
+build transaction_cost_test: phony transaction_cost_test.exe
+
 build unit_root_test: phony unit_root_test.exe
 
 # =============================================================================
@@ -1038,7 +1283,7 @@ build unit_root_test: phony unit_root_test.exe
 #############################################
 # Folder: C:/Users/sonu/Desktop/Quant/p1/build
 
-build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe
+build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe pnl_test.exe transaction_cost_test.exe backtest_test.exe performance_test.exe csv_reader_test.exe
 
 # =============================================================================
 # Built-in targets

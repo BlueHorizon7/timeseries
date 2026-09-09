@@ -28,6 +28,11 @@ add_library(quantlab
     src/rolling_zscore.cpp
     src/pairs_signal.cpp
     src/pair_position.cpp
+    src/pnl.cpp
+    src/transaction_cost.cpp
+    src/backtest.cpp
+    src/performance.cpp
+    src/csv_reader.cpp
 )
 
 target_include_directories(quantlab
@@ -277,4 +282,69 @@ target_link_libraries(pair_position_test
 add_test(
     NAME pair_position_test
     COMMAND pair_position_test
+)
+
+add_executable(pnl_test
+    tests/pnl_test.cpp
+)
+
+target_link_libraries(pnl_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME pnl_test
+    COMMAND pnl_test
+)
+
+add_executable(transaction_cost_test
+    tests/transaction_cost_test.cpp
+)
+
+target_link_libraries(transaction_cost_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME transaction_cost_test
+    COMMAND transaction_cost_test
+)
+
+add_executable(backtest_test
+    tests/backtest_test.cpp
+)
+
+target_link_libraries(backtest_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME backtest_test
+    COMMAND backtest_test
+)
+
+add_executable(performance_test
+    tests/performance_test.cpp
+)
+
+target_link_libraries(performance_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME performance_test
+    COMMAND performance_test
+)
+
+add_executable(csv_reader_test
+    tests/csv_reader_test.cpp
+)
+
+target_link_libraries(csv_reader_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME csv_reader_test
+    COMMAND csv_reader_test
 )
