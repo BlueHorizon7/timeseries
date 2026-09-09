@@ -23,6 +23,11 @@ add_library(quantlab
     src/adf_inference.cpp
     src/unit_root.cpp
     src/cointegration.cpp
+    src/rolling_spread.cpp
+    src/rolling_regression.cpp
+    src/rolling_zscore.cpp
+    src/pairs_signal.cpp
+    src/pair_position.cpp
 )
 
 target_include_directories(quantlab
@@ -207,4 +212,69 @@ target_link_libraries(cointegration_test
 add_test(
     NAME cointegration_test
     COMMAND cointegration_test
+)
+
+add_executable(rolling_spread_test
+    tests/rolling_spread_test.cpp
+)
+
+target_link_libraries(rolling_spread_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME rolling_spread_test
+    COMMAND rolling_spread_test
+)
+
+add_executable(rolling_regression_test
+    tests/rolling_regression_test.cpp
+)
+
+target_link_libraries(rolling_regression_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME rolling_regression_test
+    COMMAND rolling_regression_test
+)
+
+add_executable(rolling_zscore_test
+    tests/rolling_zscore_test.cpp
+)
+
+target_link_libraries(rolling_zscore_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME rolling_zscore_test
+    COMMAND rolling_zscore_test
+)
+
+add_executable(pairs_signal_test
+    tests/pairs_signal_test.cpp
+)
+
+target_link_libraries(pairs_signal_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME pairs_signal_test
+    COMMAND pairs_signal_test
+)
+
+add_executable(pair_position_test
+    tests/pair_position_test.cpp
+)
+
+target_link_libraries(pair_position_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME pair_position_test
+    COMMAND pair_position_test
 )

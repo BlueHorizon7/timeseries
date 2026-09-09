@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "quantlab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "adf_inference_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-adf_inference_test-Debug-70679cdea15dcb54569c.json",
+					"name" : "adf_inference_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "adf_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-adf_test-Debug-fc77eefbae6e32797f55.json",
+					"name" : "adf_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "candle_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-candle_test-Debug-5c00b047d6322b76ec64.json",
+					"name" : "candle_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cointegration_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cointegration_test-Debug-c9a1f2bc87bbc576e70c.json",
+					"name" : "cointegration_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "covariance_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-covariance_test-Debug-aad1c35e30d85eb58d0a.json",
+					"name" : "covariance_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dickey_fuller_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dickey_fuller_test-Debug-3f78b4788021a3a2050a.json",
+					"name" : "dickey_fuller_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pair_position_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pair_position_test-Debug-339d06dbb5d68d2fff0a.json",
+					"name" : "pair_position_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pairs_signal_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pairs_signal_test-Debug-27924eca6fb2164121da.json",
+					"name" : "pairs_signal_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quantlab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quantlab-Debug-7263716f4d94165ff7b9.json",
+					"name" : "quantlab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "regression_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-regression_test-Debug-770328ccc98a3c664f44.json",
+					"name" : "regression_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "research::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-research-Debug-cccd99ea4d46378da3d1.json",
+					"name" : "research",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "residuals_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-residuals_test-Debug-9ce7517a4977f74eb862.json",
+					"name" : "residuals_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "returns_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-returns_test-Debug-d6a4a3aa66936a575517.json",
+					"name" : "returns_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_regression_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_regression_test-Debug-fd930abd0072d60b8b2c.json",
+					"name" : "rolling_regression_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_spread_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_spread_test-Debug-25371ca37e87db9ebe43.json",
+					"name" : "rolling_spread_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_zscore_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_zscore_test-Debug-fd4b397c5bbf96acca9d.json",
+					"name" : "rolling_zscore_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stationarity_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stationarity_test-Debug-46b15324f93570a6367e.json",
+					"name" : "stationarity_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_test-Debug-97480a03abff0cabde55.json",
+					"name" : "statistics_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "time_series_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-time_series_test-Debug-4a126b3325434737fe3d.json",
+					"name" : "time_series_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unit_root_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unit_root_test-Debug-f117257ad332d6798893.json",
+					"name" : "unit_root_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sonu/Desktop/Quant/p1/build",
+		"source" : "C:/Users/sonu/Desktop/Quant/p1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

@@ -13,6 +13,11 @@ C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/unit_root_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/adf_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/adf_inference_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/cointegration_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rolling_spread_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rolling_regression_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rolling_zscore_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pairs_signal_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pair_position_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/edit_cache.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rebuild_cache.dir

@@ -79,6 +79,36 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\rolling_spread.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\rolling_spread.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/rolling_spread.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\rolling_regression.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\rolling_regression.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/rolling_regression.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\rolling_zscore.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\rolling_zscore.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/rolling_zscore.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\pairs_signal.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\pairs_signal.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/pairs_signal.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\pair_position.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\pair_position.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/pair_position.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/pair_position.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -160,5 +190,35 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\cointegration_test.dir\\tests\\cointegration_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\cointegration_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/cointegration_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/cointegration_test.dir/tests/cointegration_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\rolling_spread_test.dir\\tests\\rolling_spread_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\rolling_spread_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/rolling_spread_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rolling_spread_test.dir/tests/rolling_spread_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\rolling_regression_test.dir\\tests\\rolling_regression_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\rolling_regression_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/rolling_regression_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rolling_regression_test.dir/tests/rolling_regression_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\rolling_zscore_test.dir\\tests\\rolling_zscore_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\rolling_zscore_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/rolling_zscore_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rolling_zscore_test.dir/tests/rolling_zscore_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\pairs_signal_test.dir\\tests\\pairs_signal_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\pairs_signal_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/pairs_signal_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pairs_signal_test.dir/tests/pairs_signal_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\pair_position_test.dir\\tests\\pair_position_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\pair_position_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/pair_position_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pair_position_test.dir/tests/pair_position_test.cpp.obj"
 }
 ]
