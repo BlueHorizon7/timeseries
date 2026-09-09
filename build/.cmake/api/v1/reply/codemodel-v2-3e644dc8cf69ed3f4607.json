@@ -1,0 +1,322 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "quantlab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "adf_inference_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-adf_inference_test-Debug-6f82e35ff83bc80be404.json",
+					"name" : "adf_inference_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "adf_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-adf_test-Debug-2c3b2cc584b1ce0cd75e.json",
+					"name" : "adf_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alignment_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alignment_test-Debug-1fe9c66d72034f40b829.json",
+					"name" : "alignment_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "backtest_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-backtest_test-Debug-a860ab49ca710834c9de.json",
+					"name" : "backtest_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "candle_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-candle_test-Debug-3a15847760ae94dbfa39.json",
+					"name" : "candle_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cointegration_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cointegration_test-Debug-3b4abf7438ad6f665961.json",
+					"name" : "cointegration_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "covariance_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-covariance_test-Debug-7aa74d897b79fac685c1.json",
+					"name" : "covariance_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "csv_reader_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-csv_reader_test-Debug-40f5a069ac6a1fef6d7b.json",
+					"name" : "csv_reader_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "data_validation_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-data_validation_test-Debug-41c210d5443b8892d8b9.json",
+					"name" : "data_validation_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dickey_fuller_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dickey_fuller_test-Debug-6e21bb897a48ad6f7128.json",
+					"name" : "dickey_fuller_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pair_position_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pair_position_test-Debug-8f937d0641d066122b44.json",
+					"name" : "pair_position_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pairs_signal_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pairs_signal_test-Debug-211aa1faca98f59aef50.json",
+					"name" : "pairs_signal_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_grid_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_grid_test-Debug-48d9c7cb422861eba8e3.json",
+					"name" : "parameter_grid_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "performance_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-performance_test-Debug-25996e743d8531ec5294.json",
+					"name" : "performance_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pnl_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pnl_test-Debug-c66f6bc059b3645e888a.json",
+					"name" : "pnl_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quantlab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quantlab-Debug-f57a4a4ecf9450af669b.json",
+					"name" : "quantlab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "regression_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-regression_test-Debug-3c58256b9cca61cabe31.json",
+					"name" : "regression_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "research::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-research-Debug-48b80b78970976a0e8a8.json",
+					"name" : "research",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "residuals_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-residuals_test-Debug-42cb2cc009eb44d6d5eb.json",
+					"name" : "residuals_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "returns_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-returns_test-Debug-b4a7969fe343d20dd5e2.json",
+					"name" : "returns_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_regression_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_regression_test-Debug-999faf4d9a890d6dc111.json",
+					"name" : "rolling_regression_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_spread_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_spread_test-Debug-26cebef88ec68c117379.json",
+					"name" : "rolling_spread_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_zscore_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_zscore_test-Debug-785ad62f8b75987c7342.json",
+					"name" : "rolling_zscore_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stationarity_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stationarity_test-Debug-1ab08742fd291b27fbaa.json",
+					"name" : "stationarity_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_test-Debug-675bcdcbf80c9930b79b.json",
+					"name" : "statistics_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "time_series_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-time_series_test-Debug-2496c18117792f07acd2.json",
+					"name" : "time_series_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trades_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trades_test-Debug-dca161f2f50fca6283d4.json",
+					"name" : "trades_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transaction_cost_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transaction_cost_test-Debug-fc774146b03ae022eb74.json",
+					"name" : "transaction_cost_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unit_root_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unit_root_test-Debug-5dec956c9986df72c4e7.json",
+					"name" : "unit_root_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "validation_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-validation_test-Debug-a0d3a5cd742e11b8af5b.json",
+					"name" : "validation_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sonu/Desktop/Quant/p1/build",
+		"source" : "C:/Users/sonu/Desktop/Quant/p1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

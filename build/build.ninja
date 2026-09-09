@@ -256,6 +256,69 @@ build CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj: CXX_COMPILER__quantlab_uns
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
+build CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/aligned_series.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\aligned_series.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/alignment.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/alignment.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\alignment.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/pairs_research.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\pairs_research.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/validation.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/validation.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\validation.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/parameter_grid.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\parameter_grid.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/trades.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/trades.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\trades.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/data_validation.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/data_validation.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\data_validation.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target quantlab
@@ -264,7 +327,7 @@ build CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj: CXX_COMPILER__quantlab_uns
 #############################################
 # Link the static library libquantlab.a
 
-build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj CMakeFiles/quantlab.dir/src/pnl.cpp.obj CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj CMakeFiles/quantlab.dir/src/backtest.cpp.obj CMakeFiles/quantlab.dir/src/performance.cpp.obj CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj
+build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj CMakeFiles/quantlab.dir/src/pnl.cpp.obj CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj CMakeFiles/quantlab.dir/src/backtest.cpp.obj CMakeFiles/quantlab.dir/src/performance.cpp.obj CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj CMakeFiles/quantlab.dir/src/alignment.cpp.obj CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj CMakeFiles/quantlab.dir/src/validation.cpp.obj CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj CMakeFiles/quantlab.dir/src/trades.cpp.obj CMakeFiles/quantlab.dir/src/data_validation.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\quantlab.dir
@@ -1186,12 +1249,202 @@ build csv_reader_test.exe: CXX_EXECUTABLE_LINKER__csv_reader_test_Debug CMakeFil
   TARGET_PDB = csv_reader_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\csv_reader_test.dir
 
+# =============================================================================
+# Object build statements for EXECUTABLE target alignment_test
+
+
+#############################################
+# Order-only phony target for alignment_test
+
+build cmake_object_order_depends_target_alignment_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/alignment_test.dir/tests/alignment_test.cpp.obj: CXX_COMPILER__alignment_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/alignment_test.cpp || cmake_object_order_depends_target_alignment_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\alignment_test.dir\tests\alignment_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\alignment_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\alignment_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\alignment_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target alignment_test
+
+
+#############################################
+# Link the executable alignment_test.exe
+
+build alignment_test.exe: CXX_EXECUTABLE_LINKER__alignment_test_Debug CMakeFiles/alignment_test.dir/tests/alignment_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\alignment_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = alignment_test.exe
+  TARGET_IMPLIB = libalignment_test.dll.a
+  TARGET_PDB = alignment_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\alignment_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target validation_test
+
+
+#############################################
+# Order-only phony target for validation_test
+
+build cmake_object_order_depends_target_validation_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/validation_test.dir/tests/validation_test.cpp.obj: CXX_COMPILER__validation_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/validation_test.cpp || cmake_object_order_depends_target_validation_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\validation_test.dir\tests\validation_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\validation_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\validation_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\validation_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target validation_test
+
+
+#############################################
+# Link the executable validation_test.exe
+
+build validation_test.exe: CXX_EXECUTABLE_LINKER__validation_test_Debug CMakeFiles/validation_test.dir/tests/validation_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\validation_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = validation_test.exe
+  TARGET_IMPLIB = libvalidation_test.dll.a
+  TARGET_PDB = validation_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\validation_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parameter_grid_test
+
+
+#############################################
+# Order-only phony target for parameter_grid_test
+
+build cmake_object_order_depends_target_parameter_grid_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/parameter_grid_test.dir/tests/parameter_grid_test.cpp.obj: CXX_COMPILER__parameter_grid_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/parameter_grid_test.cpp || cmake_object_order_depends_target_parameter_grid_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\parameter_grid_test.dir\tests\parameter_grid_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\parameter_grid_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\parameter_grid_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\parameter_grid_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parameter_grid_test
+
+
+#############################################
+# Link the executable parameter_grid_test.exe
+
+build parameter_grid_test.exe: CXX_EXECUTABLE_LINKER__parameter_grid_test_Debug CMakeFiles/parameter_grid_test.dir/tests/parameter_grid_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\parameter_grid_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = parameter_grid_test.exe
+  TARGET_IMPLIB = libparameter_grid_test.dll.a
+  TARGET_PDB = parameter_grid_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\parameter_grid_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target trades_test
+
+
+#############################################
+# Order-only phony target for trades_test
+
+build cmake_object_order_depends_target_trades_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/trades_test.dir/tests/trades_test.cpp.obj: CXX_COMPILER__trades_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/trades_test.cpp || cmake_object_order_depends_target_trades_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\trades_test.dir\tests\trades_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\trades_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\trades_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\trades_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target trades_test
+
+
+#############################################
+# Link the executable trades_test.exe
+
+build trades_test.exe: CXX_EXECUTABLE_LINKER__trades_test_Debug CMakeFiles/trades_test.dir/tests/trades_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\trades_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = trades_test.exe
+  TARGET_IMPLIB = libtrades_test.dll.a
+  TARGET_PDB = trades_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\trades_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target data_validation_test
+
+
+#############################################
+# Order-only phony target for data_validation_test
+
+build cmake_object_order_depends_target_data_validation_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/data_validation_test.dir/tests/data_validation_test.cpp.obj: CXX_COMPILER__data_validation_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/data_validation_test.cpp || cmake_object_order_depends_target_data_validation_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\data_validation_test.dir\tests\data_validation_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\data_validation_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\data_validation_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\data_validation_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target data_validation_test
+
+
+#############################################
+# Link the executable data_validation_test.exe
+
+build data_validation_test.exe: CXX_EXECUTABLE_LINKER__data_validation_test_Debug CMakeFiles/data_validation_test.dir/tests/data_validation_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\data_validation_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = data_validation_test.exe
+  TARGET_IMPLIB = libdata_validation_test.dll.a
+  TARGET_PDB = data_validation_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\data_validation_test.dir
+
 
 #############################################
 # Utility command for test
 
 build CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\sonu\Desktop\Quant\p1\build && "C:\Program Files\CMake\bin\ctest.exe" "
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\sonu\Desktop\Quant\p1\build && C:\w64devkit\bin\ctest.exe "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1215,7 +1468,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\sonu\Desktop\Quant\p1\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\sonu\Desktop\Quant\p1 -BC:\Users\sonu\Desktop\Quant\p1\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\sonu\Desktop\Quant\p1\build && C:\w64devkit\bin\cmake.exe --regenerate-during-build -SC:\Users\sonu\Desktop\Quant\p1 -BC:\Users\sonu\Desktop\Quant\p1\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1229,6 +1482,8 @@ build adf_inference_test: phony adf_inference_test.exe
 
 build adf_test: phony adf_test.exe
 
+build alignment_test: phony alignment_test.exe
+
 build backtest_test: phony backtest_test.exe
 
 build candle_test: phony candle_test.exe
@@ -1239,11 +1494,15 @@ build covariance_test: phony covariance_test.exe
 
 build csv_reader_test: phony csv_reader_test.exe
 
+build data_validation_test: phony data_validation_test.exe
+
 build dickey_fuller_test: phony dickey_fuller_test.exe
 
 build pair_position_test: phony pair_position_test.exe
 
 build pairs_signal_test: phony pairs_signal_test.exe
+
+build parameter_grid_test: phony parameter_grid_test.exe
 
 build performance_test: phony performance_test.exe
 
@@ -1271,9 +1530,13 @@ build statistics_test: phony statistics_test.exe
 
 build time_series_test: phony time_series_test.exe
 
+build trades_test: phony trades_test.exe
+
 build transaction_cost_test: phony transaction_cost_test.exe
 
 build unit_root_test: phony unit_root_test.exe
+
+build validation_test: phony validation_test.exe
 
 # =============================================================================
 # Folder targets.
@@ -1283,7 +1546,7 @@ build unit_root_test: phony unit_root_test.exe
 #############################################
 # Folder: C:/Users/sonu/Desktop/Quant/p1/build
 
-build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe pnl_test.exe transaction_cost_test.exe backtest_test.exe performance_test.exe csv_reader_test.exe
+build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe pnl_test.exe transaction_cost_test.exe backtest_test.exe performance_test.exe csv_reader_test.exe alignment_test.exe validation_test.exe parameter_grid_test.exe trades_test.exe data_validation_test.exe
 
 # =============================================================================
 # Built-in targets
@@ -1292,14 +1555,14 @@ build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/sonu/Desktop/Quant/p1/build/cmake_install.cmake C$:/Users/sonu/Desktop/Quant/p1/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.3/CMakeCXXCompiler.cmake CMakeFiles/4.4.3/CMakeRCCompiler.cmake CMakeFiles/4.4.3/CMakeSystem.cmake
+build build.ninja C$:/Users/sonu/Desktop/Quant/p1/build/cmake_install.cmake C$:/Users/sonu/Desktop/Quant/p1/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt C$:/w64devkit/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/w64devkit/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/w64devkit/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.3/CMakeCXXCompiler.cmake CMakeFiles/4.4.3/CMakeRCCompiler.cmake CMakeFiles/4.4.3/CMakeSystem.cmake: phony
+build C$:/Users/sonu/Desktop/Quant/p1/CMakeLists.txt C$:/w64devkit/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/w64devkit/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/w64devkit/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/w64devkit/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/w64devkit/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
 
 
 #############################################

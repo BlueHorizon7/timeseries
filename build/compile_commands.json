@@ -139,6 +139,48 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\aligned_series.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\aligned_series.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/aligned_series.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\alignment.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\alignment.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/alignment.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/alignment.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\pairs_research.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\pairs_research.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/pairs_research.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\validation.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\validation.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/validation.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/validation.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\parameter_grid.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\parameter_grid.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/parameter_grid.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\trades.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\trades.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/trades.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/trades.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\data_validation.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\data_validation.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/data_validation.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/data_validation.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -280,5 +322,35 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\csv_reader_test.dir\\tests\\csv_reader_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\csv_reader_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/csv_reader_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/csv_reader_test.dir/tests/csv_reader_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\alignment_test.dir\\tests\\alignment_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\alignment_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/alignment_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/alignment_test.dir/tests/alignment_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\validation_test.dir\\tests\\validation_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\validation_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/validation_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/validation_test.dir/tests/validation_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\parameter_grid_test.dir\\tests\\parameter_grid_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\parameter_grid_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/parameter_grid_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/parameter_grid_test.dir/tests/parameter_grid_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\trades_test.dir\\tests\\trades_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\trades_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/trades_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/trades_test.dir/tests/trades_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\data_validation_test.dir\\tests\\data_validation_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\data_validation_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/data_validation_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/data_validation_test.dir/tests/data_validation_test.cpp.obj"
 }
 ]

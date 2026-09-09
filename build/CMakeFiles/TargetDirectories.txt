@@ -23,6 +23,11 @@ C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/transaction_cost_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/backtest_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/performance_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/csv_reader_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/alignment_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/validation_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/parameter_grid_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/trades_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/data_validation_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/edit_cache.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rebuild_cache.dir

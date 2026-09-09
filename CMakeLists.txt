@@ -33,6 +33,13 @@ add_library(quantlab
     src/backtest.cpp
     src/performance.cpp
     src/csv_reader.cpp
+    src/aligned_series.cpp
+    src/alignment.cpp
+    src/pairs_research.cpp
+    src/validation.cpp
+    src/parameter_grid.cpp
+    src/trades.cpp
+    src/data_validation.cpp
 )
 
 target_include_directories(quantlab
@@ -347,4 +354,69 @@ target_link_libraries(csv_reader_test
 add_test(
     NAME csv_reader_test
     COMMAND csv_reader_test
+)
+
+add_executable(alignment_test
+    tests/alignment_test.cpp
+)
+
+target_link_libraries(alignment_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME alignment_test
+    COMMAND alignment_test
+)
+
+add_executable(validation_test
+    tests/validation_test.cpp
+)
+
+target_link_libraries(validation_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME validation_test
+    COMMAND validation_test
+)
+
+add_executable(parameter_grid_test
+    tests/parameter_grid_test.cpp
+)
+
+target_link_libraries(parameter_grid_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME parameter_grid_test
+    COMMAND parameter_grid_test
+)
+
+add_executable(trades_test
+    tests/trades_test.cpp
+)
+
+target_link_libraries(trades_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME trades_test
+    COMMAND trades_test
+)
+
+add_executable(data_validation_test
+    tests/data_validation_test.cpp
+)
+
+target_link_libraries(data_validation_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME data_validation_test
+    COMMAND data_validation_test
 )

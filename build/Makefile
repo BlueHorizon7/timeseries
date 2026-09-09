@@ -255,6 +255,253 @@ residuals_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\residuals_test.dir\build.make CMakeFiles/residuals_test.dir/build
 .PHONY : residuals_test/fast
 
+#=============================================================================
+# Target rules for targets named dickey_fuller_test
+
+# Build rule for target.
+dickey_fuller_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dickey_fuller_test
+.PHONY : dickey_fuller_test
+
+# fast build rule for target.
+dickey_fuller_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dickey_fuller_test.dir\build.make CMakeFiles/dickey_fuller_test.dir/build
+.PHONY : dickey_fuller_test/fast
+
+#=============================================================================
+# Target rules for targets named unit_root_test
+
+# Build rule for target.
+unit_root_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 unit_root_test
+.PHONY : unit_root_test
+
+# fast build rule for target.
+unit_root_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_root_test.dir\build.make CMakeFiles/unit_root_test.dir/build
+.PHONY : unit_root_test/fast
+
+#=============================================================================
+# Target rules for targets named adf_test
+
+# Build rule for target.
+adf_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 adf_test
+.PHONY : adf_test
+
+# fast build rule for target.
+adf_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_test.dir\build.make CMakeFiles/adf_test.dir/build
+.PHONY : adf_test/fast
+
+#=============================================================================
+# Target rules for targets named adf_inference_test
+
+# Build rule for target.
+adf_inference_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 adf_inference_test
+.PHONY : adf_inference_test
+
+# fast build rule for target.
+adf_inference_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_inference_test.dir\build.make CMakeFiles/adf_inference_test.dir/build
+.PHONY : adf_inference_test/fast
+
+#=============================================================================
+# Target rules for targets named cointegration_test
+
+# Build rule for target.
+cointegration_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cointegration_test
+.PHONY : cointegration_test
+
+# fast build rule for target.
+cointegration_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cointegration_test.dir\build.make CMakeFiles/cointegration_test.dir/build
+.PHONY : cointegration_test/fast
+
+#=============================================================================
+# Target rules for targets named rolling_spread_test
+
+# Build rule for target.
+rolling_spread_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rolling_spread_test
+.PHONY : rolling_spread_test
+
+# fast build rule for target.
+rolling_spread_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_spread_test.dir\build.make CMakeFiles/rolling_spread_test.dir/build
+.PHONY : rolling_spread_test/fast
+
+#=============================================================================
+# Target rules for targets named rolling_regression_test
+
+# Build rule for target.
+rolling_regression_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rolling_regression_test
+.PHONY : rolling_regression_test
+
+# fast build rule for target.
+rolling_regression_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_regression_test.dir\build.make CMakeFiles/rolling_regression_test.dir/build
+.PHONY : rolling_regression_test/fast
+
+#=============================================================================
+# Target rules for targets named rolling_zscore_test
+
+# Build rule for target.
+rolling_zscore_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rolling_zscore_test
+.PHONY : rolling_zscore_test
+
+# fast build rule for target.
+rolling_zscore_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_zscore_test.dir\build.make CMakeFiles/rolling_zscore_test.dir/build
+.PHONY : rolling_zscore_test/fast
+
+#=============================================================================
+# Target rules for targets named pairs_signal_test
+
+# Build rule for target.
+pairs_signal_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pairs_signal_test
+.PHONY : pairs_signal_test
+
+# fast build rule for target.
+pairs_signal_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pairs_signal_test.dir\build.make CMakeFiles/pairs_signal_test.dir/build
+.PHONY : pairs_signal_test/fast
+
+#=============================================================================
+# Target rules for targets named pair_position_test
+
+# Build rule for target.
+pair_position_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pair_position_test
+.PHONY : pair_position_test
+
+# fast build rule for target.
+pair_position_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pair_position_test.dir\build.make CMakeFiles/pair_position_test.dir/build
+.PHONY : pair_position_test/fast
+
+#=============================================================================
+# Target rules for targets named pnl_test
+
+# Build rule for target.
+pnl_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pnl_test
+.PHONY : pnl_test
+
+# fast build rule for target.
+pnl_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pnl_test.dir\build.make CMakeFiles/pnl_test.dir/build
+.PHONY : pnl_test/fast
+
+#=============================================================================
+# Target rules for targets named transaction_cost_test
+
+# Build rule for target.
+transaction_cost_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 transaction_cost_test
+.PHONY : transaction_cost_test
+
+# fast build rule for target.
+transaction_cost_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\transaction_cost_test.dir\build.make CMakeFiles/transaction_cost_test.dir/build
+.PHONY : transaction_cost_test/fast
+
+#=============================================================================
+# Target rules for targets named backtest_test
+
+# Build rule for target.
+backtest_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 backtest_test
+.PHONY : backtest_test
+
+# fast build rule for target.
+backtest_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtest_test.dir\build.make CMakeFiles/backtest_test.dir/build
+.PHONY : backtest_test/fast
+
+#=============================================================================
+# Target rules for targets named performance_test
+
+# Build rule for target.
+performance_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 performance_test
+.PHONY : performance_test
+
+# fast build rule for target.
+performance_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\performance_test.dir\build.make CMakeFiles/performance_test.dir/build
+.PHONY : performance_test/fast
+
+#=============================================================================
+# Target rules for targets named csv_reader_test
+
+# Build rule for target.
+csv_reader_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 csv_reader_test
+.PHONY : csv_reader_test
+
+# fast build rule for target.
+csv_reader_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csv_reader_test.dir\build.make CMakeFiles/csv_reader_test.dir/build
+.PHONY : csv_reader_test/fast
+
+#=============================================================================
+# Target rules for targets named alignment_test
+
+# Build rule for target.
+alignment_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 alignment_test
+.PHONY : alignment_test
+
+# fast build rule for target.
+alignment_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alignment_test.dir\build.make CMakeFiles/alignment_test.dir/build
+.PHONY : alignment_test/fast
+
+#=============================================================================
+# Target rules for targets named validation_test
+
+# Build rule for target.
+validation_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 validation_test
+.PHONY : validation_test
+
+# fast build rule for target.
+validation_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validation_test.dir\build.make CMakeFiles/validation_test.dir/build
+.PHONY : validation_test/fast
+
+#=============================================================================
+# Target rules for targets named parameter_grid_test
+
+# Build rule for target.
+parameter_grid_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 parameter_grid_test
+.PHONY : parameter_grid_test
+
+# fast build rule for target.
+parameter_grid_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parameter_grid_test.dir\build.make CMakeFiles/parameter_grid_test.dir/build
+.PHONY : parameter_grid_test/fast
+
+#=============================================================================
+# Target rules for targets named trades_test
+
+# Build rule for target.
+trades_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 trades_test
+.PHONY : trades_test
+
+# fast build rule for target.
+trades_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trades_test.dir\build.make CMakeFiles/trades_test.dir/build
+.PHONY : trades_test/fast
+
 applications/research/main.obj: applications/research/main.cpp.obj
 .PHONY : applications/research/main.obj
 
@@ -279,6 +526,126 @@ applications/research/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\research.dir\build.make CMakeFiles/research.dir/applications/research/main.cpp.s
 .PHONY : applications/research/main.cpp.s
 
+src/adf.obj: src/adf.cpp.obj
+.PHONY : src/adf.obj
+
+# target to build an object file
+src/adf.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/adf.cpp.obj
+.PHONY : src/adf.cpp.obj
+
+src/adf.i: src/adf.cpp.i
+.PHONY : src/adf.i
+
+# target to preprocess a source file
+src/adf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/adf.cpp.i
+.PHONY : src/adf.cpp.i
+
+src/adf.s: src/adf.cpp.s
+.PHONY : src/adf.s
+
+# target to generate assembly for a file
+src/adf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/adf.cpp.s
+.PHONY : src/adf.cpp.s
+
+src/adf_inference.obj: src/adf_inference.cpp.obj
+.PHONY : src/adf_inference.obj
+
+# target to build an object file
+src/adf_inference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj
+.PHONY : src/adf_inference.cpp.obj
+
+src/adf_inference.i: src/adf_inference.cpp.i
+.PHONY : src/adf_inference.i
+
+# target to preprocess a source file
+src/adf_inference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/adf_inference.cpp.i
+.PHONY : src/adf_inference.cpp.i
+
+src/adf_inference.s: src/adf_inference.cpp.s
+.PHONY : src/adf_inference.s
+
+# target to generate assembly for a file
+src/adf_inference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/adf_inference.cpp.s
+.PHONY : src/adf_inference.cpp.s
+
+src/aligned_series.obj: src/aligned_series.cpp.obj
+.PHONY : src/aligned_series.obj
+
+# target to build an object file
+src/aligned_series.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj
+.PHONY : src/aligned_series.cpp.obj
+
+src/aligned_series.i: src/aligned_series.cpp.i
+.PHONY : src/aligned_series.i
+
+# target to preprocess a source file
+src/aligned_series.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/aligned_series.cpp.i
+.PHONY : src/aligned_series.cpp.i
+
+src/aligned_series.s: src/aligned_series.cpp.s
+.PHONY : src/aligned_series.s
+
+# target to generate assembly for a file
+src/aligned_series.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/aligned_series.cpp.s
+.PHONY : src/aligned_series.cpp.s
+
+src/alignment.obj: src/alignment.cpp.obj
+.PHONY : src/alignment.obj
+
+# target to build an object file
+src/alignment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/alignment.cpp.obj
+.PHONY : src/alignment.cpp.obj
+
+src/alignment.i: src/alignment.cpp.i
+.PHONY : src/alignment.i
+
+# target to preprocess a source file
+src/alignment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/alignment.cpp.i
+.PHONY : src/alignment.cpp.i
+
+src/alignment.s: src/alignment.cpp.s
+.PHONY : src/alignment.s
+
+# target to generate assembly for a file
+src/alignment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/alignment.cpp.s
+.PHONY : src/alignment.cpp.s
+
+src/backtest.obj: src/backtest.cpp.obj
+.PHONY : src/backtest.obj
+
+# target to build an object file
+src/backtest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/backtest.cpp.obj
+.PHONY : src/backtest.cpp.obj
+
+src/backtest.i: src/backtest.cpp.i
+.PHONY : src/backtest.i
+
+# target to preprocess a source file
+src/backtest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/backtest.cpp.i
+.PHONY : src/backtest.cpp.i
+
+src/backtest.s: src/backtest.cpp.s
+.PHONY : src/backtest.s
+
+# target to generate assembly for a file
+src/backtest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/backtest.cpp.s
+.PHONY : src/backtest.cpp.s
+
 src/candle.obj: src/candle.cpp.obj
 .PHONY : src/candle.obj
 
@@ -302,6 +669,222 @@ src/candle.s: src/candle.cpp.s
 src/candle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/candle.cpp.s
 .PHONY : src/candle.cpp.s
+
+src/cointegration.obj: src/cointegration.cpp.obj
+.PHONY : src/cointegration.obj
+
+# target to build an object file
+src/cointegration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/cointegration.cpp.obj
+.PHONY : src/cointegration.cpp.obj
+
+src/cointegration.i: src/cointegration.cpp.i
+.PHONY : src/cointegration.i
+
+# target to preprocess a source file
+src/cointegration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/cointegration.cpp.i
+.PHONY : src/cointegration.cpp.i
+
+src/cointegration.s: src/cointegration.cpp.s
+.PHONY : src/cointegration.s
+
+# target to generate assembly for a file
+src/cointegration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/cointegration.cpp.s
+.PHONY : src/cointegration.cpp.s
+
+src/csv_reader.obj: src/csv_reader.cpp.obj
+.PHONY : src/csv_reader.obj
+
+# target to build an object file
+src/csv_reader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj
+.PHONY : src/csv_reader.cpp.obj
+
+src/csv_reader.i: src/csv_reader.cpp.i
+.PHONY : src/csv_reader.i
+
+# target to preprocess a source file
+src/csv_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/csv_reader.cpp.i
+.PHONY : src/csv_reader.cpp.i
+
+src/csv_reader.s: src/csv_reader.cpp.s
+.PHONY : src/csv_reader.s
+
+# target to generate assembly for a file
+src/csv_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/csv_reader.cpp.s
+.PHONY : src/csv_reader.cpp.s
+
+src/dickey_fuller.obj: src/dickey_fuller.cpp.obj
+.PHONY : src/dickey_fuller.obj
+
+# target to build an object file
+src/dickey_fuller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj
+.PHONY : src/dickey_fuller.cpp.obj
+
+src/dickey_fuller.i: src/dickey_fuller.cpp.i
+.PHONY : src/dickey_fuller.i
+
+# target to preprocess a source file
+src/dickey_fuller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.i
+.PHONY : src/dickey_fuller.cpp.i
+
+src/dickey_fuller.s: src/dickey_fuller.cpp.s
+.PHONY : src/dickey_fuller.s
+
+# target to generate assembly for a file
+src/dickey_fuller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.s
+.PHONY : src/dickey_fuller.cpp.s
+
+src/pair_position.obj: src/pair_position.cpp.obj
+.PHONY : src/pair_position.obj
+
+# target to build an object file
+src/pair_position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pair_position.cpp.obj
+.PHONY : src/pair_position.cpp.obj
+
+src/pair_position.i: src/pair_position.cpp.i
+.PHONY : src/pair_position.i
+
+# target to preprocess a source file
+src/pair_position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pair_position.cpp.i
+.PHONY : src/pair_position.cpp.i
+
+src/pair_position.s: src/pair_position.cpp.s
+.PHONY : src/pair_position.s
+
+# target to generate assembly for a file
+src/pair_position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pair_position.cpp.s
+.PHONY : src/pair_position.cpp.s
+
+src/pairs_research.obj: src/pairs_research.cpp.obj
+.PHONY : src/pairs_research.obj
+
+# target to build an object file
+src/pairs_research.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj
+.PHONY : src/pairs_research.cpp.obj
+
+src/pairs_research.i: src/pairs_research.cpp.i
+.PHONY : src/pairs_research.i
+
+# target to preprocess a source file
+src/pairs_research.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pairs_research.cpp.i
+.PHONY : src/pairs_research.cpp.i
+
+src/pairs_research.s: src/pairs_research.cpp.s
+.PHONY : src/pairs_research.s
+
+# target to generate assembly for a file
+src/pairs_research.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pairs_research.cpp.s
+.PHONY : src/pairs_research.cpp.s
+
+src/pairs_signal.obj: src/pairs_signal.cpp.obj
+.PHONY : src/pairs_signal.obj
+
+# target to build an object file
+src/pairs_signal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj
+.PHONY : src/pairs_signal.cpp.obj
+
+src/pairs_signal.i: src/pairs_signal.cpp.i
+.PHONY : src/pairs_signal.i
+
+# target to preprocess a source file
+src/pairs_signal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pairs_signal.cpp.i
+.PHONY : src/pairs_signal.cpp.i
+
+src/pairs_signal.s: src/pairs_signal.cpp.s
+.PHONY : src/pairs_signal.s
+
+# target to generate assembly for a file
+src/pairs_signal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pairs_signal.cpp.s
+.PHONY : src/pairs_signal.cpp.s
+
+src/parameter_grid.obj: src/parameter_grid.cpp.obj
+.PHONY : src/parameter_grid.obj
+
+# target to build an object file
+src/parameter_grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj
+.PHONY : src/parameter_grid.cpp.obj
+
+src/parameter_grid.i: src/parameter_grid.cpp.i
+.PHONY : src/parameter_grid.i
+
+# target to preprocess a source file
+src/parameter_grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/parameter_grid.cpp.i
+.PHONY : src/parameter_grid.cpp.i
+
+src/parameter_grid.s: src/parameter_grid.cpp.s
+.PHONY : src/parameter_grid.s
+
+# target to generate assembly for a file
+src/parameter_grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/parameter_grid.cpp.s
+.PHONY : src/parameter_grid.cpp.s
+
+src/performance.obj: src/performance.cpp.obj
+.PHONY : src/performance.obj
+
+# target to build an object file
+src/performance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/performance.cpp.obj
+.PHONY : src/performance.cpp.obj
+
+src/performance.i: src/performance.cpp.i
+.PHONY : src/performance.i
+
+# target to preprocess a source file
+src/performance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/performance.cpp.i
+.PHONY : src/performance.cpp.i
+
+src/performance.s: src/performance.cpp.s
+.PHONY : src/performance.s
+
+# target to generate assembly for a file
+src/performance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/performance.cpp.s
+.PHONY : src/performance.cpp.s
+
+src/pnl.obj: src/pnl.cpp.obj
+.PHONY : src/pnl.obj
+
+# target to build an object file
+src/pnl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pnl.cpp.obj
+.PHONY : src/pnl.cpp.obj
+
+src/pnl.i: src/pnl.cpp.i
+.PHONY : src/pnl.i
+
+# target to preprocess a source file
+src/pnl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pnl.cpp.i
+.PHONY : src/pnl.cpp.i
+
+src/pnl.s: src/pnl.cpp.s
+.PHONY : src/pnl.s
+
+# target to generate assembly for a file
+src/pnl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/pnl.cpp.s
+.PHONY : src/pnl.cpp.s
 
 src/regression.obj: src/regression.cpp.obj
 .PHONY : src/regression.obj
@@ -374,6 +957,78 @@ src/returns.s: src/returns.cpp.s
 src/returns.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/returns.cpp.s
 .PHONY : src/returns.cpp.s
+
+src/rolling_regression.obj: src/rolling_regression.cpp.obj
+.PHONY : src/rolling_regression.obj
+
+# target to build an object file
+src/rolling_regression.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj
+.PHONY : src/rolling_regression.cpp.obj
+
+src/rolling_regression.i: src/rolling_regression.cpp.i
+.PHONY : src/rolling_regression.i
+
+# target to preprocess a source file
+src/rolling_regression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_regression.cpp.i
+.PHONY : src/rolling_regression.cpp.i
+
+src/rolling_regression.s: src/rolling_regression.cpp.s
+.PHONY : src/rolling_regression.s
+
+# target to generate assembly for a file
+src/rolling_regression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_regression.cpp.s
+.PHONY : src/rolling_regression.cpp.s
+
+src/rolling_spread.obj: src/rolling_spread.cpp.obj
+.PHONY : src/rolling_spread.obj
+
+# target to build an object file
+src/rolling_spread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj
+.PHONY : src/rolling_spread.cpp.obj
+
+src/rolling_spread.i: src/rolling_spread.cpp.i
+.PHONY : src/rolling_spread.i
+
+# target to preprocess a source file
+src/rolling_spread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_spread.cpp.i
+.PHONY : src/rolling_spread.cpp.i
+
+src/rolling_spread.s: src/rolling_spread.cpp.s
+.PHONY : src/rolling_spread.s
+
+# target to generate assembly for a file
+src/rolling_spread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_spread.cpp.s
+.PHONY : src/rolling_spread.cpp.s
+
+src/rolling_zscore.obj: src/rolling_zscore.cpp.obj
+.PHONY : src/rolling_zscore.obj
+
+# target to build an object file
+src/rolling_zscore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj
+.PHONY : src/rolling_zscore.cpp.obj
+
+src/rolling_zscore.i: src/rolling_zscore.cpp.i
+.PHONY : src/rolling_zscore.i
+
+# target to preprocess a source file
+src/rolling_zscore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.i
+.PHONY : src/rolling_zscore.cpp.i
+
+src/rolling_zscore.s: src/rolling_zscore.cpp.s
+.PHONY : src/rolling_zscore.s
+
+# target to generate assembly for a file
+src/rolling_zscore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.s
+.PHONY : src/rolling_zscore.cpp.s
 
 src/series.obj: src/series.cpp.obj
 .PHONY : src/series.obj
@@ -471,6 +1126,198 @@ src/time_series.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/time_series.cpp.s
 .PHONY : src/time_series.cpp.s
 
+src/trades.obj: src/trades.cpp.obj
+.PHONY : src/trades.obj
+
+# target to build an object file
+src/trades.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/trades.cpp.obj
+.PHONY : src/trades.cpp.obj
+
+src/trades.i: src/trades.cpp.i
+.PHONY : src/trades.i
+
+# target to preprocess a source file
+src/trades.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/trades.cpp.i
+.PHONY : src/trades.cpp.i
+
+src/trades.s: src/trades.cpp.s
+.PHONY : src/trades.s
+
+# target to generate assembly for a file
+src/trades.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/trades.cpp.s
+.PHONY : src/trades.cpp.s
+
+src/transaction_cost.obj: src/transaction_cost.cpp.obj
+.PHONY : src/transaction_cost.obj
+
+# target to build an object file
+src/transaction_cost.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj
+.PHONY : src/transaction_cost.cpp.obj
+
+src/transaction_cost.i: src/transaction_cost.cpp.i
+.PHONY : src/transaction_cost.i
+
+# target to preprocess a source file
+src/transaction_cost.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/transaction_cost.cpp.i
+.PHONY : src/transaction_cost.cpp.i
+
+src/transaction_cost.s: src/transaction_cost.cpp.s
+.PHONY : src/transaction_cost.s
+
+# target to generate assembly for a file
+src/transaction_cost.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/transaction_cost.cpp.s
+.PHONY : src/transaction_cost.cpp.s
+
+src/unit_root.obj: src/unit_root.cpp.obj
+.PHONY : src/unit_root.obj
+
+# target to build an object file
+src/unit_root.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/unit_root.cpp.obj
+.PHONY : src/unit_root.cpp.obj
+
+src/unit_root.i: src/unit_root.cpp.i
+.PHONY : src/unit_root.i
+
+# target to preprocess a source file
+src/unit_root.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/unit_root.cpp.i
+.PHONY : src/unit_root.cpp.i
+
+src/unit_root.s: src/unit_root.cpp.s
+.PHONY : src/unit_root.s
+
+# target to generate assembly for a file
+src/unit_root.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/unit_root.cpp.s
+.PHONY : src/unit_root.cpp.s
+
+src/validation.obj: src/validation.cpp.obj
+.PHONY : src/validation.obj
+
+# target to build an object file
+src/validation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/validation.cpp.obj
+.PHONY : src/validation.cpp.obj
+
+src/validation.i: src/validation.cpp.i
+.PHONY : src/validation.i
+
+# target to preprocess a source file
+src/validation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/validation.cpp.i
+.PHONY : src/validation.cpp.i
+
+src/validation.s: src/validation.cpp.s
+.PHONY : src/validation.s
+
+# target to generate assembly for a file
+src/validation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quantlab.dir\build.make CMakeFiles/quantlab.dir/src/validation.cpp.s
+.PHONY : src/validation.cpp.s
+
+tests/adf_inference_test.obj: tests/adf_inference_test.cpp.obj
+.PHONY : tests/adf_inference_test.obj
+
+# target to build an object file
+tests/adf_inference_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_inference_test.dir\build.make CMakeFiles/adf_inference_test.dir/tests/adf_inference_test.cpp.obj
+.PHONY : tests/adf_inference_test.cpp.obj
+
+tests/adf_inference_test.i: tests/adf_inference_test.cpp.i
+.PHONY : tests/adf_inference_test.i
+
+# target to preprocess a source file
+tests/adf_inference_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_inference_test.dir\build.make CMakeFiles/adf_inference_test.dir/tests/adf_inference_test.cpp.i
+.PHONY : tests/adf_inference_test.cpp.i
+
+tests/adf_inference_test.s: tests/adf_inference_test.cpp.s
+.PHONY : tests/adf_inference_test.s
+
+# target to generate assembly for a file
+tests/adf_inference_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_inference_test.dir\build.make CMakeFiles/adf_inference_test.dir/tests/adf_inference_test.cpp.s
+.PHONY : tests/adf_inference_test.cpp.s
+
+tests/adf_test.obj: tests/adf_test.cpp.obj
+.PHONY : tests/adf_test.obj
+
+# target to build an object file
+tests/adf_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_test.dir\build.make CMakeFiles/adf_test.dir/tests/adf_test.cpp.obj
+.PHONY : tests/adf_test.cpp.obj
+
+tests/adf_test.i: tests/adf_test.cpp.i
+.PHONY : tests/adf_test.i
+
+# target to preprocess a source file
+tests/adf_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_test.dir\build.make CMakeFiles/adf_test.dir/tests/adf_test.cpp.i
+.PHONY : tests/adf_test.cpp.i
+
+tests/adf_test.s: tests/adf_test.cpp.s
+.PHONY : tests/adf_test.s
+
+# target to generate assembly for a file
+tests/adf_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\adf_test.dir\build.make CMakeFiles/adf_test.dir/tests/adf_test.cpp.s
+.PHONY : tests/adf_test.cpp.s
+
+tests/alignment_test.obj: tests/alignment_test.cpp.obj
+.PHONY : tests/alignment_test.obj
+
+# target to build an object file
+tests/alignment_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alignment_test.dir\build.make CMakeFiles/alignment_test.dir/tests/alignment_test.cpp.obj
+.PHONY : tests/alignment_test.cpp.obj
+
+tests/alignment_test.i: tests/alignment_test.cpp.i
+.PHONY : tests/alignment_test.i
+
+# target to preprocess a source file
+tests/alignment_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alignment_test.dir\build.make CMakeFiles/alignment_test.dir/tests/alignment_test.cpp.i
+.PHONY : tests/alignment_test.cpp.i
+
+tests/alignment_test.s: tests/alignment_test.cpp.s
+.PHONY : tests/alignment_test.s
+
+# target to generate assembly for a file
+tests/alignment_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alignment_test.dir\build.make CMakeFiles/alignment_test.dir/tests/alignment_test.cpp.s
+.PHONY : tests/alignment_test.cpp.s
+
+tests/backtest_test.obj: tests/backtest_test.cpp.obj
+.PHONY : tests/backtest_test.obj
+
+# target to build an object file
+tests/backtest_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtest_test.dir\build.make CMakeFiles/backtest_test.dir/tests/backtest_test.cpp.obj
+.PHONY : tests/backtest_test.cpp.obj
+
+tests/backtest_test.i: tests/backtest_test.cpp.i
+.PHONY : tests/backtest_test.i
+
+# target to preprocess a source file
+tests/backtest_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtest_test.dir\build.make CMakeFiles/backtest_test.dir/tests/backtest_test.cpp.i
+.PHONY : tests/backtest_test.cpp.i
+
+tests/backtest_test.s: tests/backtest_test.cpp.s
+.PHONY : tests/backtest_test.s
+
+# target to generate assembly for a file
+tests/backtest_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtest_test.dir\build.make CMakeFiles/backtest_test.dir/tests/backtest_test.cpp.s
+.PHONY : tests/backtest_test.cpp.s
+
 tests/candle_test.obj: tests/candle_test.cpp.obj
 .PHONY : tests/candle_test.obj
 
@@ -495,6 +1342,30 @@ tests/candle_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\candle_test.dir\build.make CMakeFiles/candle_test.dir/tests/candle_test.cpp.s
 .PHONY : tests/candle_test.cpp.s
 
+tests/cointegration_test.obj: tests/cointegration_test.cpp.obj
+.PHONY : tests/cointegration_test.obj
+
+# target to build an object file
+tests/cointegration_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cointegration_test.dir\build.make CMakeFiles/cointegration_test.dir/tests/cointegration_test.cpp.obj
+.PHONY : tests/cointegration_test.cpp.obj
+
+tests/cointegration_test.i: tests/cointegration_test.cpp.i
+.PHONY : tests/cointegration_test.i
+
+# target to preprocess a source file
+tests/cointegration_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cointegration_test.dir\build.make CMakeFiles/cointegration_test.dir/tests/cointegration_test.cpp.i
+.PHONY : tests/cointegration_test.cpp.i
+
+tests/cointegration_test.s: tests/cointegration_test.cpp.s
+.PHONY : tests/cointegration_test.s
+
+# target to generate assembly for a file
+tests/cointegration_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cointegration_test.dir\build.make CMakeFiles/cointegration_test.dir/tests/cointegration_test.cpp.s
+.PHONY : tests/cointegration_test.cpp.s
+
 tests/covariance_test.obj: tests/covariance_test.cpp.obj
 .PHONY : tests/covariance_test.obj
 
@@ -518,6 +1389,174 @@ tests/covariance_test.s: tests/covariance_test.cpp.s
 tests/covariance_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\covariance_test.dir\build.make CMakeFiles/covariance_test.dir/tests/covariance_test.cpp.s
 .PHONY : tests/covariance_test.cpp.s
+
+tests/csv_reader_test.obj: tests/csv_reader_test.cpp.obj
+.PHONY : tests/csv_reader_test.obj
+
+# target to build an object file
+tests/csv_reader_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csv_reader_test.dir\build.make CMakeFiles/csv_reader_test.dir/tests/csv_reader_test.cpp.obj
+.PHONY : tests/csv_reader_test.cpp.obj
+
+tests/csv_reader_test.i: tests/csv_reader_test.cpp.i
+.PHONY : tests/csv_reader_test.i
+
+# target to preprocess a source file
+tests/csv_reader_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csv_reader_test.dir\build.make CMakeFiles/csv_reader_test.dir/tests/csv_reader_test.cpp.i
+.PHONY : tests/csv_reader_test.cpp.i
+
+tests/csv_reader_test.s: tests/csv_reader_test.cpp.s
+.PHONY : tests/csv_reader_test.s
+
+# target to generate assembly for a file
+tests/csv_reader_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csv_reader_test.dir\build.make CMakeFiles/csv_reader_test.dir/tests/csv_reader_test.cpp.s
+.PHONY : tests/csv_reader_test.cpp.s
+
+tests/dickey_fuller_test.obj: tests/dickey_fuller_test.cpp.obj
+.PHONY : tests/dickey_fuller_test.obj
+
+# target to build an object file
+tests/dickey_fuller_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dickey_fuller_test.dir\build.make CMakeFiles/dickey_fuller_test.dir/tests/dickey_fuller_test.cpp.obj
+.PHONY : tests/dickey_fuller_test.cpp.obj
+
+tests/dickey_fuller_test.i: tests/dickey_fuller_test.cpp.i
+.PHONY : tests/dickey_fuller_test.i
+
+# target to preprocess a source file
+tests/dickey_fuller_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dickey_fuller_test.dir\build.make CMakeFiles/dickey_fuller_test.dir/tests/dickey_fuller_test.cpp.i
+.PHONY : tests/dickey_fuller_test.cpp.i
+
+tests/dickey_fuller_test.s: tests/dickey_fuller_test.cpp.s
+.PHONY : tests/dickey_fuller_test.s
+
+# target to generate assembly for a file
+tests/dickey_fuller_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dickey_fuller_test.dir\build.make CMakeFiles/dickey_fuller_test.dir/tests/dickey_fuller_test.cpp.s
+.PHONY : tests/dickey_fuller_test.cpp.s
+
+tests/pair_position_test.obj: tests/pair_position_test.cpp.obj
+.PHONY : tests/pair_position_test.obj
+
+# target to build an object file
+tests/pair_position_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pair_position_test.dir\build.make CMakeFiles/pair_position_test.dir/tests/pair_position_test.cpp.obj
+.PHONY : tests/pair_position_test.cpp.obj
+
+tests/pair_position_test.i: tests/pair_position_test.cpp.i
+.PHONY : tests/pair_position_test.i
+
+# target to preprocess a source file
+tests/pair_position_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pair_position_test.dir\build.make CMakeFiles/pair_position_test.dir/tests/pair_position_test.cpp.i
+.PHONY : tests/pair_position_test.cpp.i
+
+tests/pair_position_test.s: tests/pair_position_test.cpp.s
+.PHONY : tests/pair_position_test.s
+
+# target to generate assembly for a file
+tests/pair_position_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pair_position_test.dir\build.make CMakeFiles/pair_position_test.dir/tests/pair_position_test.cpp.s
+.PHONY : tests/pair_position_test.cpp.s
+
+tests/pairs_signal_test.obj: tests/pairs_signal_test.cpp.obj
+.PHONY : tests/pairs_signal_test.obj
+
+# target to build an object file
+tests/pairs_signal_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pairs_signal_test.dir\build.make CMakeFiles/pairs_signal_test.dir/tests/pairs_signal_test.cpp.obj
+.PHONY : tests/pairs_signal_test.cpp.obj
+
+tests/pairs_signal_test.i: tests/pairs_signal_test.cpp.i
+.PHONY : tests/pairs_signal_test.i
+
+# target to preprocess a source file
+tests/pairs_signal_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pairs_signal_test.dir\build.make CMakeFiles/pairs_signal_test.dir/tests/pairs_signal_test.cpp.i
+.PHONY : tests/pairs_signal_test.cpp.i
+
+tests/pairs_signal_test.s: tests/pairs_signal_test.cpp.s
+.PHONY : tests/pairs_signal_test.s
+
+# target to generate assembly for a file
+tests/pairs_signal_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pairs_signal_test.dir\build.make CMakeFiles/pairs_signal_test.dir/tests/pairs_signal_test.cpp.s
+.PHONY : tests/pairs_signal_test.cpp.s
+
+tests/parameter_grid_test.obj: tests/parameter_grid_test.cpp.obj
+.PHONY : tests/parameter_grid_test.obj
+
+# target to build an object file
+tests/parameter_grid_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parameter_grid_test.dir\build.make CMakeFiles/parameter_grid_test.dir/tests/parameter_grid_test.cpp.obj
+.PHONY : tests/parameter_grid_test.cpp.obj
+
+tests/parameter_grid_test.i: tests/parameter_grid_test.cpp.i
+.PHONY : tests/parameter_grid_test.i
+
+# target to preprocess a source file
+tests/parameter_grid_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parameter_grid_test.dir\build.make CMakeFiles/parameter_grid_test.dir/tests/parameter_grid_test.cpp.i
+.PHONY : tests/parameter_grid_test.cpp.i
+
+tests/parameter_grid_test.s: tests/parameter_grid_test.cpp.s
+.PHONY : tests/parameter_grid_test.s
+
+# target to generate assembly for a file
+tests/parameter_grid_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parameter_grid_test.dir\build.make CMakeFiles/parameter_grid_test.dir/tests/parameter_grid_test.cpp.s
+.PHONY : tests/parameter_grid_test.cpp.s
+
+tests/performance_test.obj: tests/performance_test.cpp.obj
+.PHONY : tests/performance_test.obj
+
+# target to build an object file
+tests/performance_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\performance_test.dir\build.make CMakeFiles/performance_test.dir/tests/performance_test.cpp.obj
+.PHONY : tests/performance_test.cpp.obj
+
+tests/performance_test.i: tests/performance_test.cpp.i
+.PHONY : tests/performance_test.i
+
+# target to preprocess a source file
+tests/performance_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\performance_test.dir\build.make CMakeFiles/performance_test.dir/tests/performance_test.cpp.i
+.PHONY : tests/performance_test.cpp.i
+
+tests/performance_test.s: tests/performance_test.cpp.s
+.PHONY : tests/performance_test.s
+
+# target to generate assembly for a file
+tests/performance_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\performance_test.dir\build.make CMakeFiles/performance_test.dir/tests/performance_test.cpp.s
+.PHONY : tests/performance_test.cpp.s
+
+tests/pnl_test.obj: tests/pnl_test.cpp.obj
+.PHONY : tests/pnl_test.obj
+
+# target to build an object file
+tests/pnl_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pnl_test.dir\build.make CMakeFiles/pnl_test.dir/tests/pnl_test.cpp.obj
+.PHONY : tests/pnl_test.cpp.obj
+
+tests/pnl_test.i: tests/pnl_test.cpp.i
+.PHONY : tests/pnl_test.i
+
+# target to preprocess a source file
+tests/pnl_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pnl_test.dir\build.make CMakeFiles/pnl_test.dir/tests/pnl_test.cpp.i
+.PHONY : tests/pnl_test.cpp.i
+
+tests/pnl_test.s: tests/pnl_test.cpp.s
+.PHONY : tests/pnl_test.s
+
+# target to generate assembly for a file
+tests/pnl_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pnl_test.dir\build.make CMakeFiles/pnl_test.dir/tests/pnl_test.cpp.s
+.PHONY : tests/pnl_test.cpp.s
 
 tests/regression_test.obj: tests/regression_test.cpp.obj
 .PHONY : tests/regression_test.obj
@@ -591,6 +1630,78 @@ tests/returns_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\returns_test.dir\build.make CMakeFiles/returns_test.dir/tests/returns_test.cpp.s
 .PHONY : tests/returns_test.cpp.s
 
+tests/rolling_regression_test.obj: tests/rolling_regression_test.cpp.obj
+.PHONY : tests/rolling_regression_test.obj
+
+# target to build an object file
+tests/rolling_regression_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_regression_test.dir\build.make CMakeFiles/rolling_regression_test.dir/tests/rolling_regression_test.cpp.obj
+.PHONY : tests/rolling_regression_test.cpp.obj
+
+tests/rolling_regression_test.i: tests/rolling_regression_test.cpp.i
+.PHONY : tests/rolling_regression_test.i
+
+# target to preprocess a source file
+tests/rolling_regression_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_regression_test.dir\build.make CMakeFiles/rolling_regression_test.dir/tests/rolling_regression_test.cpp.i
+.PHONY : tests/rolling_regression_test.cpp.i
+
+tests/rolling_regression_test.s: tests/rolling_regression_test.cpp.s
+.PHONY : tests/rolling_regression_test.s
+
+# target to generate assembly for a file
+tests/rolling_regression_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_regression_test.dir\build.make CMakeFiles/rolling_regression_test.dir/tests/rolling_regression_test.cpp.s
+.PHONY : tests/rolling_regression_test.cpp.s
+
+tests/rolling_spread_test.obj: tests/rolling_spread_test.cpp.obj
+.PHONY : tests/rolling_spread_test.obj
+
+# target to build an object file
+tests/rolling_spread_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_spread_test.dir\build.make CMakeFiles/rolling_spread_test.dir/tests/rolling_spread_test.cpp.obj
+.PHONY : tests/rolling_spread_test.cpp.obj
+
+tests/rolling_spread_test.i: tests/rolling_spread_test.cpp.i
+.PHONY : tests/rolling_spread_test.i
+
+# target to preprocess a source file
+tests/rolling_spread_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_spread_test.dir\build.make CMakeFiles/rolling_spread_test.dir/tests/rolling_spread_test.cpp.i
+.PHONY : tests/rolling_spread_test.cpp.i
+
+tests/rolling_spread_test.s: tests/rolling_spread_test.cpp.s
+.PHONY : tests/rolling_spread_test.s
+
+# target to generate assembly for a file
+tests/rolling_spread_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_spread_test.dir\build.make CMakeFiles/rolling_spread_test.dir/tests/rolling_spread_test.cpp.s
+.PHONY : tests/rolling_spread_test.cpp.s
+
+tests/rolling_zscore_test.obj: tests/rolling_zscore_test.cpp.obj
+.PHONY : tests/rolling_zscore_test.obj
+
+# target to build an object file
+tests/rolling_zscore_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_zscore_test.dir\build.make CMakeFiles/rolling_zscore_test.dir/tests/rolling_zscore_test.cpp.obj
+.PHONY : tests/rolling_zscore_test.cpp.obj
+
+tests/rolling_zscore_test.i: tests/rolling_zscore_test.cpp.i
+.PHONY : tests/rolling_zscore_test.i
+
+# target to preprocess a source file
+tests/rolling_zscore_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_zscore_test.dir\build.make CMakeFiles/rolling_zscore_test.dir/tests/rolling_zscore_test.cpp.i
+.PHONY : tests/rolling_zscore_test.cpp.i
+
+tests/rolling_zscore_test.s: tests/rolling_zscore_test.cpp.s
+.PHONY : tests/rolling_zscore_test.s
+
+# target to generate assembly for a file
+tests/rolling_zscore_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rolling_zscore_test.dir\build.make CMakeFiles/rolling_zscore_test.dir/tests/rolling_zscore_test.cpp.s
+.PHONY : tests/rolling_zscore_test.cpp.s
+
 tests/stationarity_test.obj: tests/stationarity_test.cpp.obj
 .PHONY : tests/stationarity_test.obj
 
@@ -663,6 +1774,102 @@ tests/time_series_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\time_series_test.dir\build.make CMakeFiles/time_series_test.dir/tests/time_series_test.cpp.s
 .PHONY : tests/time_series_test.cpp.s
 
+tests/trades_test.obj: tests/trades_test.cpp.obj
+.PHONY : tests/trades_test.obj
+
+# target to build an object file
+tests/trades_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trades_test.dir\build.make CMakeFiles/trades_test.dir/tests/trades_test.cpp.obj
+.PHONY : tests/trades_test.cpp.obj
+
+tests/trades_test.i: tests/trades_test.cpp.i
+.PHONY : tests/trades_test.i
+
+# target to preprocess a source file
+tests/trades_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trades_test.dir\build.make CMakeFiles/trades_test.dir/tests/trades_test.cpp.i
+.PHONY : tests/trades_test.cpp.i
+
+tests/trades_test.s: tests/trades_test.cpp.s
+.PHONY : tests/trades_test.s
+
+# target to generate assembly for a file
+tests/trades_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trades_test.dir\build.make CMakeFiles/trades_test.dir/tests/trades_test.cpp.s
+.PHONY : tests/trades_test.cpp.s
+
+tests/transaction_cost_test.obj: tests/transaction_cost_test.cpp.obj
+.PHONY : tests/transaction_cost_test.obj
+
+# target to build an object file
+tests/transaction_cost_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\transaction_cost_test.dir\build.make CMakeFiles/transaction_cost_test.dir/tests/transaction_cost_test.cpp.obj
+.PHONY : tests/transaction_cost_test.cpp.obj
+
+tests/transaction_cost_test.i: tests/transaction_cost_test.cpp.i
+.PHONY : tests/transaction_cost_test.i
+
+# target to preprocess a source file
+tests/transaction_cost_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\transaction_cost_test.dir\build.make CMakeFiles/transaction_cost_test.dir/tests/transaction_cost_test.cpp.i
+.PHONY : tests/transaction_cost_test.cpp.i
+
+tests/transaction_cost_test.s: tests/transaction_cost_test.cpp.s
+.PHONY : tests/transaction_cost_test.s
+
+# target to generate assembly for a file
+tests/transaction_cost_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\transaction_cost_test.dir\build.make CMakeFiles/transaction_cost_test.dir/tests/transaction_cost_test.cpp.s
+.PHONY : tests/transaction_cost_test.cpp.s
+
+tests/unit_root_test.obj: tests/unit_root_test.cpp.obj
+.PHONY : tests/unit_root_test.obj
+
+# target to build an object file
+tests/unit_root_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_root_test.dir\build.make CMakeFiles/unit_root_test.dir/tests/unit_root_test.cpp.obj
+.PHONY : tests/unit_root_test.cpp.obj
+
+tests/unit_root_test.i: tests/unit_root_test.cpp.i
+.PHONY : tests/unit_root_test.i
+
+# target to preprocess a source file
+tests/unit_root_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_root_test.dir\build.make CMakeFiles/unit_root_test.dir/tests/unit_root_test.cpp.i
+.PHONY : tests/unit_root_test.cpp.i
+
+tests/unit_root_test.s: tests/unit_root_test.cpp.s
+.PHONY : tests/unit_root_test.s
+
+# target to generate assembly for a file
+tests/unit_root_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_root_test.dir\build.make CMakeFiles/unit_root_test.dir/tests/unit_root_test.cpp.s
+.PHONY : tests/unit_root_test.cpp.s
+
+tests/validation_test.obj: tests/validation_test.cpp.obj
+.PHONY : tests/validation_test.obj
+
+# target to build an object file
+tests/validation_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validation_test.dir\build.make CMakeFiles/validation_test.dir/tests/validation_test.cpp.obj
+.PHONY : tests/validation_test.cpp.obj
+
+tests/validation_test.i: tests/validation_test.cpp.i
+.PHONY : tests/validation_test.i
+
+# target to preprocess a source file
+tests/validation_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validation_test.dir\build.make CMakeFiles/validation_test.dir/tests/validation_test.cpp.i
+.PHONY : tests/validation_test.cpp.i
+
+tests/validation_test.s: tests/validation_test.cpp.s
+.PHONY : tests/validation_test.s
+
+# target to generate assembly for a file
+tests/validation_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\validation_test.dir\build.make CMakeFiles/validation_test.dir/tests/validation_test.cpp.s
+.PHONY : tests/validation_test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -672,22 +1879,83 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... adf_inference_test
+	@echo ... adf_test
+	@echo ... alignment_test
+	@echo ... backtest_test
 	@echo ... candle_test
+	@echo ... cointegration_test
 	@echo ... covariance_test
+	@echo ... csv_reader_test
+	@echo ... dickey_fuller_test
+	@echo ... pair_position_test
+	@echo ... pairs_signal_test
+	@echo ... parameter_grid_test
+	@echo ... performance_test
+	@echo ... pnl_test
 	@echo ... quantlab
 	@echo ... regression_test
 	@echo ... research
 	@echo ... residuals_test
 	@echo ... returns_test
+	@echo ... rolling_regression_test
+	@echo ... rolling_spread_test
+	@echo ... rolling_zscore_test
 	@echo ... stationarity_test
 	@echo ... statistics_test
 	@echo ... time_series_test
+	@echo ... trades_test
+	@echo ... transaction_cost_test
+	@echo ... unit_root_test
+	@echo ... validation_test
 	@echo ... applications/research/main.obj
 	@echo ... applications/research/main.i
 	@echo ... applications/research/main.s
+	@echo ... src/adf.obj
+	@echo ... src/adf.i
+	@echo ... src/adf.s
+	@echo ... src/adf_inference.obj
+	@echo ... src/adf_inference.i
+	@echo ... src/adf_inference.s
+	@echo ... src/aligned_series.obj
+	@echo ... src/aligned_series.i
+	@echo ... src/aligned_series.s
+	@echo ... src/alignment.obj
+	@echo ... src/alignment.i
+	@echo ... src/alignment.s
+	@echo ... src/backtest.obj
+	@echo ... src/backtest.i
+	@echo ... src/backtest.s
 	@echo ... src/candle.obj
 	@echo ... src/candle.i
 	@echo ... src/candle.s
+	@echo ... src/cointegration.obj
+	@echo ... src/cointegration.i
+	@echo ... src/cointegration.s
+	@echo ... src/csv_reader.obj
+	@echo ... src/csv_reader.i
+	@echo ... src/csv_reader.s
+	@echo ... src/dickey_fuller.obj
+	@echo ... src/dickey_fuller.i
+	@echo ... src/dickey_fuller.s
+	@echo ... src/pair_position.obj
+	@echo ... src/pair_position.i
+	@echo ... src/pair_position.s
+	@echo ... src/pairs_research.obj
+	@echo ... src/pairs_research.i
+	@echo ... src/pairs_research.s
+	@echo ... src/pairs_signal.obj
+	@echo ... src/pairs_signal.i
+	@echo ... src/pairs_signal.s
+	@echo ... src/parameter_grid.obj
+	@echo ... src/parameter_grid.i
+	@echo ... src/parameter_grid.s
+	@echo ... src/performance.obj
+	@echo ... src/performance.i
+	@echo ... src/performance.s
+	@echo ... src/pnl.obj
+	@echo ... src/pnl.i
+	@echo ... src/pnl.s
 	@echo ... src/regression.obj
 	@echo ... src/regression.i
 	@echo ... src/regression.s
@@ -697,6 +1965,15 @@ help:
 	@echo ... src/returns.obj
 	@echo ... src/returns.i
 	@echo ... src/returns.s
+	@echo ... src/rolling_regression.obj
+	@echo ... src/rolling_regression.i
+	@echo ... src/rolling_regression.s
+	@echo ... src/rolling_spread.obj
+	@echo ... src/rolling_spread.i
+	@echo ... src/rolling_spread.s
+	@echo ... src/rolling_zscore.obj
+	@echo ... src/rolling_zscore.i
+	@echo ... src/rolling_zscore.s
 	@echo ... src/series.obj
 	@echo ... src/series.i
 	@echo ... src/series.s
@@ -709,12 +1986,60 @@ help:
 	@echo ... src/time_series.obj
 	@echo ... src/time_series.i
 	@echo ... src/time_series.s
+	@echo ... src/trades.obj
+	@echo ... src/trades.i
+	@echo ... src/trades.s
+	@echo ... src/transaction_cost.obj
+	@echo ... src/transaction_cost.i
+	@echo ... src/transaction_cost.s
+	@echo ... src/unit_root.obj
+	@echo ... src/unit_root.i
+	@echo ... src/unit_root.s
+	@echo ... src/validation.obj
+	@echo ... src/validation.i
+	@echo ... src/validation.s
+	@echo ... tests/adf_inference_test.obj
+	@echo ... tests/adf_inference_test.i
+	@echo ... tests/adf_inference_test.s
+	@echo ... tests/adf_test.obj
+	@echo ... tests/adf_test.i
+	@echo ... tests/adf_test.s
+	@echo ... tests/alignment_test.obj
+	@echo ... tests/alignment_test.i
+	@echo ... tests/alignment_test.s
+	@echo ... tests/backtest_test.obj
+	@echo ... tests/backtest_test.i
+	@echo ... tests/backtest_test.s
 	@echo ... tests/candle_test.obj
 	@echo ... tests/candle_test.i
 	@echo ... tests/candle_test.s
+	@echo ... tests/cointegration_test.obj
+	@echo ... tests/cointegration_test.i
+	@echo ... tests/cointegration_test.s
 	@echo ... tests/covariance_test.obj
 	@echo ... tests/covariance_test.i
 	@echo ... tests/covariance_test.s
+	@echo ... tests/csv_reader_test.obj
+	@echo ... tests/csv_reader_test.i
+	@echo ... tests/csv_reader_test.s
+	@echo ... tests/dickey_fuller_test.obj
+	@echo ... tests/dickey_fuller_test.i
+	@echo ... tests/dickey_fuller_test.s
+	@echo ... tests/pair_position_test.obj
+	@echo ... tests/pair_position_test.i
+	@echo ... tests/pair_position_test.s
+	@echo ... tests/pairs_signal_test.obj
+	@echo ... tests/pairs_signal_test.i
+	@echo ... tests/pairs_signal_test.s
+	@echo ... tests/parameter_grid_test.obj
+	@echo ... tests/parameter_grid_test.i
+	@echo ... tests/parameter_grid_test.s
+	@echo ... tests/performance_test.obj
+	@echo ... tests/performance_test.i
+	@echo ... tests/performance_test.s
+	@echo ... tests/pnl_test.obj
+	@echo ... tests/pnl_test.i
+	@echo ... tests/pnl_test.s
 	@echo ... tests/regression_test.obj
 	@echo ... tests/regression_test.i
 	@echo ... tests/regression_test.s
@@ -724,6 +2049,15 @@ help:
 	@echo ... tests/returns_test.obj
 	@echo ... tests/returns_test.i
 	@echo ... tests/returns_test.s
+	@echo ... tests/rolling_regression_test.obj
+	@echo ... tests/rolling_regression_test.i
+	@echo ... tests/rolling_regression_test.s
+	@echo ... tests/rolling_spread_test.obj
+	@echo ... tests/rolling_spread_test.i
+	@echo ... tests/rolling_spread_test.s
+	@echo ... tests/rolling_zscore_test.obj
+	@echo ... tests/rolling_zscore_test.i
+	@echo ... tests/rolling_zscore_test.s
 	@echo ... tests/stationarity_test.obj
 	@echo ... tests/stationarity_test.i
 	@echo ... tests/stationarity_test.s
@@ -733,6 +2067,18 @@ help:
 	@echo ... tests/time_series_test.obj
 	@echo ... tests/time_series_test.i
 	@echo ... tests/time_series_test.s
+	@echo ... tests/trades_test.obj
+	@echo ... tests/trades_test.i
+	@echo ... tests/trades_test.s
+	@echo ... tests/transaction_cost_test.obj
+	@echo ... tests/transaction_cost_test.i
+	@echo ... tests/transaction_cost_test.s
+	@echo ... tests/unit_root_test.obj
+	@echo ... tests/unit_root_test.i
+	@echo ... tests/unit_root_test.s
+	@echo ... tests/validation_test.obj
+	@echo ... tests/validation_test.i
+	@echo ... tests/validation_test.s
 .PHONY : help
 
 
