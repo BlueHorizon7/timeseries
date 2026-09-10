@@ -40,6 +40,7 @@ add_library(quantlab
     src/parameter_grid.cpp
     src/trades.cpp
     src/data_validation.cpp
+    src/yahoo_csv.cpp
 )
 
 target_include_directories(quantlab
@@ -419,4 +420,12 @@ target_link_libraries(data_validation_test
 add_test(
     NAME data_validation_test
     COMMAND data_validation_test
+)
+
+add_executable(pairs_research
+    applications/pairs_research.cpp
+)
+
+target_link_libraries(pairs_research
+    PRIVATE quantlab
 )

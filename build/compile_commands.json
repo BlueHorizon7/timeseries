@@ -181,6 +181,12 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\yahoo_csv.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\yahoo_csv.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/yahoo_csv.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/yahoo_csv.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -352,5 +358,11 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\data_validation_test.dir\\tests\\data_validation_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\data_validation_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/data_validation_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/data_validation_test.dir/tests/data_validation_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\pairs_research.dir\\applications\\pairs_research.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\pairs_research.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/applications/pairs_research.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pairs_research.dir/applications/pairs_research.cpp.obj"
 }
 ]

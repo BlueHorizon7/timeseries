@@ -28,6 +28,7 @@ C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/validation_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/parameter_grid_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/trades_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/data_validation_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pairs_research.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/edit_cache.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rebuild_cache.dir

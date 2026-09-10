@@ -1,66 +1,86 @@
 #include "quant/data/csv_reader.hpp"
 
+#include <algorithm>
+#include <cstdint>
 #include <fstream>
+#include <iomanip>
 #include <sstream>
 #include <stdexcept>
 #include <string>
+#include <vector>
 
 namespace quant::data {
 
 namespace {
 
-double parse_double(
-    const std::string& value,
-    const std::string& field,
-    std::size_t line_number
+std::int64_t parse_timestamp(
+    const std::string& text
 ) {
-    try {
+    // Canonical QuantLab format:
+    // 1726358400
+    if (text.find('-') == std::string::npos) {
         std::size_t position = 0;
 
-        const double result =
-            std::stod(value, &position);
+        const auto timestamp =
+            std::stoll(text, &position);
 
-        if (position != value.size()) {
+        if (position != text.size()) {
             throw std::invalid_argument(
-                "Trailing characters"
+                "Invalid timestamp: " + text
             );
         }
 
-        return result;
+        return timestamp;
     }
-    catch (const std::exception&) {
+
+    // Alpha Vantage format:
+    // 2026-09-09
+    std::tm tm{};
+
+    std::istringstream stream(text);
+
+    stream >> std::get_time(
+        &tm,
+        "%Y-%m-%d"
+    );
+
+    if (stream.fail()) {
         throw std::invalid_argument(
-            "Invalid " + field +
-            " at CSV line " +
-            std::to_string(line_number)
+            "Invalid date: " + text
         );
     }
+
+    tm.tm_hour = 0;
+    tm.tm_min = 0;
+    tm.tm_sec = 0;
+
+#ifdef _WIN32
+    return static_cast<std::int64_t>(
+        _mkgmtime(&tm)
+    );
+#else
+    return static_cast<std::int64_t>(
+        timegm(&tm)
+    );
+#endif
 }
 
-std::int64_t parse_timestamp(
-    const std::string& value,
-    std::size_t line_number
+double parse_double(
+    const std::string& text,
+    const std::string& field
 ) {
-    try {
-        std::size_t position = 0;
+    std::size_t position = 0;
 
-        const auto result =
-            std::stoll(value, &position);
+    const double value =
+        std::stod(text, &position);
 
-        if (position != value.size()) {
-            throw std::invalid_argument(
-                "Trailing characters"
-            );
-        }
-
-        return result;
-    }
-    catch (const std::exception&) {
+    if (position != text.size()) {
         throw std::invalid_argument(
-            "Invalid timestamp at CSV line " +
-            std::to_string(line_number)
+            "Invalid " + field + ": " + text
         );
     }
+
+    return value;
 }
 
 } // namespace
@@ -68,40 +88,40 @@ std::int64_t parse_timestamp(
 TimeSeries read_candles_csv(
     const std::string& filename
 ) {
-    std::ifstream file(filename);
+    std::ifstream input(filename);
 
-    if (!file) {
+    if (!input) {
         throw std::runtime_error(
-            "Unable to open CSV file: " + filename
+            "Unable to open CSV: " + filename
         );
     }
 
-    TimeSeries result;
-
     std::string line;
-    std::size_t line_number = 0;
 
-    /*
-     * Read header.
-     */
-    if (!std::getline(file, line)) {
+    if (!std::getline(input, line)) {
         throw std::invalid_argument(
             "CSV file is empty"
         );
     }
 
-    ++line_number;
+    if (line !=
+        "timestamp,open,high,low,close,volume") {
 
-    const std::string expected_header =
-        "timestamp,open,high,low,close,volume";
-
-    if (line != expected_header) {
         throw std::invalid_argument(
-            "Unexpected CSV header"
+            "Unexpected CSV header in: " +
+            filename
         );
     }
 
-    while (std::getline(file, line)) {
+    struct ParsedCandle {
+        Candle candle;
+    };
+
+    std::vector<ParsedCandle> rows;
+
+    std::size_t line_number = 1;
+
+    while (std::getline(input, line)) {
         ++line_number;
 
         if (line.empty()) {
@@ -109,72 +129,76 @@ TimeSeries read_candles_csv(
         }
 
         std::stringstream stream(line);
-        std::string field;
 
-        std::vector<std::string> fields;
+        std::string timestamp;
+        std::string open;
+        std::string high;
+        std::string low;
+        std::string close;
+        std::string volume;
 
-        while (std::getline(stream, field, ',')) {
-            fields.push_back(field);
-        }
+        if (!std::getline(stream, timestamp, ',') ||
+            !std::getline(stream, open, ',') ||
+            !std::getline(stream, high, ',') ||
+            !std::getline(stream, low, ',') ||
+            !std::getline(stream, close, ',') ||
+            !std::getline(stream, volume, ',')) {
 
-        if (fields.size() != 6) {
             throw std::invalid_argument(
-                "Expected 6 fields at CSV line " +
+                "Malformed CSV at line " +
                 std::to_string(line_number)
             );
         }
 
-        const std::int64_t timestamp =
-            parse_timestamp(
-                fields[0],
-                line_number
+        try {
+            rows.push_back(
+                ParsedCandle{
+                    Candle{
+                        parse_timestamp(timestamp),
+                        parse_double(open, "open"),
+                        parse_double(high, "high"),
+                        parse_double(low, "low"),
+                        parse_double(close, "close"),
+                        parse_double(volume, "volume")
+                    }
+                }
             );
-
-        const double open =
-            parse_double(
-                fields[1],
-                "open",
-                line_number
+        }
+        catch (const std::exception& error) {
+            throw std::invalid_argument(
+                "Invalid CSV at line " +
+                std::to_string(line_number) +
+                ": " +
+                error.what()
             );
+        }
+    }
 
-        const double high =
-            parse_double(
-                fields[2],
-                "high",
-                line_number
-            );
-
-        const double low =
-            parse_double(
-                fields[3],
-                "low",
-                line_number
-            );
-
-        const double close =
-            parse_double(
-                fields[4],
-                "close",
-                line_number
-            );
-
-        const double volume =
-            parse_double(
-                fields[5],
-                "volume",
-                line_number
-            );
-
-        result.add(
-            Candle{
-                timestamp,
-                open,
-                high,
-                low,
-                close,
-                volume
-            }
+    if (rows.empty()) {
+        throw std::invalid_argument(
+            "CSV contains no observations"
         );
+    }
+
+    // Alpha Vantage returns newest -> oldest.
+    // QuantLab requires oldest -> newest.
+    std::sort(
+        rows.begin(),
+        rows.end(),
+        [](const ParsedCandle& lhs,
+           const ParsedCandle& rhs) {
+
+            return lhs.candle.timestamp <
+                   rhs.candle.timestamp;
+        }
+    );
+
+    TimeSeries result;
+
+    result.reserve(rows.size());
+
+    for (const auto& row : rows) {
+        result.add(row.candle);
     }
 
     return result;

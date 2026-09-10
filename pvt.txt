@@ -1,0 +1,5 @@
+H7WO36ELK0VLB5CY
+
+URL:
+
+https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=PEP&outputsize=compact&datatype=csv&apikey=H7WO36ELK0VLB5CY&utm_source=chatgpt.com
