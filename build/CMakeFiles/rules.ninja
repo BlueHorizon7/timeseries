@@ -24,7 +24,7 @@ rule CXX_SCAN__quantlab_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__quantlab_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\quantlab.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\quantlab.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -55,7 +55,7 @@ rule CXX_COMPILER__quantlab_unscanned_Debug
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER__quantlab_Debug
-  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && "C:\Program Files\CMake\bin\cmake.exe" -E rm -f $TARGET_FILE && C:\w64devkit\bin\ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\w64devkit\bin\ranlib.exe $TARGET_FILE && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\w64devkit\bin\cmake.exe -E rm -f $TARGET_FILE && C:\w64devkit\bin\ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\w64devkit\bin\ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
 
@@ -73,7 +73,7 @@ rule CXX_SCAN__research_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__research_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\research.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\research.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -122,7 +122,7 @@ rule CXX_SCAN__candle_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__candle_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\candle_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\candle_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -171,7 +171,7 @@ rule CXX_SCAN__time_series_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__time_series_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\time_series_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\time_series_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -220,7 +220,7 @@ rule CXX_SCAN__returns_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__returns_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\returns_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\returns_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -269,7 +269,7 @@ rule CXX_SCAN__statistics_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__statistics_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\statistics_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\statistics_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -318,7 +318,7 @@ rule CXX_SCAN__covariance_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__covariance_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\covariance_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\covariance_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -367,7 +367,7 @@ rule CXX_SCAN__regression_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__regression_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\regression_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\regression_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -416,7 +416,7 @@ rule CXX_SCAN__stationarity_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__stationarity_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\stationarity_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\stationarity_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -465,7 +465,7 @@ rule CXX_SCAN__residuals_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__residuals_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\residuals_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\residuals_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -514,7 +514,7 @@ rule CXX_SCAN__dickey_fuller_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__dickey_fuller_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\dickey_fuller_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\dickey_fuller_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -563,7 +563,7 @@ rule CXX_SCAN__unit_root_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__unit_root_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\unit_root_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\unit_root_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -612,7 +612,7 @@ rule CXX_SCAN__adf_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__adf_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\adf_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\adf_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -661,7 +661,7 @@ rule CXX_SCAN__adf_inference_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__adf_inference_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\adf_inference_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\adf_inference_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -710,7 +710,7 @@ rule CXX_SCAN__cointegration_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__cointegration_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\cointegration_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\cointegration_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -759,7 +759,7 @@ rule CXX_SCAN__rolling_spread_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__rolling_spread_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\rolling_spread_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\rolling_spread_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -808,7 +808,7 @@ rule CXX_SCAN__rolling_regression_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__rolling_regression_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\rolling_regression_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\rolling_regression_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -857,7 +857,7 @@ rule CXX_SCAN__rolling_zscore_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__rolling_zscore_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\rolling_zscore_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\rolling_zscore_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -906,7 +906,7 @@ rule CXX_SCAN__pairs_signal_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__pairs_signal_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\pairs_signal_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\pairs_signal_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -955,7 +955,7 @@ rule CXX_SCAN__pair_position_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__pair_position_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\pair_position_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\pair_position_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1004,7 +1004,7 @@ rule CXX_SCAN__pnl_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__pnl_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\pnl_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\pnl_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1053,7 +1053,7 @@ rule CXX_SCAN__transaction_cost_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__transaction_cost_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\transaction_cost_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\transaction_cost_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1102,7 +1102,7 @@ rule CXX_SCAN__backtest_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__backtest_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\backtest_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\backtest_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1151,7 +1151,7 @@ rule CXX_SCAN__performance_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__performance_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\performance_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\performance_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1200,7 +1200,7 @@ rule CXX_SCAN__csv_reader_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__csv_reader_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\csv_reader_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\csv_reader_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1249,7 +1249,7 @@ rule CXX_SCAN__alignment_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__alignment_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\alignment_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\alignment_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1298,7 +1298,7 @@ rule CXX_SCAN__validation_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__validation_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\validation_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\validation_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1347,7 +1347,7 @@ rule CXX_SCAN__parameter_grid_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__parameter_grid_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\parameter_grid_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\parameter_grid_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1396,7 +1396,7 @@ rule CXX_SCAN__trades_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__trades_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\trades_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\trades_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1445,7 +1445,7 @@ rule CXX_SCAN__data_validation_test_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__data_validation_test_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\data_validation_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\data_validation_test.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1494,7 +1494,7 @@ rule CXX_SCAN__pairs_research_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__pairs_research_Debug
-  command = "C:\Program Files\CMake\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\pairs_research.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\w64devkit\bin\cmake.exe -E cmake_ninja_dyndep --tdi=CMakeFiles\pairs_research.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1542,7 +1542,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\sonu\Desktop\Quant\p1 -BC:\Users\sonu\Desktop\Quant\p1\build
+  command = C:\w64devkit\bin\cmake.exe --regenerate-during-build -SC:\Users\sonu\Desktop\Quant\p1 -BC:\Users\sonu\Desktop\Quant\p1\build
   description = Re-running CMake...
   generator = 1
 
