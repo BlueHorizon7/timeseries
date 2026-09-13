@@ -5,6 +5,7 @@
 #include "quant/strategy/pairs_signal.hpp"
 
 #include <cstddef>
+#include <cstdint>
 #include <vector>
 
 namespace quant::research {
@@ -13,9 +14,11 @@ struct PairsResearchParameters {
     std::size_t hedge_ratio_window{};
     std::size_t zscore_window{};
 
-    quant::strategy::SignalParameters signal_parameters{};
+    quant::strategy::SignalParameters
+        signal_parameters{};
 
-    quant::backtest::BacktestParameters backtest_parameters{};
+    quant::backtest::BacktestParameters
+        backtest_parameters{};
 };
 
 struct PairsResearchResult {
@@ -30,14 +33,15 @@ struct PairsResearchResult {
 
     std::vector<int> signals;
 
-    quant::backtest::BacktestResult backtest;
+    quant::backtest::BacktestResult
+        backtest;
 };
 
 [[nodiscard]]
-PairsResearchResult
-run_pairs_research(
+PairsResearchResult run_pairs_research(
     const quant::data::AlignedSeries& prices,
-    const PairsResearchParameters& parameters
+    const PairsResearchParameters& parameters,
+    std::size_t trading_begin = 0
 );
 
 } // namespace quant::research

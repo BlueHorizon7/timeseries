@@ -41,6 +41,8 @@ add_library(quantlab
     src/trades.cpp
     src/data_validation.cpp
     src/yahoo_csv.cpp
+    src/mackinnon.cpp
+    src/formation.cpp
 )
 
 target_include_directories(quantlab
@@ -428,4 +430,32 @@ add_executable(pairs_research
 
 target_link_libraries(pairs_research
     PRIVATE quantlab
+)
+
+add_executable(mackinnon_test
+    tests/mackinnon_test.cpp
+)
+
+target_link_libraries(mackinnon_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME mackinnon_test
+    COMMAND mackinnon_test
+)
+
+add_executable(
+    formation_test
+    tests/formation_test.cpp
+)
+
+target_link_libraries(
+    formation_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME formation_test
+    COMMAND formation_test
 )

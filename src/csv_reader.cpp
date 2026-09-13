@@ -16,8 +16,7 @@ namespace {
 std::int64_t parse_timestamp(
     const std::string& text
 ) {
-    // Canonical QuantLab format:
-    // 1726358400
+    // Unix timestamp.
     if (text.find('-') == std::string::npos) {
         std::size_t position = 0;
 
@@ -33,8 +32,8 @@ std::int64_t parse_timestamp(
         return timestamp;
     }
 
-    // Alpha Vantage format:
-    // 2026-09-09
+    // Date format:
+    // YYYY-MM-DD
     std::tm tm{};
 
     std::istringstream stream(text);
@@ -104,8 +103,26 @@ TimeSeries read_candles_csv(
         );
     }
 
-    if (line !=
-        "timestamp,open,high,low,close,volume") {
+    /*
+     * QuantLab accepts both:
+     *
+     * timestamp,open,high,low,close,volume
+     *
+     * and the format produced by the yfinance
+     * acquisition pipeline:
+     *
+     * Date,Open,High,Low,Close,Volume
+     */
+    const bool canonical_header =
+        line ==
+        "timestamp,open,high,low,close,volume";
+
+    const bool yfinance_header =
+        line ==
+        "Date,Open,High,Low,Close,Volume";
+
+    if (!canonical_header &&
+        !yfinance_header) {
 
         throw std::invalid_argument(
             "Unexpected CSV header in: " +
@@ -113,11 +130,7 @@ TimeSeries read_candles_csv(
         );
     }
 
-    struct ParsedCandle {
-        Candle candle;
-    };
-
-    std::vector<ParsedCandle> rows;
+    std::vector<Candle> rows;
 
     std::size_t line_number = 1;
 
@@ -142,7 +155,7 @@ TimeSeries read_candles_csv(
             !std::getline(stream, high, ',') ||
             !std::getline(stream, low, ',') ||
             !std::getline(stream, close, ',') ||
-            !std::getline(stream, volume, ',')) {
+            !std::getline(stream, volume)) {
 
             throw std::invalid_argument(
                 "Malformed CSV at line " +
@@ -152,15 +165,13 @@ TimeSeries read_candles_csv(
 
         try {
             rows.push_back(
-                ParsedCandle{
-                    Candle{
-                        parse_timestamp(timestamp),
-                        parse_double(open, "open"),
-                        parse_double(high, "high"),
-                        parse_double(low, "low"),
-                        parse_double(close, "close"),
-                        parse_double(volume, "volume")
-                    }
+                Candle{
+                    parse_timestamp(timestamp),
+                    parse_double(open, "open"),
+                    parse_double(high, "high"),
+                    parse_double(low, "low"),
+                    parse_double(close, "close"),
+                    parse_double(volume, "volume")
                 }
             );
         }
@@ -180,16 +191,21 @@ TimeSeries read_candles_csv(
         );
     }
 
-    // Alpha Vantage returns newest -> oldest.
-    // QuantLab requires oldest -> newest.
+    /*
+     * Some providers return newest -> oldest.
+     *
+     * QuantLab requires:
+     *
+     * t1 < t2 < ... < tn
+     */
     std::sort(
         rows.begin(),
         rows.end(),
-        [](const ParsedCandle& lhs,
-           const ParsedCandle& rhs) {
+        [](const Candle& lhs,
+           const Candle& rhs) {
 
-            return lhs.candle.timestamp <
-                   rhs.candle.timestamp;
+            return lhs.timestamp <
+                   rhs.timestamp;
         }
     );
 
@@ -197,8 +213,8 @@ TimeSeries read_candles_csv(
 
     result.reserve(rows.size());
 
-    for (const auto& row : rows) {
-        result.add(row.candle);
+    for (const auto& candle : rows) {
+        result.add(candle);
     }
 
     return result;

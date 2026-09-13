@@ -5,6 +5,7 @@
 #include "quant/math/rolling_zscore.hpp"
 #include "quant/math/series.hpp"
 
+#include <algorithm>
 #include <cmath>
 #include <stdexcept>
 
@@ -52,15 +53,58 @@ make_y_series(
     return result;
 }
 
+/*
+ * Find the price index corresponding to a timestamp.
+ *
+ * AlignedSeries is strictly increasing in timestamp, so
+ * binary search gives O(log n) lookup.
+ */
+std::size_t find_price_index(
+    const quant::data::AlignedSeries& prices,
+    std::int64_t timestamp
+) {
+    std::size_t left = 0;
+    std::size_t right = prices.size();
+
+    while (left < right) {
+        const std::size_t middle =
+            left + (right - left) / 2;
+
+        if (prices[middle].timestamp < timestamp) {
+            left = middle + 1;
+        } else {
+            right = middle;
+        }
+    }
+
+    if (left >= prices.size() ||
+        prices[left].timestamp != timestamp) {
+
+        throw std::logic_error(
+            "Could not map research timestamp "
+            "to price series"
+        );
+    }
+
+    return left;
+}
+
 } // namespace
 
 PairsResearchResult run_pairs_research(
     const quant::data::AlignedSeries& prices,
-    const PairsResearchParameters& parameters
+    const PairsResearchParameters& parameters,
+    std::size_t trading_begin
 ) {
     if (prices.size() < 3) {
         throw std::invalid_argument(
             "Pairs research requires at least three observations"
+        );
+    }
+
+    if (trading_begin >= prices.size()) {
+        throw std::invalid_argument(
+            "Trading boundary must be inside price series"
         );
     }
 
@@ -76,7 +120,9 @@ PairsResearchResult run_pairs_research(
         );
     }
 
-    if (prices.size() <= parameters.hedge_ratio_window) {
+    if (prices.size() <=
+        parameters.hedge_ratio_window) {
+
         throw std::invalid_argument(
             "Not enough observations for hedge ratio window"
         );
@@ -90,15 +136,21 @@ PairsResearchResult run_pairs_research(
 
     /*
      * ---------------------------------------------------------
-     * 1. Estimate rolling hedge ratios.
+     * 1. Rolling hedge ratios
      * ---------------------------------------------------------
      *
-     * Model:
+     * At timestamp t:
      *
-     *     Y_t = alpha_t + beta_t X_t + epsilon_t
+     *     model_t
      *
-     * The model at t uses observations strictly before t.
+     * is estimated from:
+     *
+     *     [t-window, ..., t-1]
+     *
+     * Therefore observation t is never used to estimate
+     * the model applied at t.
      */
+
     const auto rolling_models =
         quant::math::rolling_ols(
             x,
@@ -108,14 +160,10 @@ PairsResearchResult run_pairs_research(
 
     /*
      * ---------------------------------------------------------
-     * 2. Construct the causal rolling spread.
+     * 2. Causal rolling spread
      * ---------------------------------------------------------
-     *
-     * S_t =
-     *     Y_t - alpha_hat_t - beta_hat_t X_t
-     *
-     * where the parameters were estimated from prior data.
      */
+
     const auto spread =
         quant::math::rolling_spread(
             x,
@@ -125,12 +173,13 @@ PairsResearchResult run_pairs_research(
 
     /*
      * ---------------------------------------------------------
-     * 3. Normalize the spread using a rolling z-score.
+     * 3. Causal rolling z-score
      * ---------------------------------------------------------
      *
-     * The z-score window itself also excludes the current
-     * observation.
+     * rolling_zscore() preserves the timestamp of the
+     * spread observation being evaluated.
      */
+
     const auto zscores =
         quant::math::rolling_zscore(
             spread,
@@ -139,84 +188,162 @@ PairsResearchResult run_pairs_research(
 
     /*
      * ---------------------------------------------------------
-     * 4. Generate stateful trading signals.
+     * 4. Stateful signals
      * ---------------------------------------------------------
      */
+
     const auto signal_series =
         quant::strategy::generate_signals(
             zscores,
             parameters.signal_parameters
         );
 
-    PairsResearchResult result;
-
-    /*
-     * zscores and signal_series have identical timestamps.
-     */
-    const std::size_t n =
-        zscores.size();
-
-    result.timestamps.reserve(n);
-    result.x_prices.reserve(n);
-    result.y_prices.reserve(n);
-    result.hedge_ratios.reserve(n);
-    result.spreads.reserve(n);
-    result.zscores.reserve(n);
-    result.signals.reserve(n);
-
-    /*
-     * rolling_ols starts at index hedge_ratio_window.
-     *
-     * rolling_spread therefore corresponds to:
-     *
-     *     rolling_models[0] -> timestamp hedge_ratio_window
-     *
-     * rolling z-score removes another zscore_window-1
-     * observations before producing its first output.
-     *
-     * Therefore the first z-score corresponds to:
-     *
-     *     rolling_models[zscore_window - 1]
-     */
-    const std::size_t model_offset =
-        parameters.zscore_window - 1;
-
-    if (model_offset >= rolling_models.size()) {
+    if (signal_series.size() != zscores.size()) {
         throw std::logic_error(
-            "Insufficient rolling regression results for z-score series"
+            "Signal and z-score series have different sizes"
         );
     }
 
-    for (std::size_t i = 0; i < n; ++i) {
+    /*
+     * ---------------------------------------------------------
+     * 5. Locate the first tradable z-score using timestamps.
+     * ---------------------------------------------------------
+     *
+     * Do NOT reconstruct the relationship using assumed
+     * vector offsets.
+     *
+     * The timestamp is the source of truth.
+     */
+
+    const auto trading_timestamp =
+        prices[trading_begin].timestamp;
+
+    std::size_t first_zscore_index = 0;
+
+    while (
+        first_zscore_index < zscores.size() &&
+        zscores[first_zscore_index].timestamp <
+            trading_timestamp
+    ) {
+        ++first_zscore_index;
+    }
+
+    if (first_zscore_index >= zscores.size()) {
+        throw std::invalid_argument(
+            "Trading period begins before the first "
+            "available z-score"
+        );
+    }
+
+    PairsResearchResult result;
+
+    const std::size_t output_size =
+        zscores.size() -
+        first_zscore_index;
+
+    result.timestamps.reserve(output_size);
+    result.x_prices.reserve(output_size);
+    result.y_prices.reserve(output_size);
+    result.hedge_ratios.reserve(output_size);
+    result.spreads.reserve(output_size);
+    result.zscores.reserve(output_size);
+    result.signals.reserve(output_size);
+
+    /*
+     * ---------------------------------------------------------
+     * 6. Assemble research observations.
+     * ---------------------------------------------------------
+     */
+
+    for (std::size_t i = first_zscore_index;
+         i < zscores.size();
+         ++i) {
+
         const auto& zscore =
             zscores[i];
 
         const auto& signal =
             signal_series[i];
 
-        const std::size_t model_index =
-            model_offset + i;
+        const std::int64_t timestamp =
+            zscore.timestamp;
 
-        if (model_index >= rolling_models.size()) {
+        /*
+         * Find the exact aligned price observation
+         * corresponding to this research timestamp.
+         */
+
+        const std::size_t price_index =
+            find_price_index(
+                prices,
+                timestamp
+            );
+
+        /*
+         * Locate the rolling model by its explicit
+         * timestamp index.
+         */
+
+        const auto& model =
+            rolling_models[
+                price_index -
+                parameters.hedge_ratio_window
+            ];
+
+        /*
+         * Verify that the rolling model really belongs
+         * to this price observation.
+         */
+
+        if (model.timestamp_index != price_index) {
             throw std::logic_error(
-                "Rolling model and z-score timestamps are misaligned"
+                "Rolling model index does not match "
+                "research timestamp"
             );
         }
 
-        const std::size_t price_index =
-            parameters.hedge_ratio_window +
-            parameters.zscore_window -
-            1 +
-            i;
+        /*
+         * Find the spread observation corresponding to
+         * the z-score timestamp.
+         *
+         * The rolling spread begins at the same point as
+         * rolling OLS.
+         */
 
-        if (price_index >= prices.size()) {
+        const std::size_t spread_index =
+            price_index -
+            parameters.hedge_ratio_window;
+
+        if (spread_index >= spread.size()) {
             throw std::logic_error(
-                "Research output exceeds price series"
+                "Spread index exceeds available results"
+            );
+        }
+
+        if (spread[spread_index].timestamp !=
+            timestamp) {
+
+            throw std::logic_error(
+                "Spread timestamp does not match "
+                "z-score timestamp"
+            );
+        }
+
+        /*
+         * Final timestamp invariants.
+         */
+
+        if (prices[price_index].timestamp !=
+            timestamp) {
+
+            throw std::logic_error(
+                "Price timestamp does not match "
+                "z-score timestamp"
             );
         }
 
         result.timestamps.push_back(
-            zscore.timestamp
+            timestamp
         );
 
         result.x_prices.push_back(
@@ -228,13 +355,11 @@ PairsResearchResult run_pairs_research(
         );
 
         result.hedge_ratios.push_back(
-            rolling_models[model_index].model.slope
+            model.model.slope
         );
 
         result.spreads.push_back(
-            spread[
-                parameters.zscore_window - 1 + i
-            ].value
+            spread[spread_index].value
         );
 
         result.zscores.push_back(
@@ -242,26 +367,27 @@ PairsResearchResult run_pairs_research(
         );
 
         result.signals.push_back(
-            static_cast<int>(signal.value)
+            static_cast<int>(
+                signal.value
+            )
         );
     }
 
     if (result.timestamps.size() < 2) {
         throw std::invalid_argument(
-            "Pairs research requires at least two tradable observations"
+            "Pairs research requires at least "
+            "two tradable observations"
         );
     }
 
     /*
-     * Backtest.
+     * ---------------------------------------------------------
+     * 7. Backtest
+     * ---------------------------------------------------------
      *
-     * Signal at t is applied to the interval
-     *
-     *     t -> t+1
-     *
-     * so the current signal never earns the return that
-     * generated that signal.
+     * Signal at t earns the return from t -> t+1.
      */
+
     result.backtest =
         quant::backtest::run_backtest(
             result.timestamps,

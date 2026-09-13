@@ -45,5 +45,22 @@ int main() {
 
     assert(threw);
 
+    {
+    quant::data::TimeSeries series;
+
+    series.add(
+        quant::data::Candle{
+            1,
+            100.0,
+            105.0,
+            95.0,
+            90.0,       // adjusted close
+            1000.0
+        }
+    );
+
+    quant::data::validate_market_data(series);
+}
+
     return 0;
 }

@@ -1,33 +1,40 @@
 #include "quant/data/alignment.hpp"
 #include "quant/data/csv_reader.hpp"
 #include "quant/data/validation.hpp"
-#include "quant/math/cointegration.hpp"
+#include "quant/research/formation.hpp"
 #include "quant/research/pairs_research.hpp"
 #include "quant/risk/performance.hpp"
 
-#include <cmath>
+#include <cstddef>
 #include <exception>
 #include <iomanip>
 #include <iostream>
+#include <algorithm>
+#include <stdexcept>
 #include <string>
 
 int main(int argc, char* argv[]) {
     if (argc != 3) {
         std::cerr
-            << "Usage: pairs_research <asset_x.csv> <asset_y.csv>\n";
+            << "Usage: pairs_research "
+            << "<asset_x.csv> <asset_y.csv>\n";
 
         return 1;
     }
 
     try {
-        const std::string x_filename = argv[1];
-        const std::string y_filename = argv[2];
+        const std::string x_filename =
+            argv[1];
+
+        const std::string y_filename =
+            argv[2];
 
         /*
          * -----------------------------------------------------
-         * 1. Load raw market data.
+         * 1. Load and validate market data.
          * -----------------------------------------------------
          */
+
         const auto x =
             quant::data::read_candles_csv(
                 x_filename
@@ -38,27 +45,24 @@ int main(int argc, char* argv[]) {
                 y_filename
             );
 
-        /*
-         * -----------------------------------------------------
-         * 2. Validate each market-data series.
-         * -----------------------------------------------------
-         */
         quant::data::validate_market_data(x);
         quant::data::validate_market_data(y);
 
-        /*
-         * -----------------------------------------------------
-         * 3. Align timestamps.
-         * -----------------------------------------------------
-         */
         const auto aligned =
-            quant::data::inner_join(x, y);
+            quant::data::inner_join(
+                x,
+                y
+            );
 
         if (aligned.size() < 100) {
             throw std::runtime_error(
-                "Too few aligned observations for research"
+                "Too few aligned observations "
+                "for research"
             );
         }
+
+        std::cout
+            << std::setprecision(10);
 
         std::cout
             << "Aligned observations: "
@@ -67,91 +71,136 @@ int main(int argc, char* argv[]) {
 
         /*
          * -----------------------------------------------------
-         * 4. Convert aligned data into mathematical Series.
+         * 2. Formation / trading split.
          * -----------------------------------------------------
+         *
+         * First 70%:
+         *     formation / pair-selection period
+         *
+         * Remaining 30%:
+         *     out-of-sample trading period
          */
-        quant::math::Series x_series;
-        quant::math::Series y_series;
 
-        x_series.reserve(aligned.size());
-        y_series.reserve(aligned.size());
-
-        for (const auto& observation : aligned) {
-            x_series.add(
-                quant::math::Observation{
-                    observation.timestamp,
-                    observation.x
-                }
+        const std::size_t formation_size =
+            static_cast<std::size_t>(
+                static_cast<double>(
+                    aligned.size()
+                ) * 0.70
             );
 
-            y_series.add(
-                quant::math::Observation{
-                    observation.timestamp,
-                    observation.y
-                }
+        const auto formation =
+            quant::research::run_formation_test(
+                aligned,
+                formation_size
             );
-        }
+
+        std::cout
+            << "\n========== FORMATION ==========\n";
+
+        std::cout
+            << "Formation observations: "
+            << formation.formation_data.size()
+            << '\n';
+
+        std::cout
+            << "Trading observations:   "
+            << formation.trading_data.size()
+            << '\n';
+
+        std::cout
+            << "OLS intercept:           "
+            << formation
+                   .cointegration
+                   .regression
+                   .intercept
+            << '\n';
+
+        std::cout
+            << "OLS hedge ratio:         "
+            << formation
+                   .cointegration
+                   .regression
+                   .slope
+            << '\n';
+
+        std::cout
+            << "Engle-Granger ADF:       "
+            << formation
+                   .cointegration
+                   .adf_statistic
+            << '\n';
+
+        std::cout
+            << "MacKinnon 1% critical:   "
+            << formation
+                   .cointegration
+                   .critical_values
+                   .one_percent
+            << '\n';
+
+        std::cout
+            << "MacKinnon 5% critical:   "
+            << formation
+                   .cointegration
+                   .critical_values
+                   .five_percent
+            << '\n';
+
+        std::cout
+            << "MacKinnon 10% critical:  "
+            << formation
+                   .cointegration
+                   .critical_values
+                   .ten_percent
+            << '\n';
+
+        std::cout
+            << "ADF lags:                "
+            << formation
+                   .cointegration
+                   .adf_lags
+            << '\n';
 
         /*
          * -----------------------------------------------------
-         * 5. Preliminary Engle-Granger test.
+         * 3. Pair-selection gate.
          * -----------------------------------------------------
          *
-         * IMPORTANT:
-         * The current implementation uses approximate critical
-         * values. This is therefore preliminary evidence only.
+         * Absolutely no trading-period performance is
+         * calculated when formation fails.
          */
-        const auto cointegration =
-            quant::math::engle_granger(
-                x_series,
-                y_series
-            );
 
-        std::cout
-            << std::setprecision(10);
-
-        std::cout
-            << "OLS intercept: "
-            << cointegration.regression.intercept
-            << '\n';
-
-        std::cout
-            << "OLS hedge ratio: "
-            << cointegration.regression.slope
-            << '\n';
-
-        std::cout
-            << "Engle-Granger ADF statistic: "
-            << cointegration.adf_statistic
-            << '\n';
-
-        std::cout
-            << "Approximate 5% critical value: "
-            << cointegration.critical_value_5pct
-            << '\n';
-
-        if (cointegration.decision ==
-            quant::math::CointegrationDecision::Cointegrated) {
+        if (!formation.passes) {
+            std::cout
+                << "Cointegration decision: FAIL\n";
 
             std::cout
-                << "Cointegration decision: "
-                << "PASS\n";
-        }
-        else {
+                << "================================\n";
+
             std::cout
-                << "Cointegration decision: "
-                << "FAIL\n";
+                << "\nPAIR REJECTED\n";
+
+            std::cout
+                << "No out-of-sample backtest "
+                << "was performed.\n";
+
+            return 0;
         }
+
+        std::cout
+            << "Cointegration decision: PASS\n";
+
+        std::cout
+            << "================================\n";
 
         /*
          * -----------------------------------------------------
-         * 6. Configure the trading experiment.
+         * 4. Strategy parameters.
          * -----------------------------------------------------
-         *
-         * These parameters are intentionally fixed.
-         * We are NOT optimizing them against this dataset.
          */
-        quant::research::PairsResearchParameters parameters;
+
+        quant::research::PairsResearchParameters
+            parameters;
 
         parameters.hedge_ratio_window = 60;
         parameters.zscore_window = 20;
@@ -166,98 +215,110 @@ int main(int argc, char* argv[]) {
             quant::backtest::BacktestParameters{
                 1'000'000.0,
                 100'000.0,
-                quant::portfolio::TransactionCostParameters{
-                    0.001,
-                    0.001
-                }
+                quant::portfolio::
+                    TransactionCostParameters{
+                        0.001,
+                        0.001
+                    }
             };
 
         /*
          * -----------------------------------------------------
-         * 7. Run complete strategy.
+         * 5. Out-of-sample research.
          * -----------------------------------------------------
+         *
+         * IMPORTANT:
+         *
+         * We pass the COMPLETE historical series so the first
+         * trading observation has legitimate historical
+         * lookback for rolling OLS and z-score estimation.
+         *
+         * However, run_pairs_research() emits/backtests only
+         * observations at or after formation_size.
+         *
+         * All rolling estimators are causal: the model at t
+         * uses observations strictly before t.
          */
+
         const auto research =
             quant::research::run_pairs_research(
                 aligned,
-                parameters
+                parameters,
+                formation_size
             );
 
         /*
          * -----------------------------------------------------
-         * 8. Calculate performance.
-         *
-         * Daily data:
-         *
-         *     252 trading periods/year
+         * 6. Out-of-sample performance.
          * -----------------------------------------------------
          */
+
         const auto performance =
             quant::risk::calculate_performance(
                 research.backtest,
                 252.0
             );
 
-        /*
-         * -----------------------------------------------------
-         * 9. Report results.
-         * -----------------------------------------------------
-         */
         std::cout
-            << "\n========== PERFORMANCE ==========\n";
+            << "\n======= OUT-OF-SAMPLE =======\n";
 
         std::cout
-            << "Initial equity:        "
+            << "Tradable observations:  "
+            << research.timestamps.size()
+            << '\n';
+
+        std::cout
+            << "Initial equity:         "
             << performance.initial_equity
             << '\n';
 
         std::cout
-            << "Final equity:          "
+            << "Final equity:           "
             << performance.final_equity
             << '\n';
 
         std::cout
-            << "Total P&L:             "
+            << "Total P&L:              "
             << performance.total_pnl
             << '\n';
 
         std::cout
-            << "Total return:          "
+            << "Total return:           "
             << performance.total_return * 100.0
             << "%\n";
 
         std::cout
-            << "Annualized return:     "
+            << "Annualized return:      "
             << performance.annualized_return * 100.0
             << "%\n";
 
         std::cout
-            << "Annualized volatility: "
+            << "Annualized volatility:  "
             << performance.annualized_volatility * 100.0
             << "%\n";
 
         std::cout
-            << "Sharpe ratio:          "
+            << "Sharpe ratio:           "
             << performance.sharpe_ratio
             << '\n';
 
         std::cout
-            << "Maximum drawdown:      "
+            << "Maximum drawdown:       "
             << performance.maximum_drawdown
             << '\n';
 
         std::cout
-            << "Maximum drawdown:      "
+            << "Maximum drawdown:       "
             << performance.maximum_drawdown_pct * 100.0
             << "%\n";
 
         std::cout
-            << "Position changes:      "
+            << "Position changes:       "
             << performance.number_of_position_changes
             << '\n';
 
         std::cout
-            << "=================================\n";
+            << "=============================\n";
 
         return 0;
     }

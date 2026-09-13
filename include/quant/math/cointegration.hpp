@@ -1,7 +1,10 @@
 #pragma once
 
+#include "quant/math/mackinnon.hpp"
 #include "quant/math/regression.hpp"
 #include "quant/math/series.hpp"
+
+#include <cstddef>
 
 namespace quant::math {
 
@@ -17,16 +20,20 @@ struct CointegrationResult {
 
     double adf_statistic{};
 
-    double critical_value_5pct{};
+    MacKinnonCriticalValues critical_values{};
 
     CointegrationDecision decision{};
+
+    std::size_t observations{};
+
+    std::size_t adf_lags{};
 };
 
 [[nodiscard]]
-CointegrationResult
-engle_granger(
+CointegrationResult engle_granger(
     const Series& x,
-    const Series& y
+    const Series& y,
+    std::size_t adf_lags = 0
 );
 
 } // namespace quant::math

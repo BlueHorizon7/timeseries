@@ -37,6 +37,19 @@ void validate_market_data(
             );
         }
 
+        /*
+         * Open / High / Low are raw prices.
+         *
+         * Close may be an adjusted research price.
+         * Therefore we deliberately do NOT require:
+         *
+         *     low <= close <= high
+         *
+         * because an adjusted close can legitimately lie
+         * outside the raw OHLC range after corporate-action
+         * adjustments.
+         */
+
         if (candle.open <= 0.0 ||
             candle.high <= 0.0 ||
             candle.low <= 0.0 ||
@@ -46,6 +59,10 @@ void validate_market_data(
                 "Market prices must be positive"
             );
         }
+
+        /*
+         * Raw OHLC consistency.
+         */
 
         if (candle.high < candle.low) {
             throw std::domain_error(
@@ -57,15 +74,8 @@ void validate_market_data(
             candle.open > candle.high) {
 
             throw std::domain_error(
-                "Open price lies outside candle range"
-            );
-        }
-
-        if (candle.close < candle.low ||
-            candle.close > candle.high) {
-
-            throw std::domain_error(
-                "Close price lies outside candle range"
+                "Open price lies outside raw "
+                "candle range"
             );
         }
 

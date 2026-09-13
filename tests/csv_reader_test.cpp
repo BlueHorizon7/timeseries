@@ -15,7 +15,7 @@ int main() {
         assert(output);
 
         output
-            << "timestamp,open,high,low,close,volume\n";
+            << "Date,Open,High,Low,Close,Volume\n";
 
         output
             << "2026-09-09,88.31,88.40,87.41,87.55,12337500\n";
@@ -28,12 +28,12 @@ int main() {
     }
 
     const auto series =
-        quant::data::read_candles_csv(filename);
+        quant::data::read_candles_csv(
+            filename
+        );
 
     assert(series.size() == 3);
 
-    // Reader must normalize descending input
-    // into ascending chronological order.
     assert(
         series[0].timestamp <
         series[1].timestamp
@@ -44,12 +44,10 @@ int main() {
         series[2].timestamp
     );
 
-    // Earliest observation.
     assert(
         series[0].close == 88.07
     );
 
-    // Latest observation.
     assert(
         series[2].close == 87.55
     );

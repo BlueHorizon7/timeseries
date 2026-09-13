@@ -2,78 +2,98 @@
 
 #include <cassert>
 #include <cmath>
+#include <cstdint>
 
 int main() {
-    using quant::math::CointegrationDecision;
-    using quant::math::Observation;
-    using quant::math::Series;
+    quant::math::Series x;
+    quant::math::Series y;
 
-    Series x;
-    Series y;
+    constexpr std::size_t n = 500;
 
-    const double stationary_component[] = {
-         0.10, -0.20,  0.15, -0.10,  0.05,
-        -0.15,  0.20, -0.05,  0.10, -0.10,
-         0.15, -0.20,  0.05, -0.10,  0.20,
-        -0.15,  0.10, -0.05,  0.15, -0.20,
-         0.10, -0.10,  0.20, -0.15,  0.05,
-        -0.05,  0.15, -0.10,  0.10, -0.15,
-         0.20, -0.05,  0.10, -0.20,  0.15,
-        -0.10,  0.05, -0.15,  0.20, -0.05
-    };
+    x.reserve(n);
+    y.reserve(n);
 
-    double x_value = 100.0;
+    double random_walk = 100.0;
 
     for (std::size_t i = 0;
-         i < sizeof(stationary_component) /
-             sizeof(stationary_component[0]);
+         i < n;
          ++i) {
 
-        // Non-stationary component.
-        x_value +=
-            (i % 3 == 0 ? 1.0 : -0.3);
+        /*
+         * Deterministic pseudo-random-walk-like
+         * integrated process.
+         */
+        const double innovation =
+            std::sin(
+                static_cast<double>(i) * 0.37
+            );
+
+        random_walk += innovation;
+
+        /*
+         * Stationary bounded disturbance.
+         */
+        const double noise =
+            0.5 *
+            std::sin(
+                static_cast<double>(i) * 1.31
+            );
+
+        const double x_value =
+            random_walk;
+
+        const double y_value =
+            4.0 +
+            1.7 * x_value +
+            noise;
+
+        const std::int64_t timestamp =
+            static_cast<std::int64_t>(
+                i + 1
+            );
 
         x.add(
-            Observation{
-                static_cast<std::int64_t>(i),
+            quant::math::Observation{
+                timestamp,
                 x_value
             }
         );
 
-        const double u =
-            stationary_component[i];
-
-        // Y = 2X + 3 + stationary noise.
         y.add(
-            Observation{
-                static_cast<std::int64_t>(i),
-                2.0 * x_value + 3.0 + u
+            quant::math::Observation{
+                timestamp,
+                y_value
             }
         );
     }
 
     const auto result =
-        quant::math::engle_granger(x, y);
+        quant::math::engle_granger(
+            x,
+            y,
+            0
+        );
 
     assert(
-        result.spread.size() == x.size()
-    );
-
-    assert(
-        std::abs(result.regression.slope - 2.0) < 0.01
-    );
-
-    assert(
-        std::abs(result.regression.intercept - 3.0) < 0.5
-    );
-
-    assert(
-        result.adf_statistic < 0.0
+        std::abs(
+            result.regression.slope -
+            1.7
+        ) < 0.05
     );
 
     assert(
         result.decision ==
-        CointegrationDecision::Cointegrated
+        quant::math::CointegrationDecision::
+            Cointegrated
+    );
+
+    assert(
+        result.adf_statistic <
+        result.critical_values.five_percent
+    );
+
+    assert(
+        result.observations == n
     );
 
     return 0;
