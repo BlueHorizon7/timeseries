@@ -51,6 +51,8 @@ add_library(quantlab
         src/multi_pair_allocation.cpp
         src/covariance_matrix.cpp
         src/portfolio_risk_limits.cpp
+        src/execution_cost.cpp
+        src/cost_sensitivity.cpp
 )
 
 target_include_directories(quantlab
@@ -618,4 +620,43 @@ target_link_libraries(
 add_test(
     NAME portfolio_risk_limits_test
     COMMAND portfolio_risk_limits_test
+)
+
+# Execution cost model
+target_sources(
+    quantlab
+    PRIVATE
+        src/execution_cost.cpp
+)
+
+add_executable(
+    execution_cost_test
+    tests/execution_cost_test.cpp
+)
+
+target_link_libraries(
+    execution_cost_test
+    PRIVATE
+        quantlab
+)
+
+add_test(
+    NAME execution_cost_test
+    COMMAND execution_cost_test
+)
+
+add_executable(cost_sensitivity_test
+    tests/cost_sensitivity_test.cpp
+    src/cost_sensitivity.cpp
+)
+
+target_link_libraries(
+    cost_sensitivity_test
+    PRIVATE
+    quantlab
+)
+
+add_test(
+    NAME cost_sensitivity_test
+    COMMAND cost_sensitivity_test
 )

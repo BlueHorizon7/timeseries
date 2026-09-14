@@ -5,6 +5,7 @@
 #include <vector>
 
 int main() {
+
     using quant::backtest::BacktestParameters;
     using quant::portfolio::TransactionCostParameters;
 
@@ -63,9 +64,19 @@ int main() {
     const BacktestParameters parameters{
         100000.0,
         100000.0,
+
         TransactionCostParameters{
             0.001,
             0.001
+        },
+
+        quant::portfolio::ExecutionCostParameters{
+            10.0,       // X slippage: 10 bps
+            20.0,       // Y slippage: 20 bps
+            5.0,        // X market impact: 5 bps
+            10.0,       // Y market impact: 10 bps
+            100000.0,   // reference notional
+            1.0         // impact exponent
         }
     };
 
@@ -87,7 +98,7 @@ int main() {
             X = -50000
             Y = +50000
 
-        Opening transaction cost:
+        Transaction cost:
 
             50000(0.001)
           + 50000(0.001)
@@ -100,6 +111,31 @@ int main() {
         ) < 1e-12
     );
 
+    /*
+        Execution cost:
+
+        X slippage:
+            50000 * 10 / 10000 = 50
+
+        Y slippage:
+            50000 * 20 / 10000 = 100
+
+        X market impact:
+            50000 * 5 / 10000 * 0.5 = 12.5
+
+        Y market impact:
+            50000 * 10 / 10000 * 0.5 = 25
+
+        Total:
+            187.5
+    */
+
+    assert(
+        std::abs(
+            result.bars[0].execution_cost - 187.5
+        ) < 1e-12
+    );
+
     assert(
         std::abs(
             result.bars[0].gross_pnl + 5000.0
@@ -108,13 +144,13 @@ int main() {
 
     assert(
         std::abs(
-            result.bars[0].net_pnl + 5100.0
+            result.bars[0].net_pnl + 5287.5
         ) < 1e-12
     );
 
     assert(
         std::abs(
-            result.bars[0].equity - 94900.0
+            result.bars[0].equity - 94712.5
         ) < 1e-12
     );
 
@@ -129,13 +165,11 @@ int main() {
 
             (0, 0)
 
-        So the position is closed before
-        the second interval.
+        Therefore:
 
-        Closing cost = 100.
-
-        No position is held during [t=1,t=2],
-        therefore gross P&L = 0.
+            gross P&L = 0
+            transaction cost = 100
+            execution cost = 187.5
     */
 
     assert(
@@ -152,20 +186,25 @@ int main() {
 
     assert(
         std::abs(
-            result.bars[1].net_pnl + 100.0
+            result.bars[1].execution_cost - 187.5
         ) < 1e-12
     );
 
     assert(
         std::abs(
-            result.bars[1].equity - 94800.0
+            result.bars[1].net_pnl + 287.5
+        ) < 1e-12
+    );
+
+    assert(
+        std::abs(
+            result.bars[1].equity - 94425.0
         ) < 1e-12
     );
 
     /*
         The position is already flat at the end,
-        so no additional terminal liquidation cost
-        is required.
+        so terminal liquidation cost is zero.
     */
 
     assert(
@@ -182,6 +221,7 @@ int main() {
         Here the position remains open through the
         final observed price.
     */
+
     {
         const std::vector<int> open_signals{
             1,
@@ -202,16 +242,7 @@ int main() {
         assert(terminal_result.bars.size() == 2);
 
         /*
-            Opening position:
-
-                X = -50000
-                Y = +50000
-
-            Opening cost:
-
-                50000 * 0.001
-              + 50000 * 0.001
-              = 100
+            Opening transaction cost = 100
         */
 
         assert(
@@ -221,18 +252,20 @@ int main() {
             ) < 1e-12
         );
 
+        assert(
+            std::abs(
+                terminal_result.bars[0].execution_cost
+                - 187.5
+            ) < 1e-12
+        );
+
         /*
             First interval:
 
-                X:
-                    -50000 * (110 - 100) / 100
-                    = -5000
+                X P&L = -5000
+                Y P&L = 0
 
-                Y:
-                    50000 * (100 - 100) / 100
-                    = 0
-
-                Gross P&L = -5000
+            Gross P&L = -5000
         */
 
         assert(
@@ -245,14 +278,14 @@ int main() {
         assert(
             std::abs(
                 terminal_result.bars[0].net_pnl
-                + 5100.0
+                + 5287.5
             ) < 1e-12
         );
 
         assert(
             std::abs(
                 terminal_result.bars[0].equity
-                - 94900.0
+                - 94712.5
             ) < 1e-12
         );
 
@@ -260,18 +293,13 @@ int main() {
             Second interval:
 
                 X does not move:
-
                     P&L = 0
 
                 Y rises from 100 to 105:
-
                     50000 * 5 / 100
                     = +2500
 
-                Gross P&L = +2500
-
-            No position change occurs, so there is
-            no trading transaction cost.
+            No position change occurs.
         */
 
         assert(
@@ -289,6 +317,12 @@ int main() {
 
         assert(
             std::abs(
+                terminal_result.bars[1].execution_cost
+            ) < 1e-12
+        );
+
+        assert(
+            std::abs(
                 terminal_result.bars[1].net_pnl
                 - 2500.0
             ) < 1e-12
@@ -298,39 +332,41 @@ int main() {
             Marked equity:
 
                 100000
-              -   100     opening cost
-              -  5000     first interval P&L
-              +  2500     second interval P&L
-              = 97400
+              -    100
+              -    187.5
+              -   5000
+              +   2500
+              = 97212.5
         */
 
         assert(
             std::abs(
                 terminal_result.bars.back().equity
-                - 97400.0
+                - 97212.5
             ) < 1e-12
         );
 
         /*
             Terminal liquidation:
 
-                50000 * 0.001
-              + 50000 * 0.001
-              = 100
+                Transaction cost = 100
+                Execution cost   = 187.5
+
+                Total = 287.5
         */
 
         assert(
             std::abs(
                 terminal_result.liquidation_cost
-                - 100.0
+                - 287.5
             ) < 1e-12
         );
 
         /*
             Fully liquidated final equity:
 
-                97400 - 100
-                = 97300
+                97212.5 - 287.5
+                = 96925.0
         */
 
         const double final_equity =
@@ -339,7 +375,7 @@ int main() {
 
         assert(
             std::abs(
-                final_equity - 97300.0
+                final_equity - 96925.0
             ) < 1e-12
         );
     }

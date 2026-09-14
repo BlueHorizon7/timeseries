@@ -2,6 +2,7 @@
 
 #include "quant/portfolio/pair_position.hpp"
 #include "quant/portfolio/transaction_cost.hpp"
+#include "quant/portfolio/execution_cost.hpp"
 
 #include <cstddef>
 #include <cstdint>
@@ -10,33 +11,45 @@
 namespace quant::backtest {
 
 struct BacktestBar {
+
     std::int64_t timestamp{};
+
     double x_price{};
+
     double y_price{};
+
     int signal{};
+
     quant::portfolio::PairPosition position{};
+
     double gross_pnl{};
+
     double transaction_cost{};
+
+    double execution_cost{};
+
     double net_pnl{};
+
     double equity{};
 };
 
 struct BacktestParameters {
+
     double initial_capital{};
+
     double gross_notional{};
-    quant::portfolio::TransactionCostParameters transaction_costs{};
+
+    quant::portfolio::TransactionCostParameters
+        transaction_costs{};
+
+    quant::portfolio::ExecutionCostParameters
+        execution_costs{};
 };
 
 struct BacktestResult {
+
     std::vector<BacktestBar> bars;
 
-    /*
-        Transaction cost required to liquidate the
-        final position at the final observed prices.
-
-        This is not a separate time period and is
-        therefore not represented as a BacktestBar.
-    */
     double liquidation_cost{};
 };
 

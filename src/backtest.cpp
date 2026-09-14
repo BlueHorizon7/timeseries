@@ -1,5 +1,7 @@
 #include "quant/backtest/backtest.hpp"
+
 #include "quant/portfolio/pnl.hpp"
+#include "quant/portfolio/execution_cost.hpp"
 
 #include <cmath>
 #include <stdexcept>
@@ -20,6 +22,7 @@ BacktestResult run_backtest(
         y_prices.size() != n ||
         signals.size() != n ||
         hedge_ratios.size() != n) {
+
         throw std::invalid_argument(
             "Backtest inputs must have equal lengths"
         );
@@ -33,6 +36,7 @@ BacktestResult run_backtest(
 
     if (!std::isfinite(parameters.initial_capital) ||
         parameters.initial_capital <= 0.0) {
+
         throw std::invalid_argument(
             "Initial capital must be positive and finite"
         );
@@ -40,13 +44,16 @@ BacktestResult run_backtest(
 
     if (!std::isfinite(parameters.gross_notional) ||
         parameters.gross_notional < 0.0) {
+
         throw std::invalid_argument(
             "Gross notional must be non-negative and finite"
         );
     }
 
     for (std::size_t i = 1; i < n; ++i) {
+
         if (timestamps[i] <= timestamps[i - 1]) {
+
             throw std::invalid_argument(
                 "Backtest timestamps must be strictly increasing"
             );
@@ -71,6 +78,7 @@ BacktestResult run_backtest(
     */
 
     for (std::size_t t = 0; t + 1 < n; ++t) {
+
         const auto current_position =
             quant::portfolio::construct_pair_position(
                 signals[t],
@@ -87,15 +95,24 @@ BacktestResult run_backtest(
                 y_prices[t + 1]
             );
 
-        const double cost =
+        const double transaction_cost =
             quant::portfolio::transaction_cost(
                 previous_position,
                 current_position,
                 parameters.transaction_costs
             );
 
+        const auto execution =
+            quant::portfolio::calculate_execution_cost(
+                previous_position,
+                current_position,
+                parameters.execution_costs
+            );
+
         const double net_pnl =
-            pnl.total_pnl - cost;
+            pnl.total_pnl
+            - transaction_cost
+            - execution.total_execution_cost;
 
         equity += net_pnl;
 
@@ -107,13 +124,14 @@ BacktestResult run_backtest(
                 signals[t],
                 current_position,
                 pnl.total_pnl,
-                cost,
+                transaction_cost,
+                execution.total_execution_cost,
                 net_pnl,
                 equity
             }
         );
 
-                previous_position =
+        previous_position =
             current_position;
     }
 
@@ -126,17 +144,30 @@ BacktestResult run_backtest(
         to the final observed prices by the last
         trading interval.
 
-        Only the transaction cost of moving from
-        the final position to zero is charged.
+        Both transaction costs and execution costs
+        are charged for moving from the final
+        position to zero.
     */
+
     const quant::portfolio::PairPosition flat_position{};
 
-    result.liquidation_cost =
+    const double liquidation_transaction_cost =
         quant::portfolio::transaction_cost(
             previous_position,
             flat_position,
             parameters.transaction_costs
         );
+
+    const auto liquidation_execution =
+        quant::portfolio::calculate_execution_cost(
+            previous_position,
+            flat_position,
+            parameters.execution_costs
+        );
+
+    result.liquidation_cost =
+        liquidation_transaction_cost +
+        liquidation_execution.total_execution_cost;
 
     return result;
 }

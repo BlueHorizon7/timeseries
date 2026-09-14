@@ -40,6 +40,8 @@ C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pair_selection_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/multi_pair_allocation_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/covariance_matrix_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/portfolio_risk_limits_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/execution_cost_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/cost_sensitivity_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/edit_cache.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rebuild_cache.dir
