@@ -1,6 +1,5 @@
 #include "quant/research/formation.hpp"
 
-#include "quant/math/cointegration.hpp"
 #include "quant/math/observation.hpp"
 #include "quant/math/series.hpp"
 
@@ -81,6 +80,27 @@ FormationResult run_formation_test(
     const quant::data::AlignedSeries& data,
     std::size_t formation_size
 ) {
+    const FormationParameters parameters{
+        formation_size,
+        quant::math::CointegrationParameters{
+            false,
+            0,
+            0,
+            quant::math::InformationCriterion::AIC
+        }
+    };
+
+    return run_formation_test(
+        data,
+        parameters
+    );
+}
+
+FormationResult run_formation_test(
+    const quant::data::AlignedSeries& data,
+    const FormationParameters&
+        parameters
+) {
     if (data.size() < 20) {
         throw std::invalid_argument(
             "Formation test requires at least "
@@ -88,14 +108,14 @@ FormationResult run_formation_test(
         );
     }
 
-    if (formation_size < 20) {
+    if (parameters.formation_size < 20) {
         throw std::invalid_argument(
             "Formation period must contain at least "
             "20 observations"
         );
     }
 
-    if (formation_size >= data.size()) {
+    if (parameters.formation_size >= data.size()) {
         throw std::invalid_argument(
             "Formation period must leave observations "
             "for trading"
@@ -106,13 +126,13 @@ FormationResult run_formation_test(
         slice(
             data,
             0,
-            formation_size
+            parameters.formation_size
         );
 
     const auto trading_data =
         slice(
             data,
-            formation_size,
+            parameters.formation_size,
             data.size()
         );
 
@@ -130,7 +150,7 @@ FormationResult run_formation_test(
         quant::math::engle_granger(
             x,
             y,
-            0
+            parameters.cointegration
         );
 
     const bool passes =

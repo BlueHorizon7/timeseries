@@ -43,6 +43,8 @@ add_library(quantlab
     src/yahoo_csv.cpp
     src/mackinnon.cpp
     src/formation.cpp
+    src/walk_forward.cpp
+    src/adf_selection.cpp
 )
 
 target_include_directories(quantlab
@@ -458,4 +460,23 @@ target_link_libraries(
 add_test(
     NAME formation_test
     COMMAND formation_test
+)
+
+add_executable(test_walk_forward_aggregation tests/test_walk_forward_aggregation.cpp)
+target_link_libraries(test_walk_forward_aggregation PRIVATE quantlab) # Ensure 'quantlab' is your library target name
+add_test(NAME test_walk_forward_aggregation COMMAND test_walk_forward_aggregation)
+
+add_executable(
+    adf_selection_test
+    tests/adf_selection_test.cpp
+)
+
+target_link_libraries(
+    adf_selection_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME adf_selection_test
+    COMMAND adf_selection_test
 )

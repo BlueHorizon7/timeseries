@@ -113,9 +113,30 @@ BacktestResult run_backtest(
             }
         );
 
-        previous_position =
+                previous_position =
             current_position;
     }
+
+    /*
+        Liquidate the final position at the final
+        observed prices.
+
+        No additional market P&L is generated here:
+        the final position has already been marked
+        to the final observed prices by the last
+        trading interval.
+
+        Only the transaction cost of moving from
+        the final position to zero is charged.
+    */
+    const quant::portfolio::PairPosition flat_position{};
+
+    result.liquidation_cost =
+        quant::portfolio::transaction_cost(
+            previous_position,
+            flat_position,
+            parameters.transaction_costs
+        );
 
     return result;
 }

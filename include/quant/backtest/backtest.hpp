@@ -29,6 +29,15 @@ struct BacktestParameters {
 
 struct BacktestResult {
     std::vector<BacktestBar> bars;
+
+    /*
+        Transaction cost required to liquidate the
+        final position at the final observed prices.
+
+        This is not a separate time period and is
+        therefore not represented as a BacktestBar.
+    */
+    double liquidation_cost{};
 };
 
 [[nodiscard]]

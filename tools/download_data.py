@@ -110,20 +110,14 @@ def download_ticker(
         actions=True,
         progress=False,
     )
-
-    # yfinance can return a MultiIndex even for a single ticker.
+    
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
 
     validate_download(ticker, df)
 
-    # Remove timezone information if present.
     if getattr(df.index, "tz", None) is not None:
         df.index = df.index.tz_localize(None)
-
-    # ---------------------------------------------------------
-    # Raw/audit dataset
-    # ---------------------------------------------------------
 
     raw = df[
         [
@@ -144,13 +138,6 @@ def download_ticker(
         raw_path,
         float_format="%.10f",
     )
-
-    # ---------------------------------------------------------
-    # QuantLab research dataset
-    #
-    # We explicitly use Adjusted Close as the research price.
-    # This incorporates Yahoo's corporate-action adjustment.
-    # ---------------------------------------------------------
 
     canonical = pd.DataFrame(
         {

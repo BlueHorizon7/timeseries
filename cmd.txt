@@ -1,0 +1,19 @@
+Get-Content .\include\quant\backtest\backtest.hpp
+Get-Content .\src\backtest.cpp
+Get-Content .\include\quant\risk\performance.hpp
+Get-Content .\src\performance.cpp
+Get-Content .\tests\backtest_test.cpp
+Get-Content .\tests\performance_test.cpp
+
+Get-Content include/quant/backtest/backtest.hpp
+Get-Content include/quant/risk/performance.hpp
+Get-Content include/quant/research/walk_forward.hpp
+
+Get-Content include/quant/research/pairs_research.hpp
+Get-Content src/walk_forward.cpp
+Get-Content src/backtest.cpp
+
+
+Get-Content include/quant/research/walk_forward.hpp
+Get-Content src/walk_forward.cpp
+Get-Content tests/walk_forward_test.cpp
