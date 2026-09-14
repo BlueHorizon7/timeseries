@@ -436,6 +436,24 @@ build CMakeFiles/quantlab.dir/src/cost_sensitivity.cpp.obj: CXX_COMPILER__quantl
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
+build CMakeFiles/quantlab.dir/src/parameter_sensitivity.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/parameter_sensitivity.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\parameter_sensitivity.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/subperiod_stability.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/subperiod_stability.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\subperiod_stability.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target quantlab
@@ -444,7 +462,7 @@ build CMakeFiles/quantlab.dir/src/cost_sensitivity.cpp.obj: CXX_COMPILER__quantl
 #############################################
 # Link the static library libquantlab.a
 
-build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj CMakeFiles/quantlab.dir/src/pnl.cpp.obj CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj CMakeFiles/quantlab.dir/src/backtest.cpp.obj CMakeFiles/quantlab.dir/src/performance.cpp.obj CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj CMakeFiles/quantlab.dir/src/alignment.cpp.obj CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj CMakeFiles/quantlab.dir/src/validation.cpp.obj CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj CMakeFiles/quantlab.dir/src/trades.cpp.obj CMakeFiles/quantlab.dir/src/data_validation.cpp.obj CMakeFiles/quantlab.dir/src/yahoo_csv.cpp.obj CMakeFiles/quantlab.dir/src/mackinnon.cpp.obj CMakeFiles/quantlab.dir/src/formation.cpp.obj CMakeFiles/quantlab.dir/src/walk_forward.cpp.obj CMakeFiles/quantlab.dir/src/adf_selection.cpp.obj CMakeFiles/quantlab.dir/src/pair_universe.cpp.obj CMakeFiles/quantlab.dir/src/multiple_testing.cpp.obj CMakeFiles/quantlab.dir/src/pair_selection.cpp.obj CMakeFiles/quantlab.dir/src/multi_pair_allocation.cpp.obj CMakeFiles/quantlab.dir/src/covariance_matrix.cpp.obj CMakeFiles/quantlab.dir/src/portfolio_risk_limits.cpp.obj CMakeFiles/quantlab.dir/src/execution_cost.cpp.obj CMakeFiles/quantlab.dir/src/cost_sensitivity.cpp.obj
+build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj CMakeFiles/quantlab.dir/src/pnl.cpp.obj CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj CMakeFiles/quantlab.dir/src/backtest.cpp.obj CMakeFiles/quantlab.dir/src/performance.cpp.obj CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj CMakeFiles/quantlab.dir/src/alignment.cpp.obj CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj CMakeFiles/quantlab.dir/src/validation.cpp.obj CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj CMakeFiles/quantlab.dir/src/trades.cpp.obj CMakeFiles/quantlab.dir/src/data_validation.cpp.obj CMakeFiles/quantlab.dir/src/yahoo_csv.cpp.obj CMakeFiles/quantlab.dir/src/mackinnon.cpp.obj CMakeFiles/quantlab.dir/src/formation.cpp.obj CMakeFiles/quantlab.dir/src/walk_forward.cpp.obj CMakeFiles/quantlab.dir/src/adf_selection.cpp.obj CMakeFiles/quantlab.dir/src/pair_universe.cpp.obj CMakeFiles/quantlab.dir/src/multiple_testing.cpp.obj CMakeFiles/quantlab.dir/src/pair_selection.cpp.obj CMakeFiles/quantlab.dir/src/multi_pair_allocation.cpp.obj CMakeFiles/quantlab.dir/src/covariance_matrix.cpp.obj CMakeFiles/quantlab.dir/src/portfolio_risk_limits.cpp.obj CMakeFiles/quantlab.dir/src/execution_cost.cpp.obj CMakeFiles/quantlab.dir/src/cost_sensitivity.cpp.obj CMakeFiles/quantlab.dir/src/parameter_sensitivity.cpp.obj CMakeFiles/quantlab.dir/src/subperiod_stability.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\quantlab.dir
@@ -2097,6 +2115,82 @@ build cost_sensitivity_test.exe: CXX_EXECUTABLE_LINKER__cost_sensitivity_test_De
   TARGET_PDB = cost_sensitivity_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\cost_sensitivity_test.dir
 
+# =============================================================================
+# Object build statements for EXECUTABLE target parameter_sensitivity_test
+
+
+#############################################
+# Order-only phony target for parameter_sensitivity_test
+
+build cmake_object_order_depends_target_parameter_sensitivity_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/parameter_sensitivity_test.dir/tests/parameter_sensitivity_test.cpp.obj: CXX_COMPILER__parameter_sensitivity_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/parameter_sensitivity_test.cpp || cmake_object_order_depends_target_parameter_sensitivity_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\parameter_sensitivity_test.dir\tests\parameter_sensitivity_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\parameter_sensitivity_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\parameter_sensitivity_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\parameter_sensitivity_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parameter_sensitivity_test
+
+
+#############################################
+# Link the executable parameter_sensitivity_test.exe
+
+build parameter_sensitivity_test.exe: CXX_EXECUTABLE_LINKER__parameter_sensitivity_test_Debug CMakeFiles/parameter_sensitivity_test.dir/tests/parameter_sensitivity_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\parameter_sensitivity_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = parameter_sensitivity_test.exe
+  TARGET_IMPLIB = libparameter_sensitivity_test.dll.a
+  TARGET_PDB = parameter_sensitivity_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\parameter_sensitivity_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target subperiod_stability_test
+
+
+#############################################
+# Order-only phony target for subperiod_stability_test
+
+build cmake_object_order_depends_target_subperiod_stability_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/subperiod_stability_test.dir/tests/subperiod_stability_test.cpp.obj: CXX_COMPILER__subperiod_stability_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/subperiod_stability_test.cpp || cmake_object_order_depends_target_subperiod_stability_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\subperiod_stability_test.dir\tests\subperiod_stability_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\subperiod_stability_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\subperiod_stability_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\subperiod_stability_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target subperiod_stability_test
+
+
+#############################################
+# Link the executable subperiod_stability_test.exe
+
+build subperiod_stability_test.exe: CXX_EXECUTABLE_LINKER__subperiod_stability_test_Debug CMakeFiles/subperiod_stability_test.dir/tests/subperiod_stability_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\subperiod_stability_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = subperiod_stability_test.exe
+  TARGET_IMPLIB = libsubperiod_stability_test.dll.a
+  TARGET_PDB = subperiod_stability_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\subperiod_stability_test.dir
+
 
 #############################################
 # Utility command for test
@@ -2186,6 +2280,8 @@ build pairs_signal_test: phony pairs_signal_test.exe
 
 build parameter_grid_test: phony parameter_grid_test.exe
 
+build parameter_sensitivity_test: phony parameter_sensitivity_test.exe
+
 build performance_test: phony performance_test.exe
 
 build pnl_test: phony pnl_test.exe
@@ -2212,6 +2308,8 @@ build stationarity_test: phony stationarity_test.exe
 
 build statistics_test: phony statistics_test.exe
 
+build subperiod_stability_test: phony subperiod_stability_test.exe
+
 build test_walk_forward_aggregation: phony test_walk_forward_aggregation.exe
 
 build time_series_test: phony time_series_test.exe
@@ -2232,7 +2330,7 @@ build validation_test: phony validation_test.exe
 #############################################
 # Folder: C:/Users/sonu/Desktop/Quant/p1/build
 
-build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe pnl_test.exe transaction_cost_test.exe backtest_test.exe performance_test.exe csv_reader_test.exe alignment_test.exe validation_test.exe parameter_grid_test.exe trades_test.exe data_validation_test.exe pairs_research.exe mackinnon_test.exe formation_test.exe test_walk_forward_aggregation.exe adf_selection_test.exe pair_universe_test.exe multiple_testing_test.exe mackinnon_p_value_test.exe pair_selection_test.exe multi_pair_allocation_test.exe covariance_matrix_test.exe portfolio_risk_limits_test.exe execution_cost_test.exe cost_sensitivity_test.exe
+build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe pnl_test.exe transaction_cost_test.exe backtest_test.exe performance_test.exe csv_reader_test.exe alignment_test.exe validation_test.exe parameter_grid_test.exe trades_test.exe data_validation_test.exe pairs_research.exe mackinnon_test.exe formation_test.exe test_walk_forward_aggregation.exe adf_selection_test.exe pair_universe_test.exe multiple_testing_test.exe mackinnon_p_value_test.exe pair_selection_test.exe multi_pair_allocation_test.exe covariance_matrix_test.exe portfolio_risk_limits_test.exe execution_cost_test.exe cost_sensitivity_test.exe parameter_sensitivity_test.exe subperiod_stability_test.exe
 
 # =============================================================================
 # Built-in targets

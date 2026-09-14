@@ -53,6 +53,8 @@ add_library(quantlab
         src/portfolio_risk_limits.cpp
         src/execution_cost.cpp
         src/cost_sensitivity.cpp
+        src/parameter_sensitivity.cpp
+        src/subperiod_stability.cpp
 )
 
 target_include_directories(quantlab
@@ -659,4 +661,36 @@ target_link_libraries(
 add_test(
     NAME cost_sensitivity_test
     COMMAND cost_sensitivity_test
+)
+
+add_executable(
+    parameter_sensitivity_test
+    tests/parameter_sensitivity_test.cpp
+)
+
+target_link_libraries(
+    parameter_sensitivity_test
+    PRIVATE
+    quantlab
+)
+
+add_test(
+    NAME parameter_sensitivity_test
+    COMMAND parameter_sensitivity_test
+)
+
+add_executable(
+    subperiod_stability_test
+    tests/subperiod_stability_test.cpp
+)
+
+target_link_libraries(
+    subperiod_stability_test
+    PRIVATE
+    quantlab
+)
+
+add_test(
+    NAME subperiod_stability_test
+    COMMAND subperiod_stability_test
 )
