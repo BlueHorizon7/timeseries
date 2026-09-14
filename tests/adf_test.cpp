@@ -93,5 +93,66 @@ int main() {
 
     assert(result.statistic < 0.0);
 
+        /*
+        Large-offset stationary process.
+
+        The level is large, but the deviations are small.
+        This exercises the regression solver without relying
+        on small-magnitude inputs.
+    */
+    Series large_series;
+
+    for (std::size_t i = 0;
+         i < 200;
+         ++i) {
+
+        const double deviation =
+            0.5 *
+            std::sin(
+                static_cast<double>(i) *
+                0.17
+            );
+
+        large_series.add(
+            Observation{
+                static_cast<std::int64_t>(i),
+                1.0e10 + deviation
+            }
+        );
+    }
+
+    const auto large_result =
+        quant::math::augmented_dickey_fuller(
+            large_series,
+            1,
+            DeterministicTerm::Intercept
+        );
+
+    assert(
+        std::isfinite(
+            large_result.statistic
+        )
+    );
+
+    assert(
+        std::isfinite(
+            large_result.gamma
+        )
+    );
+
+    assert(
+        std::isfinite(
+            large_result.standard_error
+        )
+    );
+
+    assert(
+        large_result.standard_error > 0.0
+    );
+
+    assert(
+        large_result.lags == 1
+    );
+
     return 0;
 }

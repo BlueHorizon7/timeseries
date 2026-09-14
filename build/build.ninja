@@ -364,6 +364,60 @@ build CMakeFiles/quantlab.dir/src/adf_selection.cpp.obj: CXX_COMPILER__quantlab_
   OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
 
+build CMakeFiles/quantlab.dir/src/pair_universe.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/pair_universe.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\pair_universe.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/multiple_testing.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/multiple_testing.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\multiple_testing.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/pair_selection.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/pair_selection.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\pair_selection.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/multi_pair_allocation.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/multi_pair_allocation.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\multi_pair_allocation.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/covariance_matrix.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/covariance_matrix.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\covariance_matrix.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
+build CMakeFiles/quantlab.dir/src/portfolio_risk_limits.cpp.obj: CXX_COMPILER__quantlab_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/src/portfolio_risk_limits.cpp || cmake_object_order_depends_target_quantlab
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\quantlab.dir\src\portfolio_risk_limits.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\quantlab.dir
+  OBJECT_FILE_DIR = CMakeFiles\quantlab.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\quantlab.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target quantlab
@@ -372,7 +426,7 @@ build CMakeFiles/quantlab.dir/src/adf_selection.cpp.obj: CXX_COMPILER__quantlab_
 #############################################
 # Link the static library libquantlab.a
 
-build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj CMakeFiles/quantlab.dir/src/pnl.cpp.obj CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj CMakeFiles/quantlab.dir/src/backtest.cpp.obj CMakeFiles/quantlab.dir/src/performance.cpp.obj CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj CMakeFiles/quantlab.dir/src/alignment.cpp.obj CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj CMakeFiles/quantlab.dir/src/validation.cpp.obj CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj CMakeFiles/quantlab.dir/src/trades.cpp.obj CMakeFiles/quantlab.dir/src/data_validation.cpp.obj CMakeFiles/quantlab.dir/src/yahoo_csv.cpp.obj CMakeFiles/quantlab.dir/src/mackinnon.cpp.obj CMakeFiles/quantlab.dir/src/formation.cpp.obj CMakeFiles/quantlab.dir/src/walk_forward.cpp.obj CMakeFiles/quantlab.dir/src/adf_selection.cpp.obj
+build libquantlab.a: CXX_STATIC_LIBRARY_LINKER__quantlab_Debug CMakeFiles/quantlab.dir/src/candle.cpp.obj CMakeFiles/quantlab.dir/src/time_series.cpp.obj CMakeFiles/quantlab.dir/src/series.cpp.obj CMakeFiles/quantlab.dir/src/returns.cpp.obj CMakeFiles/quantlab.dir/src/statistics.cpp.obj CMakeFiles/quantlab.dir/src/regression.cpp.obj CMakeFiles/quantlab.dir/src/residuals.cpp.obj CMakeFiles/quantlab.dir/src/stationarity.cpp.obj CMakeFiles/quantlab.dir/src/dickey_fuller.cpp.obj CMakeFiles/quantlab.dir/src/adf.cpp.obj CMakeFiles/quantlab.dir/src/adf_inference.cpp.obj CMakeFiles/quantlab.dir/src/unit_root.cpp.obj CMakeFiles/quantlab.dir/src/cointegration.cpp.obj CMakeFiles/quantlab.dir/src/rolling_spread.cpp.obj CMakeFiles/quantlab.dir/src/rolling_regression.cpp.obj CMakeFiles/quantlab.dir/src/rolling_zscore.cpp.obj CMakeFiles/quantlab.dir/src/pairs_signal.cpp.obj CMakeFiles/quantlab.dir/src/pair_position.cpp.obj CMakeFiles/quantlab.dir/src/pnl.cpp.obj CMakeFiles/quantlab.dir/src/transaction_cost.cpp.obj CMakeFiles/quantlab.dir/src/backtest.cpp.obj CMakeFiles/quantlab.dir/src/performance.cpp.obj CMakeFiles/quantlab.dir/src/csv_reader.cpp.obj CMakeFiles/quantlab.dir/src/aligned_series.cpp.obj CMakeFiles/quantlab.dir/src/alignment.cpp.obj CMakeFiles/quantlab.dir/src/pairs_research.cpp.obj CMakeFiles/quantlab.dir/src/validation.cpp.obj CMakeFiles/quantlab.dir/src/parameter_grid.cpp.obj CMakeFiles/quantlab.dir/src/trades.cpp.obj CMakeFiles/quantlab.dir/src/data_validation.cpp.obj CMakeFiles/quantlab.dir/src/yahoo_csv.cpp.obj CMakeFiles/quantlab.dir/src/mackinnon.cpp.obj CMakeFiles/quantlab.dir/src/formation.cpp.obj CMakeFiles/quantlab.dir/src/walk_forward.cpp.obj CMakeFiles/quantlab.dir/src/adf_selection.cpp.obj CMakeFiles/quantlab.dir/src/pair_universe.cpp.obj CMakeFiles/quantlab.dir/src/multiple_testing.cpp.obj CMakeFiles/quantlab.dir/src/pair_selection.cpp.obj CMakeFiles/quantlab.dir/src/multi_pair_allocation.cpp.obj CMakeFiles/quantlab.dir/src/covariance_matrix.cpp.obj CMakeFiles/quantlab.dir/src/portfolio_risk_limits.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\quantlab.dir
@@ -1674,6 +1728,272 @@ build adf_selection_test.exe: CXX_EXECUTABLE_LINKER__adf_selection_test_Debug CM
   TARGET_PDB = adf_selection_test.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\adf_selection_test.dir
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pair_universe_test
+
+
+#############################################
+# Order-only phony target for pair_universe_test
+
+build cmake_object_order_depends_target_pair_universe_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/pair_universe_test.dir/tests/pair_universe_test.cpp.obj: CXX_COMPILER__pair_universe_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/pair_universe_test.cpp || cmake_object_order_depends_target_pair_universe_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\pair_universe_test.dir\tests\pair_universe_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\pair_universe_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\pair_universe_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\pair_universe_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair_universe_test
+
+
+#############################################
+# Link the executable pair_universe_test.exe
+
+build pair_universe_test.exe: CXX_EXECUTABLE_LINKER__pair_universe_test_Debug CMakeFiles/pair_universe_test.dir/tests/pair_universe_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pair_universe_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pair_universe_test.exe
+  TARGET_IMPLIB = libpair_universe_test.dll.a
+  TARGET_PDB = pair_universe_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\pair_universe_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target multiple_testing_test
+
+
+#############################################
+# Order-only phony target for multiple_testing_test
+
+build cmake_object_order_depends_target_multiple_testing_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/multiple_testing_test.dir/tests/multiple_testing_test.cpp.obj: CXX_COMPILER__multiple_testing_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/multiple_testing_test.cpp || cmake_object_order_depends_target_multiple_testing_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\multiple_testing_test.dir\tests\multiple_testing_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\multiple_testing_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\multiple_testing_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\multiple_testing_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target multiple_testing_test
+
+
+#############################################
+# Link the executable multiple_testing_test.exe
+
+build multiple_testing_test.exe: CXX_EXECUTABLE_LINKER__multiple_testing_test_Debug CMakeFiles/multiple_testing_test.dir/tests/multiple_testing_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\multiple_testing_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = multiple_testing_test.exe
+  TARGET_IMPLIB = libmultiple_testing_test.dll.a
+  TARGET_PDB = multiple_testing_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\multiple_testing_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mackinnon_p_value_test
+
+
+#############################################
+# Order-only phony target for mackinnon_p_value_test
+
+build cmake_object_order_depends_target_mackinnon_p_value_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/mackinnon_p_value_test.dir/tests/mackinnon_p_value_test.cpp.obj: CXX_COMPILER__mackinnon_p_value_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/mackinnon_p_value_test.cpp || cmake_object_order_depends_target_mackinnon_p_value_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\mackinnon_p_value_test.dir\tests\mackinnon_p_value_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\mackinnon_p_value_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\mackinnon_p_value_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\mackinnon_p_value_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mackinnon_p_value_test
+
+
+#############################################
+# Link the executable mackinnon_p_value_test.exe
+
+build mackinnon_p_value_test.exe: CXX_EXECUTABLE_LINKER__mackinnon_p_value_test_Debug CMakeFiles/mackinnon_p_value_test.dir/tests/mackinnon_p_value_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mackinnon_p_value_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mackinnon_p_value_test.exe
+  TARGET_IMPLIB = libmackinnon_p_value_test.dll.a
+  TARGET_PDB = mackinnon_p_value_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\mackinnon_p_value_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pair_selection_test
+
+
+#############################################
+# Order-only phony target for pair_selection_test
+
+build cmake_object_order_depends_target_pair_selection_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/pair_selection_test.dir/tests/pair_selection_test.cpp.obj: CXX_COMPILER__pair_selection_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/pair_selection_test.cpp || cmake_object_order_depends_target_pair_selection_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\pair_selection_test.dir\tests\pair_selection_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\pair_selection_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\pair_selection_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\pair_selection_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair_selection_test
+
+
+#############################################
+# Link the executable pair_selection_test.exe
+
+build pair_selection_test.exe: CXX_EXECUTABLE_LINKER__pair_selection_test_Debug CMakeFiles/pair_selection_test.dir/tests/pair_selection_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pair_selection_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pair_selection_test.exe
+  TARGET_IMPLIB = libpair_selection_test.dll.a
+  TARGET_PDB = pair_selection_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\pair_selection_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target multi_pair_allocation_test
+
+
+#############################################
+# Order-only phony target for multi_pair_allocation_test
+
+build cmake_object_order_depends_target_multi_pair_allocation_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/multi_pair_allocation_test.dir/tests/multi_pair_allocation_test.cpp.obj: CXX_COMPILER__multi_pair_allocation_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/multi_pair_allocation_test.cpp || cmake_object_order_depends_target_multi_pair_allocation_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\multi_pair_allocation_test.dir\tests\multi_pair_allocation_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\multi_pair_allocation_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\multi_pair_allocation_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\multi_pair_allocation_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target multi_pair_allocation_test
+
+
+#############################################
+# Link the executable multi_pair_allocation_test.exe
+
+build multi_pair_allocation_test.exe: CXX_EXECUTABLE_LINKER__multi_pair_allocation_test_Debug CMakeFiles/multi_pair_allocation_test.dir/tests/multi_pair_allocation_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\multi_pair_allocation_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = multi_pair_allocation_test.exe
+  TARGET_IMPLIB = libmulti_pair_allocation_test.dll.a
+  TARGET_PDB = multi_pair_allocation_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\multi_pair_allocation_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target covariance_matrix_test
+
+
+#############################################
+# Order-only phony target for covariance_matrix_test
+
+build cmake_object_order_depends_target_covariance_matrix_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/covariance_matrix_test.dir/tests/covariance_matrix_test.cpp.obj: CXX_COMPILER__covariance_matrix_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/covariance_matrix_test.cpp || cmake_object_order_depends_target_covariance_matrix_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\covariance_matrix_test.dir\tests\covariance_matrix_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\covariance_matrix_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\covariance_matrix_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\covariance_matrix_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target covariance_matrix_test
+
+
+#############################################
+# Link the executable covariance_matrix_test.exe
+
+build covariance_matrix_test.exe: CXX_EXECUTABLE_LINKER__covariance_matrix_test_Debug CMakeFiles/covariance_matrix_test.dir/tests/covariance_matrix_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\covariance_matrix_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = covariance_matrix_test.exe
+  TARGET_IMPLIB = libcovariance_matrix_test.dll.a
+  TARGET_PDB = covariance_matrix_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\covariance_matrix_test.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target portfolio_risk_limits_test
+
+
+#############################################
+# Order-only phony target for portfolio_risk_limits_test
+
+build cmake_object_order_depends_target_portfolio_risk_limits_test: phony || cmake_object_order_depends_target_quantlab
+
+build CMakeFiles/portfolio_risk_limits_test.dir/tests/portfolio_risk_limits_test.cpp.obj: CXX_COMPILER__portfolio_risk_limits_test_unscanned_Debug C$:/Users/sonu/Desktop/Quant/p1/tests/portfolio_risk_limits_test.cpp || cmake_object_order_depends_target_portfolio_risk_limits_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\portfolio_risk_limits_test.dir\tests\portfolio_risk_limits_test.cpp.obj.d
+  FLAGS = -g -std=c++20
+  INCLUDES = -IC:/Users/sonu/Desktop/Quant/p1/include
+  OBJECT_DIR = CMakeFiles\portfolio_risk_limits_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\portfolio_risk_limits_test.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\portfolio_risk_limits_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target portfolio_risk_limits_test
+
+
+#############################################
+# Link the executable portfolio_risk_limits_test.exe
+
+build portfolio_risk_limits_test.exe: CXX_EXECUTABLE_LINKER__portfolio_risk_limits_test_Debug CMakeFiles/portfolio_risk_limits_test.dir/tests/portfolio_risk_limits_test.cpp.obj | libquantlab.a || libquantlab.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = libquantlab.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\portfolio_risk_limits_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = portfolio_risk_limits_test.exe
+  TARGET_IMPLIB = libportfolio_risk_limits_test.dll.a
+  TARGET_PDB = portfolio_risk_limits_test.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\portfolio_risk_limits_test.dir
+
 
 #############################################
 # Utility command for test
@@ -1727,6 +2047,8 @@ build candle_test: phony candle_test.exe
 
 build cointegration_test: phony cointegration_test.exe
 
+build covariance_matrix_test: phony covariance_matrix_test.exe
+
 build covariance_test: phony covariance_test.exe
 
 build csv_reader_test: phony csv_reader_test.exe
@@ -1737,9 +2059,19 @@ build dickey_fuller_test: phony dickey_fuller_test.exe
 
 build formation_test: phony formation_test.exe
 
+build mackinnon_p_value_test: phony mackinnon_p_value_test.exe
+
 build mackinnon_test: phony mackinnon_test.exe
 
+build multi_pair_allocation_test: phony multi_pair_allocation_test.exe
+
+build multiple_testing_test: phony multiple_testing_test.exe
+
 build pair_position_test: phony pair_position_test.exe
+
+build pair_selection_test: phony pair_selection_test.exe
+
+build pair_universe_test: phony pair_universe_test.exe
 
 build pairs_research: phony pairs_research.exe
 
@@ -1750,6 +2082,8 @@ build parameter_grid_test: phony parameter_grid_test.exe
 build performance_test: phony performance_test.exe
 
 build pnl_test: phony pnl_test.exe
+
+build portfolio_risk_limits_test: phony portfolio_risk_limits_test.exe
 
 build quantlab: phony libquantlab.a
 
@@ -1791,7 +2125,7 @@ build validation_test: phony validation_test.exe
 #############################################
 # Folder: C:/Users/sonu/Desktop/Quant/p1/build
 
-build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe pnl_test.exe transaction_cost_test.exe backtest_test.exe performance_test.exe csv_reader_test.exe alignment_test.exe validation_test.exe parameter_grid_test.exe trades_test.exe data_validation_test.exe pairs_research.exe mackinnon_test.exe formation_test.exe test_walk_forward_aggregation.exe adf_selection_test.exe
+build all: phony libquantlab.a research.exe candle_test.exe time_series_test.exe returns_test.exe statistics_test.exe covariance_test.exe regression_test.exe stationarity_test.exe residuals_test.exe dickey_fuller_test.exe unit_root_test.exe adf_test.exe adf_inference_test.exe cointegration_test.exe rolling_spread_test.exe rolling_regression_test.exe rolling_zscore_test.exe pairs_signal_test.exe pair_position_test.exe pnl_test.exe transaction_cost_test.exe backtest_test.exe performance_test.exe csv_reader_test.exe alignment_test.exe validation_test.exe parameter_grid_test.exe trades_test.exe data_validation_test.exe pairs_research.exe mackinnon_test.exe formation_test.exe test_walk_forward_aggregation.exe adf_selection_test.exe pair_universe_test.exe multiple_testing_test.exe mackinnon_p_value_test.exe pair_selection_test.exe multi_pair_allocation_test.exe covariance_matrix_test.exe portfolio_risk_limits_test.exe
 
 # =============================================================================
 # Built-in targets

@@ -2,6 +2,8 @@
 
 #include <cassert>
 #include <cmath>
+#include <limits>
+#include <stdexcept>
 
 namespace {
 
@@ -14,7 +16,7 @@ bool approximately_equal(
         std::abs(lhs - rhs) <= tolerance;
 }
 
-}
+} // namespace
 
 int main() {
     using quant::math::
@@ -74,6 +76,77 @@ int main() {
         critical.five_percent <
         critical.ten_percent
     );
+
+    /*
+     * Continuous MacKinnon p-value.
+     */
+    const double p_value =
+        quant::math::mackinnon_cointegration_p_value(
+            -4.126339428,
+            n
+        );
+
+    assert(
+        p_value >= 0.0 &&
+        p_value <= 1.0
+    );
+
+    assert(
+        approximately_equal(
+            p_value,
+            0.0047039157,
+            1e-8
+        )
+    );
+
+    /*
+     * More negative test statistics must produce
+     * smaller left-tail p-values.
+     */
+    const double weaker_p_value =
+        quant::math::mackinnon_cointegration_p_value(
+            -3.0,
+            n
+        );
+
+    assert(
+        p_value <
+        weaker_p_value
+    );
+
+    /*
+     * Invalid statistic.
+     */
+    bool threw = false;
+
+    try {
+        (void)
+            quant::math::mackinnon_cointegration_p_value(
+                std::numeric_limits<double>::quiet_NaN(),
+                n
+            );
+    } catch (const std::invalid_argument&) {
+        threw = true;
+    }
+
+    assert(threw);
+
+    /*
+     * Invalid observation count.
+     */
+    threw = false;
+
+    try {
+        (void)
+            quant::math::mackinnon_cointegration_p_value(
+                -4.0,
+                1
+            );
+    } catch (const std::invalid_argument&) {
+        threw = true;
+    }
+
+    assert(threw);
 
     return 0;
 }

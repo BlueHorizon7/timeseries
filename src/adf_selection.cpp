@@ -27,21 +27,6 @@ RegressionFit fit_adf_candidate(
     std::size_t max_lags,
     DeterministicTerm deterministic
 ) {
-    /*
-        All candidate models are evaluated on the same effective
-        sample determined by max_lags.
-
-        Regression:
-
-            ΔS_t =
-                gamma * S_(t-1)
-                + deterministic terms
-                + delta_1 * ΔS_(t-1)
-                + ...
-                + delta_p * ΔS_(t-p)
-                + error_t
-    */
-
     if (candidate_lags > max_lags) {
         throw std::invalid_argument(
             "Candidate ADF lag exceeds maximum lag"
@@ -54,6 +39,11 @@ RegressionFit fit_adf_candidate(
         );
     }
 
+    /*
+        All candidate models use the same effective sample:
+
+            t = max_lags + 1, ..., N - 1
+    */
     const std::size_t first =
         max_lags + 1;
 
@@ -189,9 +179,6 @@ RegressionFit fit_adf_candidate(
         }
     }
 
-    /*
-        Back substitution.
-    */
     std::vector<double> coefficients(k);
 
     for (std::size_t i = k;
@@ -210,12 +197,10 @@ RegressionFit fit_adf_candidate(
         }
 
         coefficients[i] =
-            value / matrix[i][i];
+            value /
+            matrix[i][i];
     }
 
-    /*
-        Residual sum of squares.
-    */
     double rss = 0.0;
 
     for (std::size_t t = first;
@@ -317,7 +302,7 @@ double information_criterion(
             fit.parameters
         );
 
-    const double log_likelihood_term =
+    const double likelihood_term =
         n *
         std::log(
             fit.rss / n
@@ -325,11 +310,11 @@ double information_criterion(
 
     switch (criterion) {
         case InformationCriterion::AIC:
-            return log_likelihood_term +
+            return likelihood_term +
                    2.0 * k;
 
         case InformationCriterion::BIC:
-            return log_likelihood_term +
+            return likelihood_term +
                    k * std::log(n);
     }
 
@@ -355,17 +340,17 @@ ADFLagSelectionResult select_adf_lag(
 
     if (max_lags >= series.size() - 2) {
         throw std::invalid_argument(
-            "Maximum ADF lag is too large for the series"
+            "Maximum ADF lag is too large for "
+            "the series"
         );
     }
 
     std::vector<Candidate> candidates;
 
-    candidates.reserve(max_lags + 1);
+    candidates.reserve(
+        max_lags + 1
+    );
 
-    /*
-        Evaluate all candidate models.
-    */
     for (std::size_t lag = 0;
          lag <= max_lags;
          ++lag) {
@@ -397,15 +382,9 @@ ADFLagSelectionResult select_adf_lag(
             );
         }
         catch (const std::domain_error&) {
-            /*
-                Singular/invalid candidate.
-            */
             continue;
         }
         catch (const std::invalid_argument&) {
-            /*
-                Candidate cannot be estimated.
-            */
             continue;
         }
     }
@@ -416,11 +395,6 @@ ADFLagSelectionResult select_adf_lag(
         );
     }
 
-    /*
-        Best information criterion first.
-
-        Ties are resolved in favor of the smaller lag.
-    */
     std::sort(
         candidates.begin(),
         candidates.end(),
@@ -432,20 +406,20 @@ ADFLagSelectionResult select_adf_lag(
                        rhs.criterion;
             }
 
-            return lhs.lag < rhs.lag;
+            return lhs.lag <
+                   rhs.lag;
         }
     );
 
     /*
-        The existing public ADF implementation uses a
-        lag-specific effective sample. Therefore a candidate
-        that is valid for the common-sample IC regression may
-        still be singular in the actual ADF implementation.
+        The IC ranking is based on the common-sample
+        regression above.
 
-        Try candidates in IC order and select the first one
-        that the authoritative ADF implementation can evaluate.
+        The final ADF statistic remains produced by
+        the established public ADF implementation.
     */
     for (const auto& candidate : candidates) {
+
         try {
             const auto adf =
                 augmented_dickey_fuller(
@@ -461,11 +435,6 @@ ADFLagSelectionResult select_adf_lag(
             };
         }
         catch (const std::domain_error&) {
-            /*
-                Candidate cannot be evaluated by the
-                authoritative ADF implementation.
-                Try the next-best candidate.
-            */
             continue;
         }
         catch (const std::invalid_argument&) {

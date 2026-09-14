@@ -45,6 +45,12 @@ add_library(quantlab
     src/formation.cpp
     src/walk_forward.cpp
     src/adf_selection.cpp
+    src/pair_universe.cpp
+    src/multiple_testing.cpp
+        src/pair_selection.cpp
+        src/multi_pair_allocation.cpp
+        src/covariance_matrix.cpp
+        src/portfolio_risk_limits.cpp
 )
 
 target_include_directories(quantlab
@@ -479,4 +485,137 @@ target_link_libraries(
 add_test(
     NAME adf_selection_test
     COMMAND adf_selection_test
+)
+
+add_executable(
+    pair_universe_test
+    tests/pair_universe_test.cpp
+)
+
+target_link_libraries(
+    pair_universe_test
+    PRIVATE
+    quantlab
+)
+
+add_test(
+    NAME pair_universe_test
+    COMMAND pair_universe_test
+)
+
+add_executable(
+    multiple_testing_test
+    tests/multiple_testing_test.cpp
+)
+
+target_link_libraries(
+    multiple_testing_test
+    PRIVATE
+    quantlab
+)
+
+add_test(
+    NAME multiple_testing_test
+    COMMAND multiple_testing_test
+)
+
+add_executable(mackinnon_p_value_test
+    tests/mackinnon_p_value_test.cpp
+)
+
+target_include_directories(mackinnon_p_value_test
+    PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(mackinnon_p_value_test
+    PRIVATE
+        quantlab
+)
+
+add_test(
+    NAME mackinnon_p_value_test
+    COMMAND mackinnon_p_value_test
+)
+
+add_executable(pair_selection_test
+    tests/pair_selection_test.cpp
+)
+
+target_include_directories(pair_selection_test
+    PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(pair_selection_test
+    PRIVATE
+        quantlab
+)
+
+add_test(
+    NAME pair_selection_test
+    COMMAND pair_selection_test
+)
+
+add_executable(multi_pair_allocation_test
+    tests/multi_pair_allocation_test.cpp
+)
+
+target_include_directories(multi_pair_allocation_test
+    PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(multi_pair_allocation_test
+    PRIVATE
+        quantlab
+)
+
+add_test(
+    NAME multi_pair_allocation_test
+    COMMAND multi_pair_allocation_test
+)
+
+add_executable(
+    covariance_matrix_test
+    tests/covariance_matrix_test.cpp
+)
+
+target_include_directories(
+    covariance_matrix_test
+    PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(
+    covariance_matrix_test
+    PRIVATE
+        quantlab
+)
+
+add_test(
+    NAME covariance_matrix_test
+    COMMAND covariance_matrix_test
+)
+
+add_executable(
+    portfolio_risk_limits_test
+    tests/portfolio_risk_limits_test.cpp
+)
+
+target_include_directories(
+    portfolio_risk_limits_test
+    PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(
+    portfolio_risk_limits_test
+    PRIVATE
+        quantlab
+)
+
+add_test(
+    NAME portfolio_risk_limits_test
+    COMMAND portfolio_risk_limits_test
 )

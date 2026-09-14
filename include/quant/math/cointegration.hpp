@@ -9,21 +9,8 @@
 
 namespace quant::math {
 
-enum class CointegrationDecision {
-    Cointegrated,
-    NotCointegrated
-};
-
 struct CointegrationParameters {
-    /*
-        If automatic_lag_selection is false, adf_lags is used
-        explicitly.
-
-        If automatic_lag_selection is true, lags are selected
-        from [0, max_adf_lags] using the requested information
-        criterion.
-    */
-    bool automatic_lag_selection{false};
+    bool automatic_lag_selection{};
 
     std::size_t adf_lags{};
 
@@ -35,11 +22,19 @@ struct CointegrationParameters {
         };
 };
 
+enum class CointegrationDecision {
+    Cointegrated,
+    NotCointegrated
+};
+
 struct CointegrationResult {
     LinearRegression regression;
+
     Series spread;
 
     double adf_statistic{};
+
+    double p_value{};
 
     MacKinnonCriticalValues
         critical_values{};
@@ -56,15 +51,15 @@ struct CointegrationResult {
 CointegrationResult engle_granger(
     const Series& x,
     const Series& y,
-    std::size_t adf_lags = 0
+    const CointegrationParameters&
+        parameters
 );
 
 [[nodiscard]]
 CointegrationResult engle_granger(
     const Series& x,
     const Series& y,
-    const CointegrationParameters&
-        parameters
+    std::size_t adf_lags = 0
 );
 
 } // namespace quant::math

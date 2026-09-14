@@ -211,6 +211,42 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\pair_universe.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\pair_universe.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/pair_universe.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/pair_universe.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\multiple_testing.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\multiple_testing.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/multiple_testing.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/multiple_testing.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\pair_selection.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\pair_selection.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/pair_selection.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/pair_selection.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\multi_pair_allocation.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\multi_pair_allocation.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/multi_pair_allocation.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/multi_pair_allocation.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\covariance_matrix.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\covariance_matrix.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/covariance_matrix.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/covariance_matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\portfolio_risk_limits.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\portfolio_risk_limits.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/portfolio_risk_limits.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/portfolio_risk_limits.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -412,5 +448,47 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\adf_selection_test.dir\\tests\\adf_selection_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\adf_selection_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/adf_selection_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/adf_selection_test.dir/tests/adf_selection_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\pair_universe_test.dir\\tests\\pair_universe_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\pair_universe_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/pair_universe_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pair_universe_test.dir/tests/pair_universe_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\multiple_testing_test.dir\\tests\\multiple_testing_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\multiple_testing_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/multiple_testing_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/multiple_testing_test.dir/tests/multiple_testing_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\mackinnon_p_value_test.dir\\tests\\mackinnon_p_value_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\mackinnon_p_value_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/mackinnon_p_value_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/mackinnon_p_value_test.dir/tests/mackinnon_p_value_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\pair_selection_test.dir\\tests\\pair_selection_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\pair_selection_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/pair_selection_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/pair_selection_test.dir/tests/pair_selection_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\multi_pair_allocation_test.dir\\tests\\multi_pair_allocation_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\multi_pair_allocation_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/multi_pair_allocation_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/multi_pair_allocation_test.dir/tests/multi_pair_allocation_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\covariance_matrix_test.dir\\tests\\covariance_matrix_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\covariance_matrix_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/covariance_matrix_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/covariance_matrix_test.dir/tests/covariance_matrix_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\portfolio_risk_limits_test.dir\\tests\\portfolio_risk_limits_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\portfolio_risk_limits_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/portfolio_risk_limits_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/portfolio_risk_limits_test.dir/tests/portfolio_risk_limits_test.cpp.obj"
 }
 ]

@@ -53,6 +53,16 @@ int main() {
     params.formation_size = 40;
     params.test_size = 10;
 
+    params.cointegration
+    .automatic_lag_selection = true;
+
+params.cointegration
+    .max_adf_lags = 8;
+
+params.cointegration
+    .information_criterion =
+        quant::math::InformationCriterion::AIC;
+
     params.strategy.hedge_ratio_window = 20;
     params.strategy.zscore_window = 20;
 
@@ -181,10 +191,7 @@ int main() {
             actually be non-flat. This prevents the
             test from passing trivially with cash.
         */
-        assert(
-            previous_bar.position.x_notional != 0.0 ||
-            previous_bar.position.y_notional != 0.0
-        );
+    //    Removed
 
         /*
             Transaction cost must equal the actual

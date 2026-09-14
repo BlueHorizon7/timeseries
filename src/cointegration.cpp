@@ -12,46 +12,10 @@ namespace quant::math {
 
 namespace {
 
-CointegrationResult run_engle_granger(
+CointegrationResult engle_granger_impl(
     const Series& x,
     const Series& y,
-    std::size_t adf_lags,
-    const LinearRegression& regression,
-    const Series& spread,
-    const ADFResult& adf
-) {
-    /*
-        The residual ADF loses one observation because
-        of first differencing.
-    */
-    const std::size_t effective_observations =
-        x.size() - 1;
-
-    const auto critical_values =
-        mackinnon_cointegration_critical_values(
-            effective_observations
-        );
-
-    const auto decision =
-        adf.statistic <
-                critical_values.five_percent
-            ? CointegrationDecision::Cointegrated
-            : CointegrationDecision::NotCointegrated;
-
-    return CointegrationResult{
-        regression,
-        spread,
-        adf.statistic,
-        critical_values,
-        decision,
-        x.size(),
-        adf_lags
-    };
-}
-
-void validate_series(
-    const Series& x,
-    const Series& y
+    std::size_t adf_lags
 ) {
     if (x.size() != y.size()) {
         throw std::invalid_argument(
@@ -70,42 +34,14 @@ void validate_series(
          i < x.size();
          ++i) {
 
-        if (x[i].timestamp != y[i].timestamp) {
+        if (x[i].timestamp !=
+            y[i].timestamp) {
+
             throw std::invalid_argument(
                 "Engle-Granger requires aligned timestamps"
             );
         }
     }
-}
-
-} // namespace
-
-CointegrationResult engle_granger(
-    const Series& x,
-    const Series& y,
-    std::size_t adf_lags
-) {
-    const CointegrationParameters parameters{
-        false,
-        adf_lags,
-        0,
-        InformationCriterion::AIC
-    };
-
-    return engle_granger(
-        x,
-        y,
-        parameters
-    );
-}
-
-CointegrationResult engle_granger(
-    const Series& x,
-    const Series& y,
-    const CointegrationParameters&
-        parameters
-) {
-    validate_series(x, y);
 
     const auto regression =
         ordinary_least_squares(
@@ -120,57 +56,119 @@ CointegrationResult engle_granger(
             regression
         );
 
-    ADFResult adf;
-    std::size_t selected_lags = 0;
+    const auto adf =
+        augmented_dickey_fuller(
+            spread,
+            adf_lags,
+            DeterministicTerm::None
+        );
 
-    if (parameters.automatic_lag_selection) {
-        if (parameters.max_adf_lags == 0) {
-            /*
-                max_adf_lags == 0 still means the candidate
-                set contains only lag 0.
-            */
-            adf =
-                augmented_dickey_fuller(
-                    spread,
-                    0,
-                    DeterministicTerm::None
-                );
+    /*
+     * The residual ADF loses one observation because
+     * of first differencing.
+     */
+    const std::size_t effective_observations =
+        x.size() - 1;
 
-            selected_lags = 0;
-        } else {
-            const auto selection =
-                select_adf_lag(
-                    spread,
-                    parameters.max_adf_lags,
-                    DeterministicTerm::None,
-                    parameters.information_criterion
-                );
+    const auto critical_values =
+        mackinnon_cointegration_critical_values(
+            effective_observations
+        );
 
-            adf =
-                selection.adf;
+    const double p_value =
+        mackinnon_cointegration_p_value(
+            adf.statistic,
+            effective_observations
+        );
 
-            selected_lags =
-                selection.selected_lags;
-        }
-    } else {
-        adf =
-            augmented_dickey_fuller(
-                spread,
-                parameters.adf_lags,
-                DeterministicTerm::None
-            );
+    const auto decision =
+        adf.statistic <
+                critical_values.five_percent
+            ? CointegrationDecision::Cointegrated
+            : CointegrationDecision::NotCointegrated;
 
-        selected_lags =
-            parameters.adf_lags;
-    }
-
-    return run_engle_granger(
-        x,
-        y,
-        selected_lags,
+    return CointegrationResult{
         regression,
         spread,
-        adf
+        adf.statistic,
+        p_value,
+        critical_values,
+        decision,
+        x.size(),
+        adf_lags
+    };
+}
+
+} // namespace
+
+CointegrationResult engle_granger(
+    const Series& x,
+    const Series& y,
+    std::size_t adf_lags
+) {
+    return engle_granger_impl(
+        x,
+        y,
+        adf_lags
+    );
+}
+
+CointegrationResult engle_granger(
+    const Series& x,
+    const Series& y,
+    const CointegrationParameters&
+        parameters
+) {
+    if (!parameters.automatic_lag_selection) {
+        return engle_granger_impl(
+            x,
+            y,
+            parameters.adf_lags
+        );
+    }
+
+    /*
+     * First Engle-Granger stage.
+     */
+    const auto regression =
+        ordinary_least_squares(
+            x,
+            y
+        );
+
+    /*
+     * Residual spread is the series on which the
+     * augmented Dickey-Fuller lag selection must operate.
+     */
+    const auto spread =
+        residuals(
+            x,
+            y,
+            regression
+        );
+
+    if (parameters.max_adf_lags == 0) {
+        throw std::invalid_argument(
+            "Automatic ADF lag selection requires "
+            "maximum_adf_lags > 0"
+        );
+    }
+
+    const auto selection =
+        select_adf_lag(
+            spread,
+            parameters.max_adf_lags,
+            DeterministicTerm::None,
+            parameters.information_criterion
+        );
+
+    const std::size_t selected_lags =
+        selection.adf.lags;
+
+    return engle_granger_impl(
+        x,
+        y,
+        selected_lags
     );
 }
 

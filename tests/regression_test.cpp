@@ -31,4 +31,68 @@ int main() {
     assert(
         std::abs(result.intercept - 3.0) < 1e-12
     );
+
+        /*
+        Large-offset data.
+
+        The true relationship is:
+
+            y = 3x + 7
+
+        but x is centered around a very large value.
+        This checks that the centered implementation
+        does not lose the slope because of the offset.
+    */
+    Series large_x;
+    Series large_y;
+
+    constexpr double base =
+        1.0e12;
+
+    for (std::size_t i = 0;
+         i < 100;
+         ++i) {
+
+        const double xv =
+            base +
+            static_cast<double>(i);
+
+        const double yv =
+            3.0 * xv +
+            7.0;
+
+        large_x.add(
+            Observation{
+                static_cast<std::int64_t>(i + 1),
+                xv
+            }
+        );
+
+        large_y.add(
+            Observation{
+                static_cast<std::int64_t>(i + 1),
+                yv
+            }
+        );
+    }
+
+    const auto large_result =
+        quant::math::ordinary_least_squares(
+            large_x,
+            large_y
+        );
+
+    assert(
+        
+        std::abs(
+            large_result.slope -
+            3.0
+        ) < 1e-12
+    );
+
+    assert(
+        std::isfinite(
+            large_result.intercept
+        )
+    );
 }

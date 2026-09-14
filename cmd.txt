@@ -17,3 +17,7 @@ Get-Content src/backtest.cpp
 Get-Content include/quant/research/walk_forward.hpp
 Get-Content src/walk_forward.cpp
 Get-Content tests/walk_forward_test.cpp
+
+Get-Content include/quant/math/mackinnon.hpp    
+Get-Content src/mackinnon.cpp                       
+Get-Content tests/mackinnon_test.cpp  

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "quant/data/aligned_series.hpp"
+#include "quant/math/cointegration.hpp"
 #include "quant/research/pairs_research.hpp"
 #include "quant/risk/performance.hpp"
 #include "quant/backtest/backtest.hpp"
@@ -14,6 +15,13 @@ namespace quant::research {
 struct WalkForwardParameters {
     std::size_t formation_size{};
     std::size_t test_size{};
+
+    /*
+        Cointegration/ADF configuration used independently
+        inside every formation fold.
+    */
+    quant::math::CointegrationParameters
+        cointegration{};
 
     PairsResearchParameters strategy{};
 };
@@ -35,9 +43,17 @@ struct WalkForwardFold {
 struct WalkForwardResult {
     std::vector<WalkForwardFold> folds;
 
-    // The single, authoritative chronologically combined OOS timeline
-    std::optional<quant::backtest::BacktestResult> aggregate_backtest;
-    std::optional<quant::risk::PerformanceMetrics> aggregate_performance;
+    /*
+        The single authoritative chronologically
+        combined OOS timeline.
+    */
+    std::optional<
+        quant::backtest::BacktestResult
+    > aggregate_backtest;
+
+    std::optional<
+        quant::risk::PerformanceMetrics
+    > aggregate_performance;
 };
 
 [[nodiscard]]
