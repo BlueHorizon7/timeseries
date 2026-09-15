@@ -337,6 +337,42 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\order_generation.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\order_generation.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/order_generation.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/order_generation.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\simulated_venue.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\simulated_venue.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/simulated_venue.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/simulated_venue.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\execution_coordinator.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\execution_coordinator.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/execution_coordinator.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/execution_coordinator.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\reconciliation.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\reconciliation.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/reconciliation.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/reconciliation.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\paper_trader.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\paper_trader.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/paper_trader.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/paper_trader.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\risk_controls.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\risk_controls.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/risk_controls.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/risk_controls.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -676,5 +712,53 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\portfolio_ledger_test.dir\\tests\\portfolio_ledger_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\portfolio_ledger_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/portfolio_ledger_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/portfolio_ledger_test.dir/tests/portfolio_ledger_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\order_generation_test.dir\\tests\\order_generation_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\order_generation_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/order_generation_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/order_generation_test.dir/tests/order_generation_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\simulated_venue_test.dir\\tests\\simulated_venue_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\simulated_venue_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/simulated_venue_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/simulated_venue_test.dir/tests/simulated_venue_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\execution_coordinator_test.dir\\tests\\execution_coordinator_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\execution_coordinator_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/execution_coordinator_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/execution_coordinator_test.dir/tests/execution_coordinator_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\reconciliation_test.dir\\tests\\reconciliation_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\reconciliation_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/reconciliation_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/reconciliation_test.dir/tests/reconciliation_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\paper_trader_test.dir\\tests\\paper_trader_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\paper_trader_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/paper_trader_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/paper_trader_test.dir/tests/paper_trader_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\risk_controls_test.dir\\tests\\risk_controls_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\risk_controls_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/risk_controls_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/risk_controls_test.dir/tests/risk_controls_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab_paper_trading.dir\\applications\\paper_trading.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\paper_trading.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/applications/paper_trading.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab_paper_trading.dir/applications/paper_trading.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab_gui.dir\\applications\\quantlab_gui.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\quantlab_gui.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/applications/quantlab_gui.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab_gui.dir/applications/quantlab_gui.cpp.obj"
 }
 ]

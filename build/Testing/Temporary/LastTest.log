@@ -1,41 +1,829 @@
-Start testing: Sep 15 19:46 India Standard Time
+Start testing: Sep 15 20:19 India Standard Time
 ----------------------------------------------------------
-18/54 Testing: pair_position_test
-18/54 Test: pair_position_test
-Command: "C:/Users/sonu/Desktop/Quant/p1/build/pair_position_test.exe"
+1/60 Testing: candle_test
+1/60 Test: candle_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/candle_test.exe"
 Directory: C:/Users/sonu/Desktop/Quant/p1/build
-"pair_position_test" start time: Sep 15 19:46 India Standard Time
+"candle_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"candle_test" end time: Sep 15 20:19 India Standard Time
+"candle_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/60 Testing: time_series_test
+2/60 Test: time_series_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/time_series_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"time_series_test" start time: Sep 15 20:19 India Standard Time
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"pair_position_test" end time: Sep 15 19:46 India Standard Time
+"time_series_test" end time: Sep 15 20:19 India Standard Time
+"time_series_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/60 Testing: returns_test
+3/60 Test: returns_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/returns_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"returns_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"returns_test" end time: Sep 15 20:19 India Standard Time
+"returns_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/60 Testing: statistics_test
+4/60 Test: statistics_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/statistics_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"statistics_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"statistics_test" end time: Sep 15 20:19 India Standard Time
+"statistics_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/60 Testing: covariance_test
+5/60 Test: covariance_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/covariance_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"covariance_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"covariance_test" end time: Sep 15 20:19 India Standard Time
+"covariance_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/60 Testing: regression_test
+6/60 Test: regression_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/regression_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"regression_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"regression_test" end time: Sep 15 20:19 India Standard Time
+"regression_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/60 Testing: stationarity_test
+7/60 Test: stationarity_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/stationarity_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"stationarity_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"stationarity_test" end time: Sep 15 20:19 India Standard Time
+"stationarity_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/60 Testing: residuals_test
+8/60 Test: residuals_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/residuals_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"residuals_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"residuals_test" end time: Sep 15 20:19 India Standard Time
+"residuals_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/60 Testing: dickey_fuller_test
+9/60 Test: dickey_fuller_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/dickey_fuller_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"dickey_fuller_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"dickey_fuller_test" end time: Sep 15 20:19 India Standard Time
+"dickey_fuller_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/60 Testing: unit_root_test
+10/60 Test: unit_root_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/unit_root_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"unit_root_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"unit_root_test" end time: Sep 15 20:19 India Standard Time
+"unit_root_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/60 Testing: adf_test
+11/60 Test: adf_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/adf_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"adf_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"adf_test" end time: Sep 15 20:19 India Standard Time
+"adf_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/60 Testing: adf_inference_test
+12/60 Test: adf_inference_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/adf_inference_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"adf_inference_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"adf_inference_test" end time: Sep 15 20:19 India Standard Time
+"adf_inference_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/60 Testing: cointegration_test
+13/60 Test: cointegration_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/cointegration_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"cointegration_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"cointegration_test" end time: Sep 15 20:19 India Standard Time
+"cointegration_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/60 Testing: rolling_spread_test
+14/60 Test: rolling_spread_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/rolling_spread_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"rolling_spread_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"rolling_spread_test" end time: Sep 15 20:19 India Standard Time
+"rolling_spread_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/60 Testing: rolling_regression_test
+15/60 Test: rolling_regression_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/rolling_regression_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"rolling_regression_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"rolling_regression_test" end time: Sep 15 20:19 India Standard Time
+"rolling_regression_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/60 Testing: rolling_zscore_test
+16/60 Test: rolling_zscore_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/rolling_zscore_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"rolling_zscore_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"rolling_zscore_test" end time: Sep 15 20:19 India Standard Time
+"rolling_zscore_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/60 Testing: pairs_signal_test
+17/60 Test: pairs_signal_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/pairs_signal_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"pairs_signal_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"pairs_signal_test" end time: Sep 15 20:19 India Standard Time
+"pairs_signal_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/60 Testing: pair_position_test
+18/60 Test: pair_position_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/pair_position_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"pair_position_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"pair_position_test" end time: Sep 15 20:19 India Standard Time
 "pair_position_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-53/54 Testing: position_test
-53/54 Test: position_test
+19/60 Testing: pnl_test
+19/60 Test: pnl_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/pnl_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"pnl_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"pnl_test" end time: Sep 15 20:19 India Standard Time
+"pnl_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/60 Testing: transaction_cost_test
+20/60 Test: transaction_cost_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/transaction_cost_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"transaction_cost_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"transaction_cost_test" end time: Sep 15 20:19 India Standard Time
+"transaction_cost_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/60 Testing: backtest_test
+21/60 Test: backtest_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/backtest_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"backtest_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"backtest_test" end time: Sep 15 20:19 India Standard Time
+"backtest_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/60 Testing: performance_test
+22/60 Test: performance_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/performance_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"performance_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"performance_test" end time: Sep 15 20:19 India Standard Time
+"performance_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/60 Testing: csv_reader_test
+23/60 Test: csv_reader_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/csv_reader_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"csv_reader_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"csv_reader_test" end time: Sep 15 20:19 India Standard Time
+"csv_reader_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/60 Testing: alignment_test
+24/60 Test: alignment_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/alignment_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"alignment_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"alignment_test" end time: Sep 15 20:19 India Standard Time
+"alignment_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/60 Testing: validation_test
+25/60 Test: validation_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/validation_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"validation_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"validation_test" end time: Sep 15 20:19 India Standard Time
+"validation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/60 Testing: parameter_grid_test
+26/60 Test: parameter_grid_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/parameter_grid_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"parameter_grid_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"parameter_grid_test" end time: Sep 15 20:19 India Standard Time
+"parameter_grid_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/60 Testing: trades_test
+27/60 Test: trades_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/trades_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"trades_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"trades_test" end time: Sep 15 20:19 India Standard Time
+"trades_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/60 Testing: data_validation_test
+28/60 Test: data_validation_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/data_validation_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"data_validation_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"data_validation_test" end time: Sep 15 20:19 India Standard Time
+"data_validation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/60 Testing: mackinnon_test
+29/60 Test: mackinnon_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/mackinnon_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"mackinnon_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"mackinnon_test" end time: Sep 15 20:19 India Standard Time
+"mackinnon_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/60 Testing: formation_test
+30/60 Test: formation_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/formation_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"formation_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"formation_test" end time: Sep 15 20:19 India Standard Time
+"formation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/60 Testing: test_walk_forward_aggregation
+31/60 Test: test_walk_forward_aggregation
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/test_walk_forward_aggregation.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"test_walk_forward_aggregation" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Walk-forward continuous OOS aggregation tests passed!
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_walk_forward_aggregation" end time: Sep 15 20:19 India Standard Time
+"test_walk_forward_aggregation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/60 Testing: adf_selection_test
+32/60 Test: adf_selection_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/adf_selection_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"adf_selection_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"adf_selection_test" end time: Sep 15 20:19 India Standard Time
+"adf_selection_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/60 Testing: pair_universe_test
+33/60 Test: pair_universe_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/pair_universe_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"pair_universe_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Pair universe candidate tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"pair_universe_test" end time: Sep 15 20:19 India Standard Time
+"pair_universe_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/60 Testing: multiple_testing_test
+34/60 Test: multiple_testing_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/multiple_testing_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"multiple_testing_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Multiple-testing tests passed!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"multiple_testing_test" end time: Sep 15 20:19 India Standard Time
+"multiple_testing_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/60 Testing: mackinnon_p_value_test
+35/60 Test: mackinnon_p_value_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/mackinnon_p_value_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"mackinnon_p_value_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"mackinnon_p_value_test" end time: Sep 15 20:19 India Standard Time
+"mackinnon_p_value_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/60 Testing: pair_selection_test
+36/60 Test: pair_selection_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/pair_selection_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"pair_selection_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"pair_selection_test" end time: Sep 15 20:19 India Standard Time
+"pair_selection_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/60 Testing: multi_pair_allocation_test
+37/60 Test: multi_pair_allocation_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/multi_pair_allocation_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"multi_pair_allocation_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"multi_pair_allocation_test" end time: Sep 15 20:19 India Standard Time
+"multi_pair_allocation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/60 Testing: covariance_matrix_test
+38/60 Test: covariance_matrix_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/covariance_matrix_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"covariance_matrix_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"covariance_matrix_test" end time: Sep 15 20:19 India Standard Time
+"covariance_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/60 Testing: portfolio_risk_limits_test
+39/60 Test: portfolio_risk_limits_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/portfolio_risk_limits_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"portfolio_risk_limits_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"portfolio_risk_limits_test" end time: Sep 15 20:19 India Standard Time
+"portfolio_risk_limits_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/60 Testing: execution_cost_test
+40/60 Test: execution_cost_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/execution_cost_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"execution_cost_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"execution_cost_test" end time: Sep 15 20:19 India Standard Time
+"execution_cost_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/60 Testing: cost_sensitivity_test
+41/60 Test: cost_sensitivity_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/cost_sensitivity_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"cost_sensitivity_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Cost sensitivity tests passed!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"cost_sensitivity_test" end time: Sep 15 20:19 India Standard Time
+"cost_sensitivity_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/60 Testing: parameter_sensitivity_test
+42/60 Test: parameter_sensitivity_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/parameter_sensitivity_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"parameter_sensitivity_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Parameter sensitivity tests passed!
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"parameter_sensitivity_test" end time: Sep 15 20:19 India Standard Time
+"parameter_sensitivity_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/60 Testing: subperiod_stability_test
+43/60 Test: subperiod_stability_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/subperiod_stability_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"subperiod_stability_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+A
+B
+C
+D
+Subperiod stability tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"subperiod_stability_test" end time: Sep 15 20:19 India Standard Time
+"subperiod_stability_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/60 Testing: walk_forward_parameter_stability_test
+44/60 Test: walk_forward_parameter_stability_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/walk_forward_parameter_stability_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"walk_forward_parameter_stability_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Baseline folds: 3
+Fold 0: formation_passed=1, performance=1
+Fold 1: formation_passed=1, performance=1
+Fold 2: formation_passed=1, performance=1
+Walk-forward parameter stability tests passed!
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"walk_forward_parameter_stability_test" end time: Sep 15 20:19 India Standard Time
+"walk_forward_parameter_stability_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/60 Testing: bootstrap_test
+45/60 Test: bootstrap_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/bootstrap_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"bootstrap_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Bootstrap tests passed!
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"bootstrap_test" end time: Sep 15 20:19 India Standard Time
+"bootstrap_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/60 Testing: placebo_test
+46/60 Test: placebo_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/placebo_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"placebo_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Placebo tests passed!
+<end of output>
+Test time =   7.79 sec
+----------------------------------------------------------
+Test Passed.
+"placebo_test" end time: Sep 15 20:19 India Standard Time
+"placebo_test" time elapsed: 00:00:07
+----------------------------------------------------------
+
+47/60 Testing: robustness_report_test
+47/60 Test: robustness_report_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/robustness_report_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"robustness_report_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Robustness report tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"robustness_report_test" end time: Sep 15 20:19 India Standard Time
+"robustness_report_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/60 Testing: experiment_test
+48/60 Test: experiment_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/experiment_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"experiment_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Research experiment tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"experiment_test" end time: Sep 15 20:19 India Standard Time
+"experiment_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/60 Testing: experiment_report_test
+49/60 Test: experiment_report_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/experiment_report_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"experiment_report_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Experiment report tests passed!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"experiment_report_test" end time: Sep 15 20:19 India Standard Time
+"experiment_report_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/60 Testing: order_test
+50/60 Test: order_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/order_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"order_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Order tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"order_test" end time: Sep 15 20:19 India Standard Time
+"order_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/60 Testing: fill_test
+51/60 Test: fill_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/fill_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"fill_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Fill tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"fill_test" end time: Sep 15 20:19 India Standard Time
+"fill_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/60 Testing: execution_engine_test
+52/60 Test: execution_engine_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/execution_engine_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"execution_engine_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Execution engine tests passed!
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"execution_engine_test" end time: Sep 15 20:19 India Standard Time
+"execution_engine_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/60 Testing: position_test
+53/60 Test: position_test
 Command: "C:/Users/sonu/Desktop/Quant/p1/build/position_test.exe"
 Directory: C:/Users/sonu/Desktop/Quant/p1/build
-"position_test" start time: Sep 15 19:46 India Standard Time
+"position_test" start time: Sep 15 20:19 India Standard Time
 Output:
 ----------------------------------------------------------
 Position tests passed!
 <end of output>
-Test time =   0.19 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"position_test" end time: Sep 15 19:46 India Standard Time
+"position_test" end time: Sep 15 20:19 India Standard Time
 "position_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-54/54 Testing: portfolio_ledger_test
-54/54 Test: portfolio_ledger_test
+54/60 Testing: portfolio_ledger_test
+54/60 Test: portfolio_ledger_test
 Command: "C:/Users/sonu/Desktop/Quant/p1/build/portfolio_ledger_test.exe"
 Directory: C:/Users/sonu/Desktop/Quant/p1/build
-"portfolio_ledger_test" start time: Sep 15 19:46 India Standard Time
+"portfolio_ledger_test" start time: Sep 15 20:19 India Standard Time
 Output:
 ----------------------------------------------------------
 Portfolio ledger tests passed!
@@ -43,8 +831,104 @@ Portfolio ledger tests passed!
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"portfolio_ledger_test" end time: Sep 15 19:46 India Standard Time
+"portfolio_ledger_test" end time: Sep 15 20:19 India Standard Time
 "portfolio_ledger_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 15 19:46 India Standard Time
+55/60 Testing: order_generation_test
+55/60 Test: order_generation_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/order_generation_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"order_generation_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+Order generation tests passed!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"order_generation_test" end time: Sep 15 20:19 India Standard Time
+"order_generation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/60 Testing: simulated_venue_test
+56/60 Test: simulated_venue_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/simulated_venue_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"simulated_venue_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+simulated_venue_test passed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"simulated_venue_test" end time: Sep 15 20:19 India Standard Time
+"simulated_venue_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/60 Testing: execution_coordinator_test
+57/60 Test: execution_coordinator_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/execution_coordinator_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"execution_coordinator_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+execution_coordinator_test passed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"execution_coordinator_test" end time: Sep 15 20:19 India Standard Time
+"execution_coordinator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/60 Testing: reconciliation_test
+58/60 Test: reconciliation_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/reconciliation_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"reconciliation_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+reconciliation_test passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"reconciliation_test" end time: Sep 15 20:19 India Standard Time
+"reconciliation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/60 Testing: paper_trader_test
+59/60 Test: paper_trader_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/paper_trader_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"paper_trader_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+paper_trader_test passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"paper_trader_test" end time: Sep 15 20:19 India Standard Time
+"paper_trader_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/60 Testing: risk_controls_test
+60/60 Test: risk_controls_test
+Command: "C:/Users/sonu/Desktop/Quant/p1/build/risk_controls_test.exe"
+Directory: C:/Users/sonu/Desktop/Quant/p1/build
+"risk_controls_test" start time: Sep 15 20:19 India Standard Time
+Output:
+----------------------------------------------------------
+risk_controls_test passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"risk_controls_test" end time: Sep 15 20:19 India Standard Time
+"risk_controls_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 15 20:19 India Standard Time

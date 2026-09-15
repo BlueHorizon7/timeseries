@@ -63,9 +63,15 @@ add_library(quantlab
         src/experiment_report.cpp
         src/order.cpp
 src/fill.cpp
-src/execution_engine.cpp
+src/execution_engine.cpp    
 src/position.cpp
 src/portfolio_ledger.cpp
+src/order_generation.cpp
+src/simulated_venue.cpp
+src/execution_coordinator.cpp
+src/reconciliation.cpp
+src/paper_trader.cpp
+src/risk_controls.cpp
 )
 
 target_include_directories(quantlab
@@ -873,4 +879,103 @@ target_link_libraries(
 add_test(
     NAME portfolio_ledger_test
     COMMAND portfolio_ledger_test
+)
+
+add_executable(
+    order_generation_test
+    tests/order_generation_test.cpp
+)
+
+target_link_libraries(
+    order_generation_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME order_generation_test
+    COMMAND order_generation_test
+)
+
+add_executable(simulated_venue_test
+    tests/simulated_venue_test.cpp
+)
+
+target_link_libraries(simulated_venue_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME simulated_venue_test
+    COMMAND simulated_venue_test
+)
+
+add_executable(execution_coordinator_test
+    tests/execution_coordinator_test.cpp
+)
+
+target_link_libraries(execution_coordinator_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME execution_coordinator_test
+    COMMAND execution_coordinator_test
+)
+
+add_executable(reconciliation_test
+    tests/reconciliation_test.cpp
+)
+
+target_link_libraries(reconciliation_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME reconciliation_test
+    COMMAND reconciliation_test
+)
+
+add_executable(paper_trader_test
+    tests/paper_trader_test.cpp
+)
+
+target_link_libraries(paper_trader_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME paper_trader_test
+    COMMAND paper_trader_test
+)
+
+add_executable(risk_controls_test
+    tests/risk_controls_test.cpp
+)
+
+target_link_libraries(risk_controls_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME risk_controls_test
+    COMMAND risk_controls_test
+)
+
+add_executable(quantlab_paper_trading
+    applications/paper_trading.cpp
+)
+
+target_link_libraries(quantlab_paper_trading
+    PRIVATE quantlab
+)
+
+add_executable(quantlab_gui WIN32
+    applications/quantlab_gui.cpp
+)
+
+target_link_libraries(quantlab_gui
+    PRIVATE
+        quantlab
+        user32
+        gdi32
 )
