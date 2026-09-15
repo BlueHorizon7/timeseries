@@ -55,6 +55,17 @@ add_library(quantlab
         src/cost_sensitivity.cpp
         src/parameter_sensitivity.cpp
         src/subperiod_stability.cpp
+        src/walk_forward_parameter_stability.cpp
+        src/bootstrap.cpp
+        src/placebo.cpp
+        src/robustness_report.cpp
+        src/experiment.cpp
+        src/experiment_report.cpp
+        src/order.cpp
+src/fill.cpp
+src/execution_engine.cpp
+src/position.cpp
+src/portfolio_ledger.cpp
 )
 
 target_include_directories(quantlab
@@ -693,4 +704,173 @@ target_link_libraries(
 add_test(
     NAME subperiod_stability_test
     COMMAND subperiod_stability_test
+)
+
+add_executable(
+    walk_forward_parameter_stability_test
+    tests/walk_forward_parameter_stability_test.cpp
+)
+
+target_link_libraries(
+    walk_forward_parameter_stability_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME walk_forward_parameter_stability_test
+    COMMAND walk_forward_parameter_stability_test
+)
+
+add_executable(
+    bootstrap_test
+    tests/bootstrap_test.cpp
+)
+
+target_link_libraries(
+    bootstrap_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME bootstrap_test
+    COMMAND bootstrap_test
+)
+
+add_executable(
+    placebo_test
+    tests/placebo_test.cpp
+)
+
+target_link_libraries(
+    placebo_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME placebo_test
+    COMMAND placebo_test
+)
+
+add_executable(
+    robustness_report_test
+    tests/robustness_report_test.cpp
+)
+
+target_link_libraries(
+    robustness_report_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME robustness_report_test
+    COMMAND robustness_report_test
+)
+
+add_executable(
+    experiment_test
+    tests/experiment_test.cpp
+)
+
+target_link_libraries(
+    experiment_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME experiment_test
+    COMMAND experiment_test
+)
+
+add_executable(
+    experiment_report_test
+    tests/experiment_report_test.cpp
+)
+
+target_link_libraries(
+    experiment_report_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME experiment_report_test
+    COMMAND experiment_report_test
+)
+
+add_executable(
+    order_test
+    tests/order_test.cpp
+)
+
+target_link_libraries(
+    order_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME order_test
+    COMMAND order_test
+)
+
+
+add_executable(
+    fill_test
+    tests/fill_test.cpp
+)
+
+target_link_libraries(
+    fill_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME fill_test
+    COMMAND fill_test
+)
+
+
+add_executable(
+    execution_engine_test
+    tests/execution_engine_test.cpp
+)
+
+target_link_libraries(
+    execution_engine_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME execution_engine_test
+    COMMAND execution_engine_test
+)
+
+
+add_executable(
+    position_test
+    tests/position_test.cpp
+)
+
+target_link_libraries(
+    position_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME position_test
+    COMMAND position_test
+)
+
+
+add_executable(
+    portfolio_ledger_test
+    tests/portfolio_ledger_test.cpp
+)
+
+target_link_libraries(
+    portfolio_ledger_test
+    PRIVATE quantlab
+)
+
+add_test(
+    NAME portfolio_ledger_test
+    COMMAND portfolio_ledger_test
 )

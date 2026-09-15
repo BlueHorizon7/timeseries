@@ -44,6 +44,17 @@ C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/execution_cost_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/cost_sensitivity_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/parameter_sensitivity_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/subperiod_stability_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/walk_forward_parameter_stability_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/bootstrap_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/placebo_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/robustness_report_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/experiment_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/experiment_report_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/order_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/fill_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/execution_engine_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/position_test.dir
+C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/portfolio_ledger_test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/test.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/edit_cache.dir
 C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/rebuild_cache.dir

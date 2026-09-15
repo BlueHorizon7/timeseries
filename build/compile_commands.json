@@ -271,6 +271,72 @@
 },
 {
   "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\walk_forward_parameter_stability.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\walk_forward_parameter_stability.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/walk_forward_parameter_stability.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/walk_forward_parameter_stability.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\bootstrap.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\bootstrap.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/bootstrap.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/bootstrap.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\placebo.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\placebo.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/placebo.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/placebo.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\robustness_report.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\robustness_report.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/robustness_report.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/robustness_report.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\experiment.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\experiment.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/experiment.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/experiment.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\experiment_report.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\experiment_report.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/experiment_report.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/experiment_report.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\order.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\order.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/order.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/order.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\fill.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\fill.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/fill.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/fill.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\execution_engine.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\execution_engine.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/execution_engine.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/execution_engine.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\position.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\position.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/position.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/position.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\quantlab.dir\\src\\portfolio_ledger.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\src\\portfolio_ledger.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/src/portfolio_ledger.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/quantlab.dir/src/portfolio_ledger.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\research.dir\\applications\\research\\main.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\applications\\research\\main.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/applications/research/main.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/research.dir/applications/research/main.cpp.obj"
@@ -544,5 +610,71 @@
   "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\subperiod_stability_test.dir\\tests\\subperiod_stability_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\subperiod_stability_test.cpp",
   "file": "C:/Users/sonu/Desktop/Quant/p1/tests/subperiod_stability_test.cpp",
   "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/subperiod_stability_test.dir/tests/subperiod_stability_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\walk_forward_parameter_stability_test.dir\\tests\\walk_forward_parameter_stability_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\walk_forward_parameter_stability_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/walk_forward_parameter_stability_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/walk_forward_parameter_stability_test.dir/tests/walk_forward_parameter_stability_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\bootstrap_test.dir\\tests\\bootstrap_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\bootstrap_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/bootstrap_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/bootstrap_test.dir/tests/bootstrap_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\placebo_test.dir\\tests\\placebo_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\placebo_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/placebo_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/placebo_test.dir/tests/placebo_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\robustness_report_test.dir\\tests\\robustness_report_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\robustness_report_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/robustness_report_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/robustness_report_test.dir/tests/robustness_report_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\experiment_test.dir\\tests\\experiment_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\experiment_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/experiment_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/experiment_test.dir/tests/experiment_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\experiment_report_test.dir\\tests\\experiment_report_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\experiment_report_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/experiment_report_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/experiment_report_test.dir/tests/experiment_report_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\order_test.dir\\tests\\order_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\order_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/order_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/order_test.dir/tests/order_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\fill_test.dir\\tests\\fill_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\fill_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/fill_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/fill_test.dir/tests/fill_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\execution_engine_test.dir\\tests\\execution_engine_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\execution_engine_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/execution_engine_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/execution_engine_test.dir/tests/execution_engine_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\position_test.dir\\tests\\position_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\position_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/position_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/position_test.dir/tests/position_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/sonu/Desktop/Quant/p1/build",
+  "command": "C:\\w64devkit\\bin\\ccache-g++.exe -IC:/Users/sonu/Desktop/Quant/p1/include -g -std=c++20 -o CMakeFiles\\portfolio_ledger_test.dir\\tests\\portfolio_ledger_test.cpp.obj -c C:\\Users\\sonu\\Desktop\\Quant\\p1\\tests\\portfolio_ledger_test.cpp",
+  "file": "C:/Users/sonu/Desktop/Quant/p1/tests/portfolio_ledger_test.cpp",
+  "output": "C:/Users/sonu/Desktop/Quant/p1/build/CMakeFiles/portfolio_ledger_test.dir/tests/portfolio_ledger_test.cpp.obj"
 }
 ]
